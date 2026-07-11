@@ -1,0 +1,6 @@
+ {
+   "id": "ait-more:crystal_console_corrupted",
+   "parent": "ait:console/crystaline",
+   "texture": "namespace:textures/blockentites/consoles/crystal_console_corrupted.png",
+   "emission": "namespace:textures/blockentites/consoles/crystal_console_corrupted_emission.png"
+ }
