@@ -1,0 +1,37 @@
+{
+	minifyJson: false,
+	ghostMonument: true,
+	lockDimensions: true,
+	rwfEnabled: false,
+	tntCanTeleportThroughDoors: true,
+	hypercubesEnabled: true,
+	projectorBlacklist: [
+		"ait-tardis"
+	],
+	travelBlacklist: [
+		"ait-tardis",
+		"ait:tardis_dimension_type",
+		"ait:time_vortex",
+		"ait:space"
+	],
+	riftSpawnBlacklist: [
+		"ait-tardis",
+		"ait:tardis_dimension_type",
+		"ait:time_vortex",
+		"minecraft:the_end",
+		"ait:space"
+	],
+	riftDropBlacklist: [
+		"ait-tardis",
+		"ait:tardis_dimension_type",
+		"ait:time_vortex",
+		"minecraft:the_end",
+		"ait:space"
+	],
+	travelPerTick: 2,
+	sendBulk: true,
+	maxTardises: -1,
+	disableSafeguards: false,
+	crashSoundVolume: 1.0,
+	flightSoundVolume: 2.0
+}

@@ -1,0 +1,39 @@
+{
+  "minecraft:ait/owner_ship": {
+    "criteria": {
+      "owner_ship": "2026-07-11 13:56:44 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2026-07-11 13:55:23 +0100"
+    },
+    "done": true
+  },
+  "minecraft:ait/enter_tardis": {
+    "criteria": {
+      "enter_tardis": "2026-07-11 13:56:26 +0100"
+    },
+    "done": true
+  },
+  "minecraft:ait/root": {
+    "criteria": {
+      "root": "2026-07-11 13:55:22 +0100"
+    },
+    "done": true
+  },
+  "minecraft:ait/planet_root": {
+    "criteria": {
+      "enter_tardis": "2026-07-11 13:56:26 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:savanna": "2026-07-11 13:56:14 +0100"
+    },
+    "done": false
+  },
+  "DataVersion": 3465
+}

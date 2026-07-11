@@ -1,0 +1,14 @@
+{
+  "mappings": {
+    "dev/aitmore/mixin/ServerPlayerEntityMixin": {
+      "dropSelectedItem": "Lnet/minecraft/class_3222;method_37413(Z)Z"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "dev/aitmore/mixin/ServerPlayerEntityMixin": {
+        "dropSelectedItem": "Lnet/minecraft/class_3222;method_37413(Z)Z"
+      }
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2026-07-11 15:00:29 +0100"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2026-07-11 15:01:06 +0100"
+    },
+    "done": true
+  },
+  "minecraft:ait-extras/root": {
+    "criteria": {
+      "root": "2026-07-11 15:01:02 +0100"
+    },
+    "done": true
+  },
+  "minecraft:ait/root": {
+    "criteria": {
+      "root": "2026-07-11 15:00:29 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:forest": "2026-07-11 15:00:30 +0100"
+    },
+    "done": false
+  },
+  "minecraft:ait-extras/obtain_jelly_babies": {
+    "criteria": {
+      "obtain_jelly_babies": "2026-07-11 15:01:02 +0100"
+    },
+    "done": true
+  },
+  "DataVersion": 3465
+}

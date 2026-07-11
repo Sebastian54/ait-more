@@ -1,0 +1,7 @@
+{
+	"id": "ait-more:paradox",
+	"category": "ait:exterior/police_box",
+	"parent": "ait:exterior/police_box/default",
+	"texture": "ait-more:textures/blockentities/exteriors/police_box/60thmc.png",
+	"emission": "ait-more:textures/blockentities/exteriors/police_box/60thmc_emission.png"
+}

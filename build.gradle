@@ -1,0 +1,64 @@
+plugins {
+	id 'fabric-loom' version "${loom_version}"
+	id 'maven-publish'
+}
+
+version = project.mod_version
+group = project.maven_group
+
+base {
+	archivesName = project.archives_base_name
+}
+
+repositories {
+	// Ambient/AmbleLabs don't publish AIT to a maven repo that's needed at compile time here,
+	// because this mod has no Java code that references AIT's classes - it only ships
+	// data pack + resource pack files that AIT reads at runtime. So no extra repos needed.
+}
+
+loom {
+	// No client/server split needed - there is no Java code in this mod.
+}
+
+dependencies {
+	// To change the versions see the gradle.properties file
+	minecraft "com.mojang:minecraft:${project.minecraft_version}"
+	mappings "net.fabricmc:yarn:${project.yarn_mappings}:v2"
+	modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
+
+	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
+
+	// Fabric API is not strictly required for a pure resource/datapack mod, but AIT itself
+	// depends on it, so it will already be present at runtime. Not included here to keep
+	// the build light - add it back with modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
+	// if you ever add real Java code that touches Fabric API.
+
+	// Local copies of AIT and AIT-Extras so they're present in the dev/test run.
+	// modImplementation makes Loom remap them to match your dev mappings and puts
+	// them on the runtime classpath, so Fabric Loader picks them up like real mods.
+	modImplementation fileTree(dir: 'libs', include: '*.jar')
+}
+
+processResources {
+	inputs.property "version", project.version
+
+	filesMatching("fabric.mod.json") {
+		expand "version": project.version
+	}
+}
+
+tasks.withType(JavaCompile).configureEach {
+	it.options.release = 17
+}
+
+java {
+	withSourcesJar()
+	sourceCompatibility = JavaVersion.VERSION_17
+	targetCompatibility = JavaVersion.VERSION_17
+}
+
+jar {
+	from("LICENSE") {
+		rename { "${it}_${project.archivesBaseName}" }
+	}
+}

@@ -1,0 +1,404 @@
+{
+  "version": 2,
+  "uuid": "74e75a88-ce08-4f06-abfa-d7ef797f773a",
+  "desktop": {
+    "schema": "ait-more:paradox",
+    "corners": {
+      "first": {
+        "x": -500,
+        "y": 0,
+        "z": -500
+      },
+      "second": {
+        "x": 500,
+        "y": 0,
+        "z": 500
+      }
+    },
+    "consolePos": [],
+    "changingDesktop": false,
+    "id": "DESKTOP"
+  },
+  "exterior": {
+    "category": "ait:exterior/police_box",
+    "variant": "ait-more:paradox",
+    "id": "EXTERIOR"
+  },
+  "handlers": {
+    "TRAVEL": {
+      "dematId": "ait:pulsating_demat",
+      "matId": "ait:pulsating_mat",
+      "flightTicks": 0,
+      "targetTicks": 0,
+      "handbrake": true,
+      "autopilot": false,
+      "state": "LANDED",
+      "position": {
+        "dimension": {
+          "registry": "minecraft:dimension",
+          "value": "minecraft:overworld"
+        },
+        "pos": {
+          "x": -32,
+          "y": 72,
+          "z": -34
+        },
+        "rotation": 12
+      },
+      "destination": {
+        "dimension": {
+          "registry": "minecraft:dimension",
+          "value": "minecraft:overworld"
+        },
+        "pos": {
+          "x": -32,
+          "y": 72,
+          "z": -34
+        },
+        "rotation": 12
+      },
+      "previousPosition": {
+        "dimension": {
+          "registry": "minecraft:dimension",
+          "value": "minecraft:overworld"
+        },
+        "pos": {
+          "x": -32,
+          "y": 72,
+          "z": -34
+        },
+        "rotation": 12
+      },
+      "leaveBehind": false,
+      "crashing": false,
+      "antigravs": false,
+      "speed": 0,
+      "maxSpeed": 7,
+      "vGroundSearch": "CEILING",
+      "hGroundSearch": true,
+      "hammerUses": 0,
+      "id": "TRAVEL"
+    },
+    "DOOR": {
+      "knockCount": 0,
+      "lastKnockTime": 0,
+      "locked": false,
+      "previouslyLocked": true,
+      "deadlocked": false,
+      "doorState": "HALF",
+      "leftDoorRot": {
+        "value": 1.0
+      },
+      "rightDoorRot": {
+        "value": 0.0
+      },
+      "id": "DOOR"
+    },
+    "SONIC": {
+      "id": "SONIC"
+    },
+    "BUTLER": {
+      "id": "BUTLER"
+    },
+    "PERMISSIONS": {
+      "permissions": {},
+      "p19Loyalty": "COMPANION",
+      "id": "PERMISSIONS"
+    },
+    "LOYALTY": {
+      "data": {
+        "f72b2d25-9f45-36b9-af71-ec48f438787b": {
+          "level": 500,
+          "type": "OWNER"
+        }
+      },
+      "messageEnabled": true,
+      "id": "LOYALTY"
+    },
+    "FLIGHT": {
+      "falling": false,
+      "flying": false,
+      "shouldFall": false,
+      "id": "FLIGHT"
+    },
+    "BIOME": {
+      "type": "DEFAULT",
+      "id": "BIOME"
+    },
+    "SHIELDS": {
+      "isShielded": false,
+      "isVisuallyShielded": false,
+      "shieldAmbienceTicks": 0,
+      "id": "SHIELDS"
+    },
+    "STATS": {
+      "tardisName": "Type 50 TT Capsule",
+      "playerCreatorName": "Player4",
+      "dateCreated": 1783775675,
+      "dateTimeZone": "Europe/London",
+      "skybox": {
+        "registry": "minecraft:dimension",
+        "value": "minecraft:the_end"
+      },
+      "skyboxDirection": "NORTH",
+      "unlocks": [
+        "ait:dev",
+        "ait:exterior/booth/default",
+        "ait:exterior/easter_head/soul",
+        "ait:console/renaissance_industrious",
+        "ait:console/alnico_blue",
+        "ait:exterior/renegade/tron",
+        "ait:exterior/dalek_mod/1967",
+        "ait:console/steam_cherry",
+        "ait:console/hudolin_nature",
+        "frooploof:coral_war",
+        "ait:console/toyota_blue",
+        "ait:exterior/dalek_mod/1970",
+        "frooploof:coral_bad_wolf",
+        "ait:exterior/police_box/coral",
+        "ait:mechanical",
+        "ait:console/toyota",
+        "ait:exterior/stallion/fire",
+        "ait:console/hartnell_mint",
+        "ait:console/hartnell_kelt",
+        "ait:exterior/stallion/default",
+        "ait:exterior/dalek_mod/1963",
+        "ait:console/hudolin_short",
+        "ait:renaissance",
+        "ait:exterior/classic/shalka",
+        "ait:exterior/booth/soul",
+        "ait:console/coral_blue",
+        "ait-extras:black_mesa",
+        "ait:console/coral_sith",
+        "ait:type_100",
+        "ait:exterior/easter_head/default",
+        "ait:charon",
+        "ait:copper",
+        "ait:stallion_pristine",
+        "ait:rotestor",
+        "ait:console/alnico",
+        "ait:exterior/easter_head/fire",
+        "ait:console/steam_playpal",
+        "ait:exterior/classic/exile",
+        "ait:exterior/classic/hudolin",
+        "ait:exterior/tardim/soul",
+        "ait:exterior/tardim/default",
+        "ait:exterior/booth/vintage",
+        "ait:exterior/dalek_mod/1976",
+        "ait:fob",
+        "ait:exterior/stallion/soul",
+        "ait:exterior/pipe/red",
+        "ait-extras:tokamak",
+        "ait:console/renaissance_fire",
+        "ait-extras:yard",
+        "ait:exterior/classic/ptored",
+        "ait:exterior/dalek_mod/1980",
+        "ait:console/steam_steel",
+        "ait:exterior/classic/prime",
+        "ait:stallion_green",
+        "ait-extras:tokamak_eotd",
+        "ait-extras:tinylink",
+        "ait:exterior/plinth/soul",
+        "ait:exterior/renegade/cabinet",
+        "frooploof:toyota_memorial",
+        "ait:console/steam_gilded",
+        "ait:exterior/classic/definitive",
+        "ait:console/renaissance",
+        "ait:exterior/police_box/cherrywood",
+        "ait:console/coral_decayed",
+        "ait:geometric_blue",
+        "ait:exterior/booth/blue",
+        "ait-extras:aperture_science",
+        "ait:song",
+        "ait:crystalline",
+        "ait:falloutwho",
+        "ait:console/toyota_legacy",
+        "ait:console/crystalline",
+        "ait:exterior/tardim/fire",
+        "ait:singularity",
+        "ait:console/renaissance_identity",
+        "ait:console/hudolin",
+        "ait:console/hudolin_tall",
+        "ait:coral",
+        "ait:exterior/plinth/default",
+        "ait:console/hartnell_wooden",
+        "ait:console/copper",
+        "ait:exterior/plinth/fire",
+        "ait:exterior/police_box/default",
+        "ait:exterior/pipe/default",
+        "ait:exterior/classic/yeti",
+        "ait:exterior/pipe/blue",
+        "ait:exterior/police_box/soul",
+        "ait:exterior/booth/fire",
+        "ait:exterior/stallion/steel",
+        "ait:exterior/police_box/fire",
+        "ait:exterior/bookshelf/default",
+        "ait:console/coral",
+        "ait:console/steam_copper",
+        "ait:exterior/booth/gilded",
+        "ait:exterior/classic/mint",
+        "ait:exterior/police_box/futuristic",
+        "ait:exterior/police_box/renaissance",
+        "ait:console/renaissance_tokamak",
+        "ait:console/crystalline_zeiton",
+        "ait:console/coral_white",
+        "ait:console/steam",
+        "ait:exterior/renegade/default"
+      ],
+      "security": false,
+      "hailMary": false,
+      "receiveCalls": true,
+      "flightId": "minecraft:",
+      "vortexId": "minecraft:",
+      "tardisXScale": 1.0,
+      "tardisYScale": 1.0,
+      "tardisZScale": 1.0,
+      "id": "STATS"
+    },
+    "EXTRAS": {
+      "toolbox_open": false,
+      "id": "EXTRAS"
+    },
+    "CRASH_DATA": {
+      "state": "NORMAL",
+      "repairTicks": 0,
+      "id": "CRASH_DATA"
+    },
+    "WAYPOINTS": {
+      "hasCartridge": false,
+      "id": "WAYPOINTS"
+    },
+    "HUM": {
+      "current": {
+        "id": "ait:prime",
+        "sound": {
+          "id": "ait:tardis/hums/prime_hum",
+          "distanceToTravel": 16.0,
+          "staticDistance": false
+        },
+        "name": "prime"
+      },
+      "id": "HUM"
+    },
+    "ALARMS": {
+      "enabled": false,
+      "hostilePresence": true,
+      "id": "ALARMS"
+    },
+    "ENVIRONMENT": {
+      "raining": false,
+      "thundering": false,
+      "lava": false,
+      "id": "ENVIRONMENT"
+    },
+    "INTERIOR": {
+      "queuedInterior": "ait-more:paradox",
+      "plasmicMaterialAmount": 0,
+      "hasCage": false,
+      "queued": false,
+      "regenerating": false,
+      "id": "INTERIOR"
+    },
+    "SEQUENCE": {
+      "ticks": 0,
+      "id": "SEQUENCE"
+    },
+    "MOOD": {
+      "id": "MOOD"
+    },
+    "FUEL": {
+      "fuel": 39412.0,
+      "refueling": false,
+      "power": true,
+      "id": "FUEL"
+    },
+    "HADS": {
+      "enabled": false,
+      "inDanger": false,
+      "id": "HADS"
+    },
+    "SIEGE": {
+      "active": false,
+      "texture": "ait:textures/blockentities/exteriors/siege_mode/siege_mode.png",
+      "siegeTime": 0,
+      "id": "SIEGE"
+    },
+    "CLOAK": {
+      "isCloaked": false,
+      "id": "CLOAK"
+    },
+    "INCREMENT": {
+      "increment": 1,
+      "id": "INCREMENT"
+    },
+    "LANDING_PAD": {
+      "code": "",
+      "id": "LANDING_PAD"
+    },
+    "CHAMELEON": {
+      "id": "CHAMELEON"
+    },
+    "SELF_DESTRUCT": {
+      "queued": false,
+      "id": "SELF_DESTRUCT"
+    },
+    "OPINION": {
+      "opinions": [],
+      "id": "OPINION"
+    },
+    "SUBSYSTEM": {
+      "ENGINE": {
+        "durability": 1250.0,
+        "id": "ENGINE",
+        "enabled": true,
+        "isReal": true
+      },
+      "DEMAT": {
+        "durability": 1250.0,
+        "id": "DEMAT",
+        "enabled": true,
+        "isReal": true
+      },
+      "LIFE_SUPPORT": {
+        "durability": 1250.0,
+        "id": "LIFE_SUPPORT",
+        "enabled": true,
+        "isReal": true
+      },
+      "SHIELDS": {
+        "durability": 1250.0,
+        "id": "SHIELDS",
+        "enabled": true,
+        "isReal": true
+      },
+      "DESPERATION": {
+        "id": "DESPERATION",
+        "enabled": true,
+        "isReal": true
+      },
+      "CHAMELEON": {
+        "durability": 1250.0,
+        "id": "CHAMELEON",
+        "enabled": true,
+        "isReal": true
+      },
+      "EMERGENCY_POWER": {
+        "fuel": 0.0,
+        "id": "EMERGENCY_POWER",
+        "enabled": true,
+        "isReal": true
+      },
+      "STABILISERS": {
+        "id": "STABILISERS",
+        "enabled": true,
+        "isReal": true
+      },
+      "GRAVITATIONAL": {
+        "durability": 1250.0,
+        "id": "GRAVITATIONAL",
+        "enabled": true,
+        "isReal": true
+      }
+    }
+  }
+}

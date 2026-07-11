@@ -1,0 +1,39 @@
+{
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2026-07-11 14:20:11 +0100"
+    },
+    "done": true
+  },
+  "minecraft:ait/enter_tardis": {
+    "criteria": {
+      "enter_tardis": "2026-07-11 14:20:57 +0100"
+    },
+    "done": true
+  },
+  "minecraft:ait/root": {
+    "criteria": {
+      "root": "2026-07-11 14:20:10 +0100"
+    },
+    "done": true
+  },
+  "minecraft:ait/planet_root": {
+    "criteria": {
+      "enter_tardis": "2026-07-11 14:20:57 +0100"
+    },
+    "done": true
+  },
+  "minecraft:ait/redecorate": {
+    "criteria": {
+      "redecorate": "2026-07-11 14:21:12 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:forest": "2026-07-11 14:20:47 +0100"
+    },
+    "done": false
+  },
+  "DataVersion": 3465
+}
