@@ -1,4 +1,8 @@
 {
 	"exterior.ait-more.paradox": "PARADOX",
-	"desktop.ait-more.paradox": "PARADOX"
+	"desktop.ait-more.paradox": "PARADOX",
+	"console.ait-more.crystal_console_corrupted": "PARADOX",
+
+	"animation.ait-more.crash_demat": "CRASH",
+	"animation.ait-more.crash_mat": "CRASH"
 }

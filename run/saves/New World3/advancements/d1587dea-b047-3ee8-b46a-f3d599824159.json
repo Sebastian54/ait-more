@@ -1,0 +1,81 @@
+{
+  "minecraft:ait/root": {
+    "criteria": {
+      "root": "2026-07-11 18:06:39 +0100"
+    },
+    "done": true
+  },
+  "minecraft:ait-extras/root": {
+    "criteria": {
+      "root": "2026-07-11 18:06:40 +0100"
+    },
+    "done": true
+  },
+  "minecraft:ait-extras/obtain_jelly_babies": {
+    "criteria": {
+      "obtain_jelly_babies": "2026-07-11 18:06:40 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2026-07-11 18:06:41 +0100"
+    },
+    "done": true
+  },
+  "minecraft:ait/redecorate": {
+    "criteria": {
+      "redecorate": "2026-07-11 18:08:59 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:forest": "2026-07-11 18:09:03 +0100"
+    },
+    "done": false
+  },
+  "minecraft:ait/enter_tardis": {
+    "criteria": {
+      "enter_tardis": "2026-07-11 18:10:05 +0100"
+    },
+    "done": true
+  },
+  "minecraft:ait/planet_root": {
+    "criteria": {
+      "enter_tardis": "2026-07-11 18:10:05 +0100"
+    },
+    "done": true
+  },
+  "minecraft:ait/owner_ship": {
+    "criteria": {
+      "owner_ship": "2026-07-11 18:12:44 +0100"
+    },
+    "done": true
+  },
+  "minecraft:ait/ultimate_counter": {
+    "criteria": {
+      "ultimate_counter": "2026-07-11 18:14:02 +0100"
+    },
+    "done": true
+  },
+  "minecraft:ait/first_demat": {
+    "criteria": {
+      "first_demat": "2026-07-11 20:41:34 +0100"
+    },
+    "done": true
+  },
+  "minecraft:ait/first_crash": {
+    "criteria": {
+      "first_crash": "2026-07-11 20:41:39 +0100"
+    },
+    "done": true
+  },
+  "minecraft:ait/gain_remote": {
+    "criteria": {
+      "gain_remote": "2026-07-12 15:36:58 +0100"
+    },
+    "done": true
+  },
+  "DataVersion": 3465
+}

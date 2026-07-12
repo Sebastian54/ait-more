@@ -1,5 +1,5 @@
-[17:50:33] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.20.1 with Fabric Loader 0.16.10
-[17:50:33] [main/INFO] (FabricLoader) Loading 81 mods:
+[15:43:18] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.20.1 with Fabric Loader 0.16.10
+[15:43:19] [main/INFO] (FabricLoader) Loading 81 mods:
 	- ait 1.2.13-testbuild+mc.1.20.1
 	- ait-extras 1.0.3-1.20.1-release
 	- ait-more 1.0.0
@@ -81,16 +81,15 @@
 	- scheduler 1.1.0
 	- server_translations_api 2.0.0+1.20
 	- yet_another_config_lib_v3 3.6.6+1.20.1-fabric
-[17:50:34] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/dalek/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/6a12aacc794f1078458433116e9ed42c1cc98096/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=CLIENT
-[17:50:34] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
-[17:50:34] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_16
-[17:50:34] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_17
-[17:50:35] [main/WARN] (FabricLoader/Mixin) Error loading class: org/jetbrains/annotations/ApiStatus$Internal (java.lang.ClassNotFoundException: org/jetbrains/annotations/ApiStatus$Internal)
-[17:50:35] [main/INFO] (FabricLoader/MixinExtras|Service) Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[17:50:42] [Datafixer Bootstrap/INFO] (Minecraft) 188 Datafixer optimizations took 173 milliseconds
-[17:50:45] [Render thread/INFO] (Minecraft) [STDERR]: [LWJGL] [ThreadLocalUtil] Unsupported JNI version detected, this may result in a crash. Please inform LWJGL developers.
-[17:50:45] [Render thread/INFO] (Minecraft) Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[17:50:49] [Render thread/ERROR] (Minecraft) Failed to verify authentication
+[15:43:19] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/dalek/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/6a12aacc794f1078458433116e9ed42c1cc98096/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=CLIENT
+[15:43:19] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
+[15:43:19] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_17
+[15:43:20] [main/WARN] (FabricLoader/Mixin) Error loading class: org/jetbrains/annotations/ApiStatus$Internal (java.lang.ClassNotFoundException: org/jetbrains/annotations/ApiStatus$Internal)
+[15:43:21] [main/INFO] (FabricLoader/MixinExtras|Service) Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[15:43:28] [Datafixer Bootstrap/INFO] (Minecraft) 188 Datafixer optimizations took 189 milliseconds
+[15:43:30] [Render thread/INFO] (Minecraft) [STDERR]: [LWJGL] [ThreadLocalUtil] Unsupported JNI version detected, this may result in a crash. Please inform LWJGL developers.
+[15:43:30] [Render thread/INFO] (Minecraft) Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[15:43:31] [Render thread/ERROR] (Minecraft) Failed to verify authentication
 com.mojang.authlib.exceptions.InvalidCredentialsException: Status: 401
 	at com.mojang.authlib.exceptions.MinecraftClientHttpException.toAuthenticationException(MinecraftClientHttpException.java:56) ~[authlib-4.0.43.jar:?]
 	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.fetchProperties(YggdrasilUserApiService.java:156) ~[authlib-4.0.43.jar:?]
@@ -108,574 +107,463 @@ Caused by: com.mojang.authlib.exceptions.MinecraftClientHttpException: Status: 4
 	at com.mojang.authlib.minecraft.client.MinecraftClient.get(MinecraftClient.java:48) ~[authlib-4.0.43.jar:?]
 	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.fetchProperties(YggdrasilUserApiService.java:129) ~[authlib-4.0.43.jar:?]
 	... 9 more
-[17:50:49] [Render thread/INFO] (Minecraft) Setting user: Player850
-[17:50:49] [Render thread/INFO] (animation) thank you for using duzos animator!
-[17:50:49] [Render thread/INFO] (YetAnotherConfigLib) Deserializing AITServerConfig from 'C:\Users\dalek\Desktop\ait-more\run\config\ait-server.json5'
-[17:50:49] [Render thread/INFO] (ait) CategoryRegistry was not initialized, Creating a new instance
-[17:50:50] [Render thread/INFO] (ait) Registering criterion: ait:root
-[17:50:50] [Render thread/INFO] (ait) Registering criterion: ait:takeoff
-[17:50:50] [Render thread/INFO] (ait) Registering criterion: ait:crash
-[17:50:50] [Render thread/INFO] (ait) Registering criterion: ait:break_vegetation
-[17:50:50] [Render thread/INFO] (ait) Registering criterion: ait:place_coral
-[17:50:50] [Render thread/INFO] (ait) Registering criterion: ait:place_energizer
-[17:50:50] [Render thread/INFO] (ait) Registering criterion: ait:feed_power_converter
-[17:50:50] [Render thread/INFO] (ait) Registering criterion: ait:enter_tardis
-[17:50:50] [Render thread/INFO] (ait) Registering criterion: ait:redecorate
-[17:50:50] [Render thread/INFO] (ait) Registering criterion: ait:forced_entry
-[17:50:50] [Render thread/INFO] (ait) Registering criterion: ait:sonic_wood
-[17:50:50] [Render thread/INFO] (ait) Registering criterion: ait:pilot_high
-[17:50:50] [Render thread/INFO] (ait) Registering criterion: ait:reach_pilot
-[17:50:50] [Render thread/INFO] (ait) Registering criterion: ait:reach_owner
-[17:50:50] [Render thread/INFO] (ait) Registering criterion: ait:enable_subsystem
-[17:50:50] [Render thread/INFO] (ait) Registering criterion: ait:repair_subsystem
-[17:50:50] [Render thread/INFO] (ait) Registering criterion: ait:engines_phase
-[17:50:50] [Render thread/INFO] (ait) Registering criterion: ait:brand_new
-[17:50:50] [Render thread/INFO] (ait) Registering criterion: ait:attack_eyebrows
-[17:50:50] [Render thread/INFO] (ait) Initializing Tardis Criterions
-[17:50:50] [Render thread/INFO] (Indigo) [Indigo] Registering Indigo renderer!
-[17:50:50] [Render thread/INFO] (YetAnotherConfigLib) Deserializing AITClientConfig from 'C:\Users\dalek\Desktop\ait-more\run\config\ait-client.json5'
-[17:50:50] [Render thread/INFO] (ait) ClientConsoleVariantRegistry was not initialized, Creating a new instance
-[17:50:51] [Render thread/INFO] (YetAnotherConfigLib) Deserializing YACLConfig from 'C:\Users\dalek\Desktop\ait-more\run\config\yacl.json5'
-[17:50:51] [Render thread/INFO] (Minecraft) Backend library: LWJGL version 3.3.2-snapshot
-[17:50:53] [Render thread/INFO] (Minecraft) Reloading ResourceManager: vanilla, fabric (fabric-lifecycle-events-v1, fabric-loot-tables-v1, fabric-api-lookup-api-v1, fabric-object-builder-api-v1, fabric-recipe-api-v1, fabric-rendering-v0, fabric-transitive-access-wideners-v1, fabric-convention-tags-v1, fabric-screen-handler-api-v1, fabric-api-base, fabric-command-api-v2, fabric-block-api-v1, fabric-renderer-api-v1, fabric-data-attachment-api-v1, fabric-networking-v0, fabric-registry-sync-v0, animation, fabric-models-v0, fabric-dimensions-v1, fabric-renderer-registries-v1, fabric-block-view-api-v2, fabric-rendering-fluids-v1, fabric-command-api-v1, fabric-resource-loader-v0, fabric-containers-v0, fabric-biome-api-v1, fabric-crash-report-info-v1, fabric-commands-v0, fabric-loot-api-v2, fabric-keybindings-v0, fabric-key-binding-api-v1, fabric-screen-api-v1, fabric-message-api-v1, fabric-renderer-indigo, fabric-rendering-v1, fabric-game-rule-api-v1, fabric-api, fabric-resource-conditions-api-v1, fabric-rendering-data-attachment-v1, ait-extras, fabric-mining-level-api-v1, fabric-client-tags-api-v1, fabric-networking-api-v1, fabric-gametest-api-v1, ait, fabric-content-registries-v0, fabric-data-generation-api-v1, fabric-entity-events-v1, fabric-blockrenderlayer-v1, fabric-item-group-api-v1, fabric-transfer-api-v1, yet_another_config_lib_v3, fabric-model-loading-api-v1, fabric-particles-v1, fabric-events-lifecycle-v0, amblekit, fabric-events-interaction-v0, fabricloader, ait-more, fabric-sound-api-v1, fabric-item-api-v1), ait-extras:logo
-[17:50:53] [Worker-Main-8/ERROR] (ModNioResourcePack) Invalid path in mod resource-pack ait: ait:sounds/music/LICENSE_DRIFTING, ignoring
-[17:50:53] [Worker-Main-8/WARN] (Minecraft) File ait:sounds/controls/save_waypoint.ogg does not exist, cannot add it to event ait:controls/save_waypoint
-[17:50:53] [Worker-Main-8/WARN] (Minecraft) File ait:sounds/mobs/cybermen/2005/electric_hit.ogg does not exist, cannot add it to event ait:mobs/cybermen/2005/electric_hit
-[17:50:53] [Worker-Main-8/WARN] (Minecraft) File ait:sounds/tardis/moody/moody.ogg does not exist, cannot add it to event ait:tardis/moody/moody
-[17:50:53] [Worker-Main-11/INFO] (Minecraft) Found unifont_all_no_pua-15.0.06.hex, loading
-[17:50:53] [Render thread/INFO] (amblekit) Initializing COMMON side registries..
-[17:50:53] [Worker-Main-3/WARN] (Minecraft) Texture ait-extras:block/retep with size 178x178 limits mip level from 4 to 1
-[17:50:53] [Worker-Main-3/WARN] (Minecraft) minecraft:textures/atlas/blocks.png: dropping miplevel from 4 to 1, because of minimum power of two: 2
-[17:50:53] [Realms Notification Availability checker #1/INFO] (Minecraft) Could not authorize you against Realms server: java.lang.RuntimeException: Failed to parse into SignedJWT: FabricMC
-[17:50:54] [Render thread/INFO] (amblekit) Initializing CLIENT side registries..
-[17:50:54] [Render thread/ERROR] (Minecraft) Registry 'animation:animations' was empty after loading
-[17:50:54] [Worker-Main-15/WARN] (Minecraft) Exception loading blockstate definition: 'ait:blockstates/console_generator.json' missing model for variant: 'ait:console_generator#'
-[17:50:54] [Worker-Main-15/WARN] (Minecraft) Unable to load model: 'minecraft:cable_connector_block' referenced from: ait:cable_connector_block#: java.io.FileNotFoundException: minecraft:models/cable_connector_block.json
-[17:50:56] [Worker-Main-15/WARN] (Minecraft) Missing textures in model ait:backup_circuit#inventory:
+[15:43:31] [Render thread/INFO] (Minecraft) Setting user: Player577
+[15:43:31] [Render thread/INFO] (animation) thank you for using duzos animator!
+[15:43:31] [Render thread/INFO] (YetAnotherConfigLib) Deserializing AITServerConfig from 'C:\Users\dalek\Desktop\ait-more\run\config\ait-server.json5'
+[15:43:31] [Render thread/INFO] (ait) CategoryRegistry was not initialized, Creating a new instance
+[15:43:32] [Render thread/INFO] (ait) Registering criterion: ait:root
+[15:43:32] [Render thread/INFO] (ait) Registering criterion: ait:takeoff
+[15:43:32] [Render thread/INFO] (ait) Registering criterion: ait:crash
+[15:43:32] [Render thread/INFO] (ait) Registering criterion: ait:break_vegetation
+[15:43:32] [Render thread/INFO] (ait) Registering criterion: ait:place_coral
+[15:43:32] [Render thread/INFO] (ait) Registering criterion: ait:place_energizer
+[15:43:32] [Render thread/INFO] (ait) Registering criterion: ait:feed_power_converter
+[15:43:32] [Render thread/INFO] (ait) Registering criterion: ait:enter_tardis
+[15:43:32] [Render thread/INFO] (ait) Registering criterion: ait:redecorate
+[15:43:32] [Render thread/INFO] (ait) Registering criterion: ait:forced_entry
+[15:43:32] [Render thread/INFO] (ait) Registering criterion: ait:sonic_wood
+[15:43:32] [Render thread/INFO] (ait) Registering criterion: ait:pilot_high
+[15:43:32] [Render thread/INFO] (ait) Registering criterion: ait:reach_pilot
+[15:43:32] [Render thread/INFO] (ait) Registering criterion: ait:reach_owner
+[15:43:32] [Render thread/INFO] (ait) Registering criterion: ait:enable_subsystem
+[15:43:32] [Render thread/INFO] (ait) Registering criterion: ait:repair_subsystem
+[15:43:32] [Render thread/INFO] (ait) Registering criterion: ait:engines_phase
+[15:43:32] [Render thread/INFO] (ait) Registering criterion: ait:brand_new
+[15:43:32] [Render thread/INFO] (ait) Registering criterion: ait:attack_eyebrows
+[15:43:32] [Render thread/INFO] (ait) Initializing Tardis Criterions
+[15:43:32] [Render thread/INFO] (Indigo) [Indigo] Registering Indigo renderer!
+[15:43:32] [Render thread/INFO] (YetAnotherConfigLib) Deserializing YACLConfig from 'C:\Users\dalek\Desktop\ait-more\run\config\yacl.json5'
+[15:43:32] [Render thread/INFO] (YetAnotherConfigLib) Deserializing AITClientConfig from 'C:\Users\dalek\Desktop\ait-more\run\config\ait-client.json5'
+[15:43:32] [Render thread/INFO] (ait) ClientConsoleVariantRegistry was not initialized, Creating a new instance
+[15:43:33] [Render thread/INFO] (Minecraft) Backend library: LWJGL version 3.3.2-snapshot
+[15:43:35] [Render thread/INFO] (Minecraft) Reloading ResourceManager: vanilla, fabric (fabric-renderer-indigo, fabric-screen-api-v1, fabric-containers-v0, fabric-keybindings-v0, fabric-key-binding-api-v1, fabric-api-base, fabric-recipe-api-v1, fabric-data-generation-api-v1, fabric-screen-handler-api-v1, fabric-transitive-access-wideners-v1, fabric-model-loading-api-v1, yet_another_config_lib_v3, fabric-events-lifecycle-v0, fabricloader, fabric-command-api-v1, fabric-convention-tags-v1, fabric-resource-loader-v0, fabric-crash-report-info-v1, animation, fabric-renderer-registries-v1, fabric-block-view-api-v2, fabric-gametest-api-v1, fabric-biome-api-v1, fabric-loot-api-v2, fabric-content-registries-v0, fabric-game-rule-api-v1, fabric-resource-conditions-api-v1, fabric-object-builder-api-v1, fabric-events-interaction-v0, fabric-commands-v0, fabric-rendering-data-attachment-v1, fabric-message-api-v1, ait, amblekit, fabric-entity-events-v1, fabric-block-api-v1, fabric-networking-v0, ait-extras, fabric-rendering-v0, fabric-data-attachment-api-v1, fabric-networking-api-v1, fabric-api-lookup-api-v1, fabric-item-group-api-v1, fabric-particles-v1, fabric-registry-sync-v0, fabric-transfer-api-v1, ait-more, fabric-renderer-api-v1, fabric-blockrenderlayer-v1, fabric-mining-level-api-v1, fabric-dimensions-v1, fabric-rendering-v1, fabric-client-tags-api-v1, fabric-command-api-v2, fabric-loot-tables-v1, fabric-rendering-fluids-v1, fabric-models-v0, fabric-lifecycle-events-v1, fabric-api, fabric-item-api-v1, fabric-sound-api-v1), ait-extras:logo
+[15:43:35] [Worker-Main-1/ERROR] (ModNioResourcePack) Invalid path in mod resource-pack ait: ait:sounds/music/LICENSE_DRIFTING, ignoring
+[15:43:35] [Worker-Main-1/WARN] (Minecraft) File ait:sounds/controls/save_waypoint.ogg does not exist, cannot add it to event ait:controls/save_waypoint
+[15:43:35] [Worker-Main-1/WARN] (Minecraft) File ait:sounds/mobs/cybermen/2005/electric_hit.ogg does not exist, cannot add it to event ait:mobs/cybermen/2005/electric_hit
+[15:43:35] [Worker-Main-1/WARN] (Minecraft) File ait:sounds/tardis/moody/moody.ogg does not exist, cannot add it to event ait:tardis/moody/moody
+[15:43:35] [Worker-Main-9/INFO] (Minecraft) Found unifont_all_no_pua-15.0.06.hex, loading
+[15:43:35] [Worker-Main-2/WARN] (Minecraft) Texture ait-extras:block/retep with size 178x178 limits mip level from 4 to 1
+[15:43:35] [Worker-Main-2/WARN] (Minecraft) minecraft:textures/atlas/blocks.png: dropping miplevel from 4 to 1, because of minimum power of two: 2
+[15:43:35] [Render thread/ERROR] (Minecraft) Registry 'animation:animations' was empty after loading
+[15:43:35] [Render thread/INFO] (amblekit) Initializing COMMON side registries..
+[15:43:35] [Realms Notification Availability checker #1/INFO] (Minecraft) Could not authorize you against Realms server: java.lang.RuntimeException: Failed to parse into SignedJWT: FabricMC
+[15:43:35] [Render thread/INFO] (amblekit) Initializing CLIENT side registries..
+[15:43:36] [Worker-Main-5/WARN] (Minecraft) Exception loading blockstate definition: 'ait:blockstates/console_generator.json' missing model for variant: 'ait:console_generator#'
+[15:43:36] [Worker-Main-5/WARN] (Minecraft) Unable to load model: 'minecraft:cable_connector_block' referenced from: ait:cable_connector_block#: java.io.FileNotFoundException: minecraft:models/cable_connector_block.json
+[15:43:37] [Worker-Main-5/WARN] (Minecraft) Missing textures in model ait:backup_circuit#inventory:
     minecraft:textures/atlas/blocks.png:minecraft:backup_circuit
-[17:50:56] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:item.goat_horn.play
-[17:50:56] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:entity.goat.screaming.horn_break
-[17:50:56] [Render thread/INFO] (Minecraft) OpenAL initialized on device OpenAL Soft on Headphones (3- Arctis Nova Pro Wireless)
-[17:50:56] [Render thread/INFO] (Minecraft) Sound engine started
-[17:50:56] [Render thread/INFO] (Minecraft) Created: 2048x1024x1 minecraft:textures/atlas/blocks.png-atlas
-[17:50:56] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
-[17:50:56] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
-[17:50:56] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
-[17:50:56] [Render thread/INFO] (Minecraft) Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
-[17:50:56] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
-[17:50:56] [Render thread/INFO] (Minecraft) Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
-[17:50:56] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
-[17:50:56] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
-[17:50:57] [Render thread/WARN] (Minecraft) Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
-[17:50:57] [Render thread/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
-[17:50:57] [Render thread/INFO] (Minecraft) Created: 2048x2048x0 minecraft:textures/atlas/paintings.png-atlas
-[17:50:57] [Render thread/INFO] (Minecraft) Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[17:50:57] [Render thread/INFO] (amblekit) Loaded bedrock model ait-extras:clock BedrockModel{version='1.12.0', geometry=[Geometry{description=Description{identifier='geometry.unknown', textureWidth=256, textureHeight=256, visibleBoundsWidth=3.0, visibleBoundsHeight=5.5, visibleBoundsOffset=[0.0, 2.25, 0.0]}, bones=[Bone{name='bone', parent='null', pivot=[0.0, 0.0, 0.0], rotation=null, cubes=[Cube{origin=[-9.0, 2.0, -7.0], size=[18.0, 2.0, 14.0], pivot=null, rotation=null, uv=[0, 18], inflate=0.0, mirror=false}, Cube{origin=[-8.0, 4.0, -6.0], size=[16.0, 6.0, 12.0], pivot=null, rotation=null, uv=[0, 58], inflate=0.0, mirror=false}, Cube{origin=[-8.0, 11.0, 4.0], size=[16.0, 28.0, 2.0], pivot=null, rotation=null, uv=[56, 64], inflate=0.0, mirror=false}, Cube{origin=[7.0, 11.0, -6.0], size=[1.0, 28.0, 10.0], pivot=null, rotation=null, uv=[22, 76], inflate=0.0, mirror=false}, Cube{origin=[-8.0, 11.0, -6.0], size=[1.0, 28.0, 10.0], pivot=null, rotation=null, uv=[0, 76], inflate=0.0, mirror=false}, Cube{origin=[-8.0, 40.0, -6.0], size=[16.0, 12.0, 12.0], pivot=null, rotation=null, uv=[0, 34], inflate=0.0, mirror=false}, Cube{origin=[-4.7, 39.7, -6.1], size=[10.0, 11.0, 0.0], pivot=null, rotation=null, uv=[120, 32], inflate=0.0, mirror=false}, Cube{origin=[-9.0, 51.0, -6.2], size=[18.0, 7.0, 0.0], pivot=null, rotation=null, uv=[120, 0], inflate=0.0, mirror=false}, Cube{origin=[-9.0, 51.0, 6.2], size=[18.0, 7.0, 0.0], pivot=null, rotation=null, uv=[120, 0], inflate=0.0, mirror=false}, Cube{origin=[-9.0, 10.0, -7.0], size=[18.0, 1.0, 14.0], pivot=null, rotation=null, uv=[56, 34], inflate=0.0, mirror=false}, Cube{origin=[-9.0, 39.0, -7.0], size=[18.0, 1.0, 14.0], pivot=[0.0, 39.5, 0.0], rotation=[0.0, 0.0, -180.0], uv=[56, 34], inflate=0.0, mirror=false}, Cube{origin=[-9.0, 0.0, -7.0], size=[4.0, 2.0, 14.0], pivot=null, rotation=null, uv=[64, 16], inflate=0.0, mirror=false}, Cube{origin=[5.0, 0.0, -7.0], size=[4.0, 2.0, 14.0], pivot=null, rotation=null, uv=[64, 16], inflate=0.0, mirror=true}], locators=null}, Bone{name='door', parent='bone', pivot=[-7.0, 11.0, -6.0], rotation=null, cubes=[Cube{origin=[-7.0, 11.0, -6.1], size=[14.0, 28.0, 0.0], pivot=null, rotation=null, uv=[92, 64], inflate=0.0, mirror=false}, Cube{origin=[5.7, 24.1, -6.6], size=[1.0, 2.0, 1.0], pivot=null, rotation=null, uv=[52, 87], inflate=0.0, mirror=false}, Cube{origin=[-7.0, 11.0, -5.0], size=[14.0, 28.0, 0.0], pivot=null, rotation=null, uv=[92, 92], inflate=0.0, mirror=false}, Cube{origin=[7.0, 11.0, -6.0], size=[0.0, 28.0, 1.0], pivot=null, rotation=null, uv=[105, 91], inflate=0.0, mirror=false}, Cube{origin=[-7.0, 11.0, -6.0], size=[0.0, 28.0, 1.0], pivot=null, rotation=null, uv=[105, 91], inflate=0.0, mirror=false}], locators=null}, Bone{name='pendulum', parent='door', pivot=[0.0, 38.0, -5.5], rotation=null, cubes=[Cube{origin=[-2.0, 21.0, -5.5], size=[4.0, 18.0, 0.0], pivot=null, rotation=null, uv=[44, 76], inflate=0.0, mirror=false}, Cube{origin=[-2.5, 17.0, -5.5], size=[5.0, 5.0, 0.0], pivot=[0.0, 19.5, -5.5], rotation=[0.0, 0.0, 45.0], uv=[120, 43], inflate=0.0, mirror=false}], locators=null}, Bone{name='hands', parent='bone', pivot=[-0.2, 39.6, -0.5], rotation=null, cubes=null, locators=null}, Bone{name='big', parent='hands', pivot=[0.3, 45.2, -6.5], rotation=null, cubes=[Cube{origin=[-0.2, 39.7, -6.5], size=[1.0, 11.0, 0.0], pivot=null, rotation=null, uv=[52, 76], inflate=0.0, mirror=false}], locators=null}, Bone{name='small', parent='hands', pivot=[0.3, 45.2, -6.5], rotation=null, cubes=[Cube{origin=[-0.2, 39.7, -6.5], size=[1.0, 11.0, 0.0], pivot=[0.3, 45.2, -6.5], rotation=[0.0, 0.0, -90.0], uv=[54, 76], inflate=0.0, mirror=false}], locators=null}]}]}
-[17:50:57] [Render thread/INFO] (amblekit) Loaded bedrock model ait-extras:clock_door BedrockModel{version='1.12.0', geometry=[Geometry{description=Description{identifier='geometry.unknown', textureWidth=256, textureHeight=256, visibleBoundsWidth=4.0, visibleBoundsHeight=6.5, visibleBoundsOffset=[0.0, 2.75, 0.0]}, bones=[Bone{name='bone', parent='null', pivot=[0.0, 0.0, -0.5], rotation=[0.0, 180.0, 0.0], cubes=[Cube{origin=[6.97143, 1.0, 5.48571], size=[1.0, 28.0, 1.0], pivot=[7.47143, 15.0, 5.98571], rotation=[0.0, 90.0, 0.0], uv=[31, 85], inflate=0.0, mirror=false}, Cube{origin=[-8.02857, 1.0, 5.48571], size=[1.0, 28.0, 1.0], pivot=[-7.52857, 15.0, 5.98571], rotation=[0.0, 90.0, 0.0], uv=[31, 85], inflate=0.0, mirror=false}, Cube{origin=[-8.02857, 30.0, 5.48571], size=[16.0, 12.0, 1.0], pivot=[-0.02857, 36.0, 5.98571], rotation=[0.0, 180.0, 0.0], uv=[8, 45], inflate=0.0, mirror=false}, Cube{origin=[-4.92857, 29.7, 5.38571], size=[10.0, 11.0, 0.0], pivot=null, rotation=null, uv=[120, 32], inflate=0.0, mirror=false}, Cube{origin=[-9.02857, 41.0, 4.98571], size=[18.0, 7.0, 0.0], pivot=null, rotation=null, uv=[120, 0], inflate=0.0, mirror=false}, Cube{origin=[-9.02857, 0.0, 4.48571], size=[18.0, 1.0, 3.0], pivot=[-0.02857, 15.0, 5.98571], rotation=[0.0, 0.0, 0.0], uv=[67, 45], inflate=0.0, mirror=false}, Cube{origin=[-9.02857, 0.0, 4.48571], size=[18.0, 1.0, 3.0], pivot=[-0.02857, 15.0, 5.98571], rotation=[0.0, 0.0, 180.0], uv=[67, 45], inflate=0.0, mirror=false}], locators=null}, Bone{name='door', parent='bone', pivot=[7.0, 1.0, 6.0], rotation=null, cubes=[Cube{origin=[-7.02857, 1.0, 5.48571], size=[14.0, 28.0, 0.0], pivot=null, rotation=null, uv=[92, 64], inflate=0.0, mirror=false}, Cube{origin=[-7.02857, 14.1, 4.98571], size=[1.0, 2.0, 1.0], pivot=null, rotation=null, uv=[52, 87], inflate=0.0, mirror=false}, Cube{origin=[-7.02857, 1.0, 5.98571], size=[14.0, 28.0, 0.0], pivot=null, rotation=null, uv=[92, 92], inflate=0.0, mirror=false}, Cube{origin=[6.97143, 1.0, 5.48571], size=[0.0, 28.0, 1.0], pivot=null, rotation=null, uv=[105, 91], inflate=0.0, mirror=false}, Cube{origin=[-7.02857, 1.0, 5.48571], size=[0.0, 28.0, 1.0], pivot=null, rotation=null, uv=[81, 65], inflate=0.0, mirror=false}], locators=null}, Bone{name='pendulum', parent='door', pivot=[0.0, 27.0, 5.7], rotation=null, cubes=[Cube{origin=[-2.0, 10.0, 5.7], size=[4.0, 18.0, 0.0], pivot=null, rotation=null, uv=[44, 76], inflate=0.0, mirror=false}, Cube{origin=[-2.5, 6.0, 5.7], size=[5.0, 5.0, 0.0], pivot=[0.0, 8.5, 5.7], rotation=[0.0, 0.0, 45.0], uv=[120, 43], inflate=0.0, mirror=false}], locators=null}, Bone{name='hands', parent='bone', pivot=[0.8, -0.1, 4.0], rotation=[0.0, 180.0, 0.0], cubes=null, locators=null}, Bone{name='big', parent='hands', pivot=[1.57143, 35.1, 2.88571], rotation=[0.0, 180.0, 0.0], cubes=[Cube{origin=[1.07143, 29.6, 2.88571], size=[1.0, 11.0, 0.0], pivot=null, rotation=null, uv=[52, 76], inflate=0.0, mirror=false}], locators=null}, Bone{name='small', parent='hands', pivot=[1.57143, 35.1, 2.88571], rotation=[180.0, 0.0, 0.0], cubes=[Cube{origin=[1.07143, 29.6, 2.88571], size=[1.0, 11.0, 0.0], pivot=[1.57143, 35.1, 2.88571], rotation=[0.0, 0.0, -90.0], uv=[54, 76], inflate=0.0, mirror=false}], locators=null}]}]}
-[17:50:57] [Render thread/INFO] (amblekit) Loaded bedrock model ait-extras:vanilla BedrockModel{version='1.12.0', geometry=[Geometry{description=Description{identifier='geometry.vanilla', textureWidth=128, textureHeight=128, visibleBoundsWidth=5.0, visibleBoundsHeight=6.0, visibleBoundsOffset=[0.0, 2.0, 0.0]}, bones=[Bone{name='root', parent='null', pivot=[0.0, 0.0, 0.0], rotation=null, cubes=null, locators=null}, Bone{name='box', parent='root', pivot=[-6.5, 8.25, -22.7], rotation=null, cubes=[Cube{origin=[-24.0, 16.0, -8.0], size=[16.0, 16.0, 16.0], pivot=null, rotation=null, uv=[0, 0], inflate=0.0, mirror=false}, Cube{origin=[8.0, 0.0, 8.0], size=[16.0, 16.0, 16.0], pivot=null, rotation=null, uv=[0, 0], inflate=0.0, mirror=false}, Cube{origin=[-24.0, 16.0, -24.0], size=[16.0, 16.0, 16.0], pivot=null, rotation=null, uv=[0, 0], inflate=0.0, mirror=false}, Cube{origin=[-24.0, 0.0, -24.0], size=[16.0, 16.0, 16.0], pivot=null, rotation=null, uv=[0, 0], inflate=0.0, mirror=false}, Cube{origin=[-24.0, 0.0, -8.0], size=[16.0, 16.0, 16.0], pivot=null, rotation=null, uv=[0, 0], inflate=0.0, mirror=false}, Cube{origin=[-24.0, 0.0, 8.0], size=[16.0, 16.0, 16.0], pivot=null, rotation=null, uv=[0, 0], inflate=0.0, mirror=false}, Cube{origin=[-8.0, 0.0, 8.0], size=[16.0, 16.0, 16.0], pivot=null, rotation=null, uv=[0, 0], inflate=0.0, mirror=false}, Cube{origin=[-8.0, 16.0, 8.0], size=[16.0, 16.0, 16.0], pivot=null, rotation=null, uv=[0, 0], inflate=0.0, mirror=false}, Cube{origin=[-8.0, 32.0, 8.0], size=[16.0, 16.0, 16.0], pivot=null, rotation=null, uv=[0, 0], inflate=0.0, mirror=false}, Cube{origin=[8.0, 16.0, 8.0], size=[16.0, 16.0, 16.0], pivot=null, rotation=null, uv=[0, 0], inflate=0.0, mirror=false}, Cube{origin=[8.0, 16.0, -8.0], size=[16.0, 16.0, 16.0], pivot=null, rotation=null, uv=[0, 0], inflate=0.0, mirror=false}, Cube{origin=[8.0, 16.0, -24.0], size=[16.0, 16.0, 16.0], pivot=null, rotation=null, uv=[0, 0], inflate=0.0, mirror=false}, Cube{origin=[8.0, 32.0, 8.0], size=[16.0, 16.0, 16.0], pivot=null, rotation=null, uv=[0, 0], inflate=0.0, mirror=false}, Cube{origin=[8.0, 32.0, -8.0], size=[16.0, 16.0, 16.0], pivot=null, rotation=null, uv=[0, 0], inflate=0.0, mirror=false}, Cube{origin=[8.0, 32.0, -24.0], size=[16.0, 16.0, 16.0], pivot=null, rotation=null, uv=[0, 0], inflate=0.0, mirror=false}, Cube{origin=[-24.0, 32.0, 8.0], size=[16.0, 16.0, 16.0], pivot=null, rotation=null, uv=[0, 0], inflate=0.0, mirror=false}, Cube{origin=[-24.0, 32.0, -8.0], size=[16.0, 16.0, 16.0], pivot=null, rotation=null, uv=[0, 0], inflate=0.0, mirror=false}, Cube{origin=[-24.0, 32.0, -24.0], size=[16.0, 16.0, 16.0], pivot=null, rotation=null, uv=[0, 0], inflate=0.0, mirror=false}, Cube{origin=[-24.0, 48.0, -24.0], size=[16.0, 8.0, 16.0], pivot=null, rotation=null, uv=[64, 23], inflate=0.0, mirror=false}, Cube{origin=[-8.0, 48.0, -24.0], size=[16.0, 8.0, 16.0], pivot=null, rotation=null, uv=[64, 23], inflate=0.0, mirror=false}, Cube{origin=[8.0, 48.0, -24.0], size=[16.0, 8.0, 16.0], pivot=null, rotation=null, uv=[64, 23], inflate=0.0, mirror=false}, Cube{origin=[8.0, 48.0, 8.0], size=[16.0, 8.0, 16.0], pivot=null, rotation=null, uv=[64, 23], inflate=0.0, mirror=false}, Cube{origin=[-8.0, 48.0, 8.0], size=[16.0, 8.0, 16.0], pivot=null, rotation=null, uv=[64, 23], inflate=0.0, mirror=false}, Cube{origin=[-24.0, 48.0, 8.0], size=[16.0, 8.0, 16.0], pivot=null, rotation=null, uv=[64, 23], inflate=0.0, mirror=false}, Cube{origin=[8.0, 48.0, -8.0], size=[16.0, 8.0, 16.0], pivot=null, rotation=null, uv=[64, 23], inflate=0.0, mirror=false}, Cube{origin=[-24.0, 48.0, -8.0], size=[16.0, 8.0, 16.0], pivot=null, rotation=null, uv=[64, 23], inflate=0.0, mirror=false}, Cube{origin=[-8.0, 32.0, -24.0], size=[16.0, 16.0, 16.0], pivot=null, rotation=null, uv=[0, 0], inflate=0.0, mirror=false}, Cube{origin=[-24.0, 16.0, 8.0], size=[16.0, 16.0, 16.0], pivot=null, rotation=null, uv=[0, 0], inflate=0.0, mirror=false}, Cube{origin=[8.0, 0.0, -8.0], size=[16.0, 16.0, 16.0], pivot=null, rotation=null, uv=[0, 0], inflate=0.0, mirror=false}, Cube{origin=[8.0, 0.0, -24.0], size=[16.0, 16.0, 16.0], pivot=null, rotation=null, uv=[0, 0], inflate=0.0, mirror=false}], locators=null}, Bone{name='door', parent='box', pivot=[-6.5, 8.25, -22.7], rotation=null, cubes=[Cube{origin=[-8.0, 0.0, -24.0], size=[16.0, 32.0, 3.0], pivot=null, rotation=null, uv=[0, 64], inflate=0.0, mirror=false}], locators=null}, Bone{name='lamp', parent='box', pivot=[0.0, 48.0, 0.0], rotation=null, cubes=[Cube{origin=[-8.0, 48.0, -8.0], size=[16.0, 16.0, 16.0], pivot=null, rotation=null, uv=[0, 32], inflate=0.0, mirror=false}, Cube{origin=[-8.0, 48.0, -8.0], size=[16.0, 16.0, 16.0], pivot=null, rotation=null, uv=[64, 50], inflate=0.0, mirror=false}, Cube{origin=[-6.0, 48.0, -6.0], size=[12.0, 2.9, 12.0], pivot=null, rotation=null, uv=[72, 83], inflate=0.0, mirror=false}, Cube{origin=[-5.0, 51.0, -5.0], size=[10.0, 11.0, 10.0], pivot=null, rotation=null, uv=[87, 107], inflate=0.0, mirror=false}], locators=null}, Bone{name='signs', parent='box', pivot=[16.0, 40.0, -25.0], rotation=null, cubes=[Cube{origin=[-24.0, 36.0, -26.0], size=[16.0, 8.0, 2.0], pivot=null, rotation=null, uv=[64, 0], inflate=0.0, mirror=false}, Cube{origin=[-8.0, 36.0, -26.0], size=[16.0, 8.0, 2.0], pivot=null, rotation=null, uv=[64, 0], inflate=0.0, mirror=false}, Cube{origin=[8.0, 36.0, -26.0], size=[16.0, 8.0, 2.0], pivot=null, rotation=null, uv=[64, 0], inflate=0.0, mirror=false}, Cube{origin=[7.9, 36.0, 24.0], size=[16.0, 8.0, 2.0], pivot=null, rotation=null, uv=[64, 0], inflate=0.0, mirror=false}, Cube{origin=[-8.1, 36.0, 24.0], size=[16.0, 8.0, 2.0], pivot=null, rotation=null, uv=[64, 0], inflate=0.0, mirror=false}, Cube{origin=[-24.1, 36.0, 24.0], size=[16.0, 8.0, 2.0], pivot=null, rotation=null, uv=[64, 0], inflate=0.0, mirror=false}, Cube{origin=[7.9, 36.0, 24.0], size=[16.0, 8.0, 2.0], pivot=[-0.05, 40.0, 0.0], rotation=[0.0, -90.0, 0.0], uv=[64, 0], inflate=0.0, mirror=false}, Cube{origin=[-8.1, 36.0, 24.0], size=[16.0, 8.0, 2.0], pivot=[-0.05, 40.0, 0.0], rotation=[0.0, -90.0, 0.0], uv=[64, 0], inflate=0.0, mirror=false}, Cube{origin=[-24.1, 36.0, 24.0], size=[16.0, 8.0, 2.0], pivot=[-0.05, 40.0, 0.0], rotation=[0.0, -90.0, 0.0], uv=[64, 0], inflate=0.0, mirror=false}, Cube{origin=[-8.0, 36.0, -26.0], size=[16.0, 8.0, 2.0], pivot=[-0.05, 40.0, 0.0], rotation=[0.0, -90.0, 0.0], uv=[64, 0], inflate=0.0, mirror=false}, Cube{origin=[-24.0, 36.0, -26.0], size=[16.0, 8.0, 2.0], pivot=[-0.05, 40.0, 0.0], rotation=[0.0, -90.0, 0.0], uv=[64, 0], inflate=0.0, mirror=false}, Cube{origin=[8.0, 36.0, -26.0], size=[16.0, 8.0, 2.0], pivot=[-0.05, 40.0, 0.0], rotation=[0.0, -90.0, 0.0], uv=[64, 0], inflate=0.0, mirror=false}], locators=null}, Bone{name='glass', parent='root', pivot=[0.0, 0.0, 0.0], rotation=null, cubes=[Cube{origin=[-24.0, 16.0, -8.0], size=[16.0, 16.0, 16.0], pivot=null, rotation=null, uv=[23, 92], inflate=0.0, mirror=false}, Cube{origin=[-24.0, 16.0, -24.0], size=[16.0, 16.0, 16.0], pivot=null, rotation=null, uv=[23, 92], inflate=0.0, mirror=false}, Cube{origin=[-24.0, 0.0, -24.0], size=[16.0, 16.0, 16.0], pivot=null, rotation=null, uv=[23, 92], inflate=0.0, mirror=false}, Cube{origin=[-24.0, 0.0, -8.0], size=[16.0, 16.0, 16.0], pivot=null, rotation=null, uv=[23, 92], inflate=0.0, mirror=false}, Cube{origin=[-24.0, 0.0, 8.0], size=[16.0, 16.0, 16.0], pivot=null, rotation=null, uv=[23, 92], inflate=0.0, mirror=false}, Cube{origin=[-8.0, 0.0, 8.0], size=[16.0, 16.0, 16.0], pivot=null, rotation=null, uv=[23, 92], inflate=0.0, mirror=false}, Cube{origin=[-8.0, 16.0, 8.0], size=[16.0, 16.0, 16.0], pivot=null, rotation=null, uv=[23, 92], inflate=0.0, mirror=false}, Cube{origin=[-8.0, 32.0, 8.0], size=[16.0, 16.0, 16.0], pivot=null, rotation=null, uv=[23, 92], inflate=0.0, mirror=false}, Cube{origin=[8.0, 16.0, 8.0], size=[16.0, 16.0, 16.0], pivot=null, rotation=null, uv=[23, 92], inflate=0.0, mirror=false}, Cube{origin=[8.0, 16.0, -8.0], size=[16.0, 16.0, 16.0], pivot=null, rotation=null, uv=[23, 92], inflate=0.0, mirror=false}, Cube{origin=[8.0, 16.0, -24.0], size=[16.0, 16.0, 16.0], pivot=null, rotation=null, uv=[23, 92], inflate=0.0, mirror=false}, Cube{origin=[8.0, 32.0, 8.0], size=[16.0, 16.0, 16.0], pivot=null, rotation=null, uv=[23, 92], inflate=0.0, mirror=false}, Cube{origin=[8.0, 32.0, -8.0], size=[16.0, 16.0, 16.0], pivot=null, rotation=null, uv=[23, 92], inflate=0.0, mirror=false}, Cube{origin=[8.0, 32.0, -24.0], size=[16.0, 16.0, 16.0], pivot=null, rotation=null, uv=[23, 92], inflate=0.0, mirror=false}, Cube{origin=[-24.0, 32.0, 8.0], size=[16.0, 16.0, 16.0], pivot=null, rotation=null, uv=[23, 92], inflate=0.0, mirror=false}, Cube{origin=[-24.0, 32.0, -8.0], size=[16.0, 16.0, 16.0], pivot=null, rotation=null, uv=[23, 92], inflate=0.0, mirror=false}, Cube{origin=[-24.0, 32.0, -24.0], size=[16.0, 16.0, 16.0], pivot=null, rotation=null, uv=[23, 92], inflate=0.0, mirror=false}, Cube{origin=[-8.0, 32.0, -24.0], size=[16.0, 16.0, 16.0], pivot=null, rotation=null, uv=[23, 92], inflate=0.0, mirror=false}, Cube{origin=[-24.0, 16.0, 8.0], size=[16.0, 16.0, 16.0], pivot=null, rotation=null, uv=[23, 92], inflate=0.0, mirror=false}, Cube{origin=[8.0, 0.0, -8.0], size=[16.0, 16.0, 16.0], pivot=null, rotation=null, uv=[23, 92], inflate=0.0, mirror=false}, Cube{origin=[8.0, 0.0, -24.0], size=[16.0, 16.0, 16.0], pivot=null, rotation=null, uv=[23, 92], inflate=0.0, mirror=false}, Cube{origin=[-8.0, 48.0, -8.0], size=[16.0, 16.0, 16.0], pivot=null, rotation=null, uv=[0, 32], inflate=0.0, mirror=false}, Cube{origin=[8.0, 0.0, 8.0], size=[16.0, 16.0, 16.0], pivot=null, rotation=null, uv=[23, 92], inflate=0.0, mirror=false}], locators=null}, Bone{name='door2', parent='glass', pivot=[-6.5, 8.25, -22.7], rotation=null, cubes=[Cube{origin=[-8.0, 0.0, -24.0], size=[16.0, 32.0, 3.0], pivot=null, rotation=null, uv=[0, 64], inflate=0.0, mirror=false}], locators=null}]}]}
-[17:50:57] [Render thread/INFO] (amblekit) Loaded bedrock model ait-extras:vanilla_door BedrockModel{version='1.12.0', geometry=[Geometry{description=Description{identifier='geometry.vanilla_door', textureWidth=128, textureHeight=128, visibleBoundsWidth=4.0, visibleBoundsHeight=4.5, visibleBoundsOffset=[0.0, 1.75, 0.0]}, bones=[Bone{name='bone', parent='null', pivot=[0.0, 0.0, 0.0], rotation=null, cubes=[Cube{origin=[8.0, 16.0, -8.0], size=[16.0, 16.0, 16.0], pivot=null, rotation=null, uv=[0, 0], inflate=0.0, mirror=false}, Cube{origin=[8.0, 0.0, -8.0], size=[16.0, 16.0, 16.0], pivot=null, rotation=null, uv=[0, 0], inflate=0.0, mirror=false}, Cube{origin=[-24.0, 0.0, -8.0], size=[16.0, 16.0, 16.0], pivot=null, rotation=null, uv=[0, 0], inflate=0.0, mirror=false}, Cube{origin=[-24.0, 16.0, -8.0], size=[16.0, 16.0, 16.0], pivot=null, rotation=null, uv=[0, 0], inflate=0.0, mirror=false}, Cube{origin=[-24.0, 32.0, -8.0], size=[16.0, 16.0, 16.0], pivot=null, rotation=null, uv=[0, 0], inflate=0.0, mirror=false}, Cube{origin=[-8.0, 32.0, -8.0], size=[16.0, 16.0, 16.0], pivot=null, rotation=null, uv=[0, 0], inflate=0.0, mirror=false}, Cube{origin=[8.0, 32.0, -8.0], size=[16.0, 16.0, 16.0], pivot=null, rotation=null, uv=[0, 0], inflate=0.0, mirror=false}, Cube{origin=[8.0, 36.0, -10.0], size=[16.0, 8.0, 2.0], pivot=null, rotation=null, uv=[64, 0], inflate=0.0, mirror=false}, Cube{origin=[-8.0, 36.0, -10.0], size=[16.0, 8.0, 2.0], pivot=null, rotation=null, uv=[64, 0], inflate=0.0, mirror=false}, Cube{origin=[-24.0, 36.0, -10.0], size=[16.0, 8.0, 2.0], pivot=null, rotation=null, uv=[64, 0], inflate=0.0, mirror=false}], locators=null}, Bone{name='door', parent='bone', pivot=[6.5, 8.25, 6.3], rotation=null, cubes=[Cube{origin=[-8.0, 0.0, 5.0], size=[16.0, 32.0, 3.0], pivot=null, rotation=null, uv=[0, 64], inflate=0.0, mirror=true}], locators=null}]}]}
-[17:50:57] [Render thread/INFO] (amblekit) Loaded 6 animations from 2 groups
-[17:52:25] [Render thread/INFO] (amblekit) Initializing SERVER side registries..
-[17:52:25] [Render thread/INFO] (FabricRegistrySync) [fabric-registry-sync] Loaded registry data [file 1/4]
-[17:52:26] [Worker-Main-10/ERROR] (Minecraft) Couldn't load tag ait:insertable_discs as it is missing following references: ait-extras:recall_disc (from fabric)
-[17:52:26] [Render thread/INFO] (Minecraft) Loaded 7 recipes
-[17:52:26] [Render thread/ERROR] (Minecraft) Parsing error loading custom advancement minecraft:ait/first_rift: Invalid criterion trigger: ait:first_rift
-[17:52:26] [Render thread/INFO] (Minecraft) Loaded 1570 advancements
-[17:52:26] [ForkJoinPool.commonPool-worker-1/INFO] (ServerTranslations) Loaded 1 translation keys
-[17:52:26] [Render thread/INFO] (amblekit) Loaded blockbench file ait:fx/animation/keyframes/bnt.animation.json
-[17:52:26] [Render thread/INFO] (amblekit) Loaded blockbench file ait:fx/animation/keyframes/classic.animation.json
-[17:52:26] [Render thread/INFO] (amblekit) Loaded blockbench file ait:fx/animation/keyframes/classic_eighth.animation.json
-[17:52:26] [Render thread/INFO] (amblekit) Loaded blockbench file ait:fx/animation/keyframes/drill.animation.json
-[17:52:26] [Render thread/INFO] (amblekit) Loaded blockbench file ait-extras:fx/animation/keyframes/fast.animation.json
-[17:52:26] [Render thread/INFO] (amblekit) Loaded blockbench file ait:fx/animation/keyframes/ghost.animation.json
-[17:52:26] [Render thread/INFO] (amblekit) Loaded blockbench file ait:fx/animation/keyframes/pulsating.animation.json
-[17:52:26] [Render thread/INFO] (amblekit) Loaded blockbench file ait-extras:fx/animation/keyframes/regen.animation.json
-[17:52:26] [Render thread/INFO] (amblekit) Loaded blockbench file ait:fx/animation/keyframes/self_destruct.animation.json
-[17:52:26] [Render thread/INFO] (amblekit) Loaded blockbench file ait-extras:fx/animation/keyframes/type70.animation.json
-[17:52:26] [Render thread/INFO] (amblekit) Loaded blockbench file ait-extras:fx/animation/keyframes/xmas.animation.json
-[17:52:26] [Render thread/INFO] (amblekit) Loaded blockbench file ait:fx/animation/keyframes/zwip.animation.json
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:fx/travel ait:eight_demat
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:fx/travel ait:eight_mat
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:fx/travel ait:master_demat
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:fx/travel ait:master_mat
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:fx/travel ait:proton_demat
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:fx/travel ait:proton_mat
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:exterior ait-extras:bookshelf_birch
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:exterior ait-extras:bookshelf_cherry
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:exterior ait-extras:bookshelf_dark_oak
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:exterior ait-extras:bookshelf_jungle
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:exterior ait-extras:bookshelf_mangrove
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:exterior ait-extras:bookshelf_oak
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:exterior ait-extras:bookshelf_spruce
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:exterior ait-extras:tinylink
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:exterior ait:bt
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:exterior ait-extras:classic_cricketer
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:exterior ait-extras:classic_cricketer2
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:exterior ait-extras:classic_happiness
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:exterior ait-extras:classic_pilot
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:exterior ait-extras:classic_precedent
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:exterior ait-extras:classic_snowman
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:exterior ait-extras:classic_victorian
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:exterior ait-extras:classic_wanderlust
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:exterior ait-extras:tango
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:exterior ait-extras:clock
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:exterior ait-extras:clock_master
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:exterior frooploof:coral_bad_wolf
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:exterior frooploof:coral_war
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:exterior ait:falloutwho
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:exterior ait:geometric_blue
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:exterior ait:geometric_green
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:exterior ait:exterior/classic/hudolin
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:exterior ait-more:paradox
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:exterior ait-extras:60thmc
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:exterior ait-extras:aperture_science
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:exterior ait-extras:black_mesa
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:exterior ait-extras:copper
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:exterior ait-extras:eleven_toyota
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:exterior ait-extras:eleven_toyota_alternate
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:exterior ait-extras:coral_alternate
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:exterior ait-extras:tokamak
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:exterior ait-extras:tokamak_eotd
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:exterior ait-extras:toyota_alternate
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:exterior ait-extras:yard
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:exterior ait:rotestor
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:exterior ait:stallion_green
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:exterior ait:stallion_pristine
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:exterior frooploof:toyota_memorial
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:exterior ait-extras:vanilla
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:exterior ait-extras:vanilla_beacon
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:exterior ait-extras:vanilla_classic
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:exterior ait-extras:vanilla_classic_wooden
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:exterior ait-extras:vanilla_red
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:exterior ait-extras:vanilla_wooden
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:fx/animation/type ait:bnt_demat
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:fx/animation/type ait:bnt_mat
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:fx/animation/type ait:classic_demat
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:fx/animation/type ait-extras:classic_demat
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:fx/animation/type ait:classic_mat
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:fx/animation/type ait-extras:classic_mat
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:fx/animation/type ait:crumple
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:fx/animation/type ait:drill_demat
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:fx/animation/type ait:drill_mat
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:fx/animation/type ait-extras:drumless_demat
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:fx/animation/type ait:eighth_demat
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:fx/animation/type ait:eighth_mat
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:fx/animation/type ait-extras:fast_demat
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:fx/animation/type ait-extras:fast_mat
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:fx/animation/type ait:ghost_mat
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:fx/animation/type ait-extras:minecart_demat
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:fx/animation/type ait-extras:minecart_mat
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:fx/animation/type ait:proton_demat
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:fx/animation/type ait:proton_mat
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:fx/animation/type ait:pulsating_demat
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:fx/animation/type ait:pulsating_mat
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:fx/animation/type ait-extras:regen_demat
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:fx/animation/type ait:self_destruct
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:fx/animation/type ait-extras:type70_demat
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:fx/animation/type ait-extras:type70_mat
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:fx/animation/type ait-extras:xmas_demat
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:fx/animation/type ait:zwip_demat
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:fx/animation/type ait:zwip_mat
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:console ait:exile
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:console ait:hartnell_mint_green_console
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:sonic ait-extras:baker
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:sonic ait-extras:cane
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:sonic ait:charon
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:sonic ait:copper
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:sonic ait:coral
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:sonic ait:crystalline
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:sonic ait:fob
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:sonic ait-extras:fob_pink
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:sonic ait-extras:fob_red
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:sonic ait-extras:fob_yellow
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:sonic ait-extras:mcgann
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:sonic ait:mechanical
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:sonic ait-extras:pertwee
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:sonic ait:portal_gun
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:sonic ait:prime
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:sonic ait:renaissance
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:sonic ait-extras:retro
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:sonic ait:singularity
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:sonic ait:song
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:sonic ait-extras:troughton
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:sonic ait:type_100
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:machine_recipe ait:demat_circuit
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:categories ait-extras:clock
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:categories ait-extras:vanilla
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:hum ait:beacon
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:hum ait:copper
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:hum ait:eight
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:hum ait:exile
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:hum ait:prime
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:hum ait:renaissance
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:hum ait-extras:shield
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:hum ait:toyota
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:fx/vortex ait:80s
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:fx/vortex ait:accursed
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:fx/vortex ait:capaldi
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:fx/vortex ait:chronos
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:fx/vortex ait:classic
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:fx/vortex ait:classic_white
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:fx/vortex ait:copper
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:fx/vortex ait:crystal
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:fx/vortex ait:dalekmod
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:fx/vortex ait:darkness
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:fx/vortex ait:galactic
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:fx/vortex ait:house
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:fx/vortex ait:lego
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:fx/vortex ait:mccoy
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:fx/vortex ait:movie
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:fx/vortex ait:outergalaxy
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:fx/vortex ait:outerspace
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:fx/vortex ait:peanut
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:fx/vortex ait:pixelator
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:fx/vortex ait:renaissance
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:fx/vortex ait:rulebreaker
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:fx/vortex ait:space
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:fx/vortex ait:stargate
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:fx/vortex ait:starlight
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:fx/vortex ait:synthwave
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:fx/vortex ait:tennantblue
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:fx/vortex ait:tennantred
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:fx/vortex ait:timehole
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:fx/vortex ait:tuat
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:fx/vortex ait:war
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:blueprint ait:artron_fluid_link
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:blueprint ait:artron_mercurial_link
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:blueprint ait:astral_map
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:blueprint ait:backup_circuit
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:blueprint ait:chameleon_circuit
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:blueprint ait:data_fluid_link
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:blueprint ait:data_mercurial_link
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:blueprint ait:dematerialization_circuit
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:blueprint ait:desperation_circuit
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:blueprint ait:engine_block
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:blueprint ait:food_machine
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:blueprint ait:gravitational_circuit
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:blueprint ait:life_support
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:blueprint ait:shields_circuit
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:blueprint ait:sonic_screwdriver
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:blueprint ait:stabilisers
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:blueprint ait:vortex_fluid_link
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:blueprint ait:vortex_mercurial_link
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:door ait-extras:clock
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:door ait-extras:vanilla
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:door ait-extras:vanilla
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:desktop ait:accursed
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:desktop ait:alnico
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:desktop ait-extras:axos
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:desktop ait:botanist
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:desktop ait:cave
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:desktop ait:celery
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:desktop ait-extras:cherryblossom
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:desktop ait:copper
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:desktop ait:coral
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:desktop ait:corpoyta
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:desktop ait:crystalline
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:desktop ait:deco
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:desktop ait-extras:definitive
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:desktop ait-extras:exile
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:desktop ait:fountain
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:desktop ait:golden
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:desktop ait:hourglass
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:desktop ait:hybern
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:desktop ait-extras:industrial
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:desktop ait:legacy
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:desktop ait:meridian
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:desktop ait:missy
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:desktop ait:modest
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:desktop ait:mortis
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:desktop ait:newbury
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:desktop ait:observatory
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:desktop ait:office
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:desktop ait-more:paradox
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:desktop ait:planetarium
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:desktop ait:pristine
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:desktop ait:progress
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:desktop ait-extras:rebel
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:desktop ait:regal
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:desktop ait:renaissance
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:desktop ait:renewed
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:desktop ait:shalka
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:desktop ait:timeless
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:desktop ait:toyota
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:desktop ait-extras:tron
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:desktop ait:type_40
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:desktop ait-extras:undercroft
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:desktop ait:victorian
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:desktop ait:vintage
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:desktop ait:war
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:desktop ait-extras:war_games
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:opinion/item ait:likes_amethyst_shard
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:opinion/item ait:likes_book
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:opinion/item ait:likes_chorus_fruit
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:opinion/item ait:likes_clock
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:opinion/item ait:likes_comparator
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:opinion/item ait:likes_compass
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:opinion/item ait:likes_echo_shard
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:opinion/item ait:likes_elytra
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:opinion/item ait:likes_end_crystal
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:opinion/item ait:ender_eye
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:opinion/item ait:likes_ender_pearl
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:opinion/item ait:likes_golden_carrot
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:opinion/item ait:map
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:opinion/item ait:recovery_compass
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:opinion/item ait:likes_redstone_block
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:opinion/item ait:likes_repeater
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:drink/effect ait:chocolate_milk
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:drink/effect ait:coffee
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:drink/effect ait:hot_cocoa
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:drink/effect ait:iced_coffee
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:drink/effect ait:latte
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:drink/effect ait:milk
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:drink/effect ait:tea
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:drink/effect ait:vodka
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:drink/effect ait:water
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:fx/flight ait:eight
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:fx/flight ait-extras:minecart
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:fx/flight ait:proton
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:fx/flight ait-extras:shield
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:fx/flight ait:stabilize
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:fx/flight ait:unstable
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:control_sounds ait:console/copper/ait/alarms
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:control_sounds ait:console/copper/ait/protocol_813
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:control_sounds ait:console/copper/ait/telepathic_circuit
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:control_sounds ait:console/coral/ait/dimension
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:control_sounds ait:console/coral/ait/increment
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:control_sounds ait:console/coral/ait/land_type
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:control_sounds ait:console/coral/ait/monitor
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:control_sounds ait:console/coral/ait/shields
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:control_sounds ait:console/coral/ait/telepathic_circuit
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:control_sounds ait:console/coral/ait/throttle
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:control_sounds ait:console/coral/ait/x
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:control_sounds ait:console/coral/ait/y
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:control_sounds ait:console/coral/ait/z
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:control_sounds ait:console/renaissance/ait/antigravs
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:control_sounds ait:console/renaissance/ait/dimension
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:control_sounds ait:console/renaissance/ait/door_control
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:control_sounds ait:console/renaissance/ait/door_lock
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:control_sounds ait:console/renaissance/ait/handbrake
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:control_sounds ait:console/renaissance/ait/land_type
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:control_sounds ait:console/renaissance/ait/power
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:control_sounds ait:console/renaissance/ait/shields
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:control_sounds ait:console/renaissance/ait/protocol_1913
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:planet minecraft:overworld
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:planet ait:jupiter
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:planet ait:mars
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:planet ait:mercury
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:planet ait:mondas
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:planet ait:moon
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:planet ait:neptune
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:planet ait:saturn
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:planet ait:space
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:planet ait:time_vortex
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:planet ait:uranus
-[17:52:26] [Render thread/INFO] (amblekit) Loaded datapack ait:planet ait:venus
-[17:52:28] [Render thread/INFO] (BiomeModificationImpl) Applied 228 biome modifications to 69 of 69 new biomes in 10.63 ms
-[17:52:28] [Server thread/INFO] (Minecraft) Starting integrated minecraft server version 1.20.1
-[17:52:28] [Server thread/INFO] (Minecraft) Generating keypair
-[17:52:29] [Server thread/INFO] (Minecraft) Preparing start region for dimension minecraft:overworld
-[17:52:31] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[17:52:31] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[17:52:31] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[17:52:31] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[17:52:31] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[17:52:31] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[17:52:32] [Render thread/INFO] (Minecraft) Preparing spawn area: 42%
-[17:52:32] [Render thread/INFO] (Minecraft) Time elapsed: 3405 ms
-[17:52:32] [Server thread/WARN] (ait-more) [ait-more] Could not find a '/vanish' command to alias - skipping..
-[17:52:32] [Server thread/INFO] (Minecraft) Changing view distance to 12, from 10
-[17:52:32] [Server thread/INFO] (Minecraft) Changing simulation distance to 12, from 0
-[17:52:33] [Server thread/INFO] (ait) Deserialized 26056939-b9dc-466b-9d4b-d412c9255051 in 103ms
-[17:52:34] [Server thread/INFO] (Minecraft) Player850[local:E:c0ac2ac9] logged in with entity id 253 at (-11.010084055087425, 66.0, 31.548673981946653)
-[17:52:34] [Netty Local Client IO #0/INFO] (ait) Received 2 blockbench animation files
-[17:52:34] [Netty Local Client IO #0/INFO] (amblekit) Read 12 ait:fx/travel from server
-[17:52:34] [Netty Local Client IO #0/INFO] (amblekit) Read 28 ait:fx/animation/type from server
-[17:52:34] [Netty Local Client IO #0/INFO] (ait) Read 34 client console variants from server
-[17:52:34] [Netty Local Client IO #0/INFO] (ait) Read 34 console variants from server
-[17:52:34] [Netty Local Client IO #0/INFO] (amblekit) Read 22 ait:sonic from server
-[17:52:34] [Netty Local Client IO #0/INFO] (amblekit) Read 18 ait:categories from server
-[17:52:34] [Netty Local Client IO #0/INFO] (amblekit) Read 11 ait:hum from server
-[17:52:34] [Netty Local Client IO #0/INFO] (amblekit) Read 31 ait:fx/vortex from server
-[17:52:34] [Netty Local Client IO #0/INFO] (amblekit) Read 18 ait:blueprint from server
-[17:52:34] [Netty Local Client IO #0/INFO] (amblekit) Read 47 ait:desktop from server
-[17:52:34] [Netty Local Client IO #0/INFO] (amblekit) Read 17 ait:opinion/item from server
-[17:52:34] [Netty Local Client IO #0/INFO] (amblekit) Read 10 ait:drink/effect from server
-[17:52:34] [Netty Local Client IO #0/INFO] (amblekit) Read 7 ait:fx/flight from server
-[17:52:34] [Netty Local Client IO #0/INFO] (amblekit) Read 22 ait:control_sounds from server
-[17:52:34] [Netty Local Client IO #0/INFO] (amblekit) Read 1 ait:locked_dimension from server
-[17:52:34] [Netty Local Client IO #0/INFO] (amblekit) Read 14 ait:planet from server
-[17:52:34] [Server thread/INFO] (Minecraft) Player850 joined the game
-[17:52:34] [Server thread/INFO] (Minecraft) Player850 has reached the goal [Would you like a Jelly Baby?]
-[17:52:35] [Render thread/INFO] (Minecraft) [System] [CHAT] Player850 has reached the goal [Would you like a Jelly Baby?]
-[17:52:35] [Render thread/INFO] (Minecraft) Loaded 5 advancements
-[17:52:35] [Server thread/INFO] (Minecraft) Saving and pausing game...
-[17:52:35] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World3]'/minecraft:overworld
-[17:52:36] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World3]'/ait:space
-[17:52:36] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World3]'/ait:time_vortex
-[17:52:36] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World3]'/minecraft:the_nether
-[17:52:36] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World3]'/minecraft:the_end
-[17:52:37] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World3]'/ait:mars
-[17:52:37] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World3]'/ait:tardis_dimension_type
-[17:52:37] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World3]'/ait:moon
-[17:52:50] [Server thread/INFO] (Minecraft) Player850 has completed the challenge [How Does It Fit?]
-[17:52:50] [Server thread/INFO] (mc-multidim) Loading world ait-tardis:26056939-b9dc-466b-9d4b-d412c9255051
-[17:52:50] [Render thread/INFO] (Minecraft) [System] [CHAT] Player850 has completed the challenge [How Does It Fit?]
-[17:52:51] [Render thread/INFO] (Minecraft) Loaded 9 advancements
-[17:52:51] [Server thread/INFO] (Minecraft) Saving and pausing game...
-[17:52:51] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World3]'/minecraft:overworld
-[17:52:51] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World3]'/ait:space
-[17:52:51] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World3]'/ait:time_vortex
-[17:52:51] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World3]'/minecraft:the_nether
-[17:52:51] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World3]'/minecraft:the_end
-[17:52:51] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World3]'/ait:mars
-[17:52:51] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World3]'/ait:tardis_dimension_type
-[17:52:51] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World3]'/ait:moon
-[17:52:51] [Server thread/INFO] (Minecraft) Saving chunks for level 'TardisServerLevel[New World3]'/ait-tardis:26056939-b9dc-466b-9d4b-d412c9255051
-[17:53:03] [Server thread/INFO] (Minecraft) Saving and pausing game...
-[17:53:03] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World3]'/minecraft:overworld
-[17:53:03] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World3]'/ait:space
-[17:53:03] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World3]'/ait:time_vortex
-[17:53:03] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World3]'/minecraft:the_nether
-[17:53:03] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World3]'/minecraft:the_end
-[17:53:03] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World3]'/ait:mars
-[17:53:03] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World3]'/ait:tardis_dimension_type
-[17:53:03] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World3]'/ait:moon
-[17:53:03] [Server thread/INFO] (Minecraft) Saving chunks for level 'TardisServerLevel[New World3]'/ait-tardis:26056939-b9dc-466b-9d4b-d412c9255051
-[17:56:40] [Server thread/INFO] (Minecraft) Saving and pausing game...
-[17:56:40] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World3]'/minecraft:overworld
-[17:56:40] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World3]'/ait:space
-[17:56:40] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World3]'/ait:time_vortex
-[17:56:40] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World3]'/minecraft:the_nether
-[17:56:40] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World3]'/minecraft:the_end
-[17:56:40] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World3]'/ait:mars
-[17:56:40] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World3]'/ait:tardis_dimension_type
-[17:56:40] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World3]'/ait:moon
-[17:56:40] [Server thread/INFO] (Minecraft) Saving chunks for level 'TardisServerLevel[New World3]'/ait-tardis:26056939-b9dc-466b-9d4b-d412c9255051
-[17:56:54] [Server thread/INFO] (Minecraft) Saving and pausing game...
-[17:56:55] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World3]'/minecraft:overworld
-[17:56:55] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World3]'/ait:space
-[17:56:55] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World3]'/ait:time_vortex
-[17:56:55] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World3]'/minecraft:the_nether
-[17:56:55] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World3]'/minecraft:the_end
-[17:56:55] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World3]'/ait:mars
-[17:56:55] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World3]'/ait:tardis_dimension_type
-[17:56:55] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World3]'/ait:moon
-[17:56:55] [Server thread/INFO] (Minecraft) Saving chunks for level 'TardisServerLevel[New World3]'/ait-tardis:26056939-b9dc-466b-9d4b-d412c9255051
-[17:57:16] [Render thread/INFO] (Minecraft) [System] [CHAT] Unknown or incomplete command, see below for error
-[17:57:16] [Render thread/INFO] (Minecraft) [System] [CHAT] ...TY 500 set<--[HERE]
-[17:57:29] [Render thread/INFO] (Minecraft) [System] [CHAT] Unknown or incomplete command, see below for error
-[17:57:29] [Render thread/INFO] (Minecraft) [System] [CHAT] ...12c9255051<--[HERE]
-[17:57:38] [Server thread/INFO] (Minecraft) Player850 has completed the challenge [It trusts you now. Worth it, right?]
-[17:57:38] [Render thread/INFO] (Minecraft) [System] [CHAT] Console Interface 'Fire Renaissance' unlocked!
-[17:57:38] [Render thread/INFO] (Minecraft) [System] [CHAT] Console Interface 'Human Nature' unlocked!
-[17:57:38] [Render thread/INFO] (Minecraft) [System] [CHAT] Console Interface 'Gilded Steam' unlocked!
-[17:57:38] [Render thread/INFO] (Minecraft) [System] [CHAT] Console Interface 'Sith Coral' unlocked!
-[17:57:38] [Render thread/INFO] (Minecraft) [System] [CHAT] Console Interface 'Hudolin' unlocked!
-[17:57:38] [Render thread/INFO] (Minecraft) [System] [CHAT] Console Interface 'Crystalline' unlocked!
-[17:57:38] [Render thread/INFO] (Minecraft) [System] [CHAT] Console Interface 'Playpal Steam' unlocked!
-[17:57:38] [Render thread/INFO] (Minecraft) [System] [CHAT] Console Interface 'Tokamak Renaissance' unlocked!
-[17:57:38] [Render thread/INFO] (Minecraft) [System] [CHAT] Console Interface 'Copper' unlocked!
-[17:57:38] [Render thread/INFO] (Minecraft) [System] [CHAT] Console Interface 'console.ait.hudolin_short' unlocked!
-[17:57:38] [Render thread/INFO] (Minecraft) [System] [CHAT] Console Interface 'Identity Renaissance' unlocked!
-[17:57:38] [Render thread/INFO] (Minecraft) [System] [CHAT] Console Interface 'Cherry Steam' unlocked!
-[17:57:38] [Render thread/INFO] (Minecraft) [System] [CHAT] Console Interface 'Industrious Renaissance' unlocked!
-[17:57:38] [Render thread/INFO] (Minecraft) [System] [CHAT] Console Interface 'Mint Hartnell' unlocked!
-[17:57:38] [Render thread/INFO] (Minecraft) [System] [CHAT] Console Interface 'Zeiton Crystalline' unlocked!
-[17:57:38] [Render thread/INFO] (Minecraft) [System] [CHAT] Console Interface 'Copper Steam' unlocked!
-[17:57:38] [Render thread/INFO] (Minecraft) [System] [CHAT] Console Interface 'Blue Toyota' unlocked!
-[17:57:38] [Render thread/INFO] (Minecraft) [System] [CHAT] Console Interface 'Legacy Toyota' unlocked!
-[17:57:38] [Render thread/INFO] (Minecraft) [System] [CHAT] Console Interface 'Renaissance' unlocked!
-[17:57:38] [Render thread/INFO] (Minecraft) [System] [CHAT] Console Interface 'White Coral' unlocked!
-[17:57:38] [Render thread/INFO] (Minecraft) [System] [CHAT] Console Interface 'console.ait.hudolin_tall' unlocked!
-[17:57:38] [Render thread/INFO] (Minecraft) [System] [CHAT] Exterior Shell 'War' unlocked!
-[17:57:38] [Render thread/INFO] (Minecraft) [System] [CHAT] Exterior Shell 'Soul' unlocked!
-[17:57:38] [Render thread/INFO] (Minecraft) [System] [CHAT] Exterior Shell 'Exile' unlocked!
-[17:57:38] [Render thread/INFO] (Minecraft) [System] [CHAT] Exterior Shell 'Prime' unlocked!
-[17:57:38] [Render thread/INFO] (Minecraft) [System] [CHAT] Exterior Shell 'Vintage' unlocked!
-[17:57:38] [Render thread/INFO] (Minecraft) [System] [CHAT] Exterior Shell 'Soul' unlocked!
-[17:57:38] [Render thread/INFO] (Minecraft) [System] [CHAT] Exterior Shell 'Cabinet' unlocked!
-[17:57:38] [Render thread/INFO] (Minecraft) [System] [CHAT] Exterior Shell 'Toyota (Memorial)' unlocked!
-[17:57:38] [Render thread/INFO] (Minecraft) [System] [CHAT] Exterior Shell 'Gilded' unlocked!
-[17:57:38] [Render thread/INFO] (Minecraft) [System] [CHAT] Exterior Shell 'Definitive' unlocked!
-[17:57:38] [Render thread/INFO] (Minecraft) [System] [CHAT] Exterior Shell 'Biscay' unlocked!
-[17:57:38] [Render thread/INFO] (Minecraft) [System] [CHAT] Exterior Shell 'Mesa' unlocked!
-[17:57:38] [Render thread/INFO] (Minecraft) [System] [CHAT] Exterior Shell 'Tron' unlocked!
-[17:57:38] [Render thread/INFO] (Minecraft) [System] [CHAT] Exterior Shell 'Fire' unlocked!
-[17:57:38] [Render thread/INFO] (Minecraft) [System] [CHAT] Exterior Shell 'Rotestor' unlocked!
-[17:57:38] [Render thread/INFO] (Minecraft) [System] [CHAT] Exterior Shell 'Yeti' unlocked!
-[17:57:38] [Render thread/INFO] (Minecraft) [System] [CHAT] Exterior Shell 'Aperture' unlocked!
-[17:57:38] [Render thread/INFO] (Minecraft) [System] [CHAT] Exterior Shell 'Crystalline' unlocked!
-[17:57:38] [Render thread/INFO] (Minecraft) [System] [CHAT] Exterior Shell '73 Yards' unlocked!
-[17:57:38] [Render thread/INFO] (Minecraft) [System] [CHAT] Exterior Shell 'Shalka' unlocked!
-[17:57:38] [Render thread/INFO] (Minecraft) [System] [CHAT] Exterior Shell 'Fallout Who' unlocked!
-[17:57:38] [Render thread/INFO] (Minecraft) [System] [CHAT] Exterior Shell 'Hudolin' unlocked!
-[17:57:38] [Render thread/INFO] (Minecraft) [System] [CHAT] Exterior Shell '1963' unlocked!
-[17:57:38] [Render thread/INFO] (Minecraft) [System] [CHAT] Exterior Shell '1967' unlocked!
-[17:57:38] [Render thread/INFO] (Minecraft) [System] [CHAT] Exterior Shell 'Fire' unlocked!
-[17:57:38] [Render thread/INFO] (Minecraft) [System] [CHAT] Exterior Shell 'Coral (Bad Wolf)' unlocked!
-[17:57:38] [Render thread/INFO] (Minecraft) [System] [CHAT] Exterior Shell 'Default' unlocked!
-[17:57:38] [Render thread/INFO] (Minecraft) [System] [CHAT] Exterior Shell '1970' unlocked!
-[17:57:38] [Render thread/INFO] (Minecraft) [System] [CHAT] Exterior Shell '1976' unlocked!
-[17:57:38] [Render thread/INFO] (Minecraft) [System] [CHAT] Exterior Shell 'Default' unlocked!
-[17:57:38] [Render thread/INFO] (Minecraft) [System] [CHAT] Exterior Shell 'Blue' unlocked!
-[17:57:38] [Render thread/INFO] (Minecraft) [System] [CHAT] Exterior Shell 'Tiny Link' unlocked!
-[17:57:38] [Render thread/INFO] (Minecraft) [System] [CHAT] Exterior Shell 'Default' unlocked!
-[17:57:38] [Render thread/INFO] (Minecraft) [System] [CHAT] Exterior Shell 'PTORed' unlocked!
-[17:57:38] [Render thread/INFO] (Minecraft) [System] [CHAT] Exterior Shell 'Tokamak (EOTD)' unlocked!
-[17:57:38] [Render thread/INFO] (Minecraft) [System] [CHAT] Exterior Shell '1980' unlocked!
-[17:57:38] [Render thread/INFO] (Minecraft) [System] [CHAT] Sonic Screwdriver Casing 'Frontier' unlocked!
-[17:57:38] [Render thread/INFO] (Minecraft) [System] [CHAT] Sonic Screwdriver Casing 'Fob' unlocked!
-[17:57:38] [Render thread/INFO] (Minecraft) [System] [CHAT] Sonic Screwdriver Casing 'Charon' unlocked!
-[17:57:38] [Render thread/INFO] (Minecraft) [System] [CHAT] Sonic Screwdriver Casing 'Singularity' unlocked!
-[17:57:38] [Render thread/INFO] (Minecraft) [System] [CHAT] Sonic Screwdriver Casing 'Mechanical' unlocked!
-[17:57:38] [Render thread/INFO] (Minecraft) [System] [CHAT] Player850 has completed the challenge [It trusts you now. Worth it, right?]
-[17:57:38] [Render thread/INFO] (Minecraft) [System] [CHAT] Set loyalty for player Player850 to rank OWNER level 500
-[17:57:38] [Render thread/INFO] (Minecraft) Loaded 10 advancements
-[17:57:45] [Server thread/INFO] (Minecraft) Saving and pausing game...
-[17:57:45] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World3]'/minecraft:overworld
-[17:57:45] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World3]'/ait:space
-[17:57:45] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World3]'/ait:time_vortex
-[17:57:45] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World3]'/minecraft:the_nether
-[17:57:45] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World3]'/minecraft:the_end
-[17:57:45] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World3]'/ait:mars
-[17:57:45] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World3]'/ait:tardis_dimension_type
-[17:57:45] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World3]'/ait:moon
-[17:57:45] [Server thread/INFO] (Minecraft) Saving chunks for level 'TardisServerLevel[New World3]'/ait-tardis:26056939-b9dc-466b-9d4b-d412c9255051
-[17:58:11] [Render thread/INFO] (Minecraft) Loaded 27 advancements
-[17:58:27] [Server thread/INFO] (Minecraft) Saving and pausing game...
-[17:58:27] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World3]'/minecraft:overworld
-[17:58:27] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World3]'/ait:space
-[17:58:27] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World3]'/ait:time_vortex
-[17:58:27] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World3]'/minecraft:the_nether
-[17:58:27] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World3]'/minecraft:the_end
-[17:58:27] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World3]'/ait:mars
-[17:58:27] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World3]'/ait:tardis_dimension_type
-[17:58:27] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World3]'/ait:moon
-[17:58:27] [Server thread/INFO] (Minecraft) Saving chunks for level 'TardisServerLevel[New World3]'/ait-tardis:26056939-b9dc-466b-9d4b-d412c9255051
-[17:58:28] [Server thread/INFO] (Minecraft) Player850 lost connection: Disconnected
-[17:58:28] [Server thread/INFO] (Minecraft) Player850 left the game
-[17:58:28] [Server thread/INFO] (Minecraft) Stopping singleplayer server as player logged out
-[17:58:28] [Server thread/INFO] (Minecraft) Stopping server
-[17:58:28] [Server thread/INFO] (Minecraft) Saving players
-[17:58:28] [Server thread/INFO] (Minecraft) Saving worlds
-[17:58:28] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World3]'/minecraft:overworld
-[17:58:29] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World3]'/ait:space
-[17:58:29] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World3]'/ait:time_vortex
-[17:58:29] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World3]'/minecraft:the_nether
-[17:58:29] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World3]'/minecraft:the_end
-[17:58:29] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World3]'/ait:mars
-[17:58:29] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World3]'/ait:tardis_dimension_type
-[17:58:29] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World3]'/ait:moon
-[17:58:29] [Server thread/INFO] (Minecraft) Saving chunks for level 'TardisServerLevel[New World3]'/ait-tardis:26056939-b9dc-466b-9d4b-d412c9255051
-[17:58:29] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (New World3): All chunks are saved
-[17:58:29] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (space): All chunks are saved
-[17:58:29] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (time_vortex): All chunks are saved
-[17:58:29] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[17:58:29] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[17:58:29] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (mars): All chunks are saved
-[17:58:29] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (tardis_dimension_type): All chunks are saved
-[17:58:29] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (moon): All chunks are saved
-[17:58:29] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (26056939-b9dc-466b-9d4b-d412c9255051): All chunks are saved
-[17:58:29] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage: All dimensions are saved
-[17:58:30] [Render thread/INFO] (Minecraft) Stopping!
+[15:43:37] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:item.goat_horn.play
+[15:43:37] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[15:43:37] [Render thread/INFO] (Minecraft) OpenAL initialized on device OpenAL Soft on Headphones (3- Arctis Nova Pro Wireless)
+[15:43:37] [Render thread/INFO] (Minecraft) Sound engine started
+[15:43:37] [Render thread/INFO] (Minecraft) Created: 2048x1024x1 minecraft:textures/atlas/blocks.png-atlas
+[15:43:37] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[15:43:37] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[15:43:37] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[15:43:37] [Render thread/INFO] (Minecraft) Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[15:43:37] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[15:43:37] [Render thread/INFO] (Minecraft) Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[15:43:37] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[15:43:37] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[15:43:37] [Render thread/WARN] (Minecraft) Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[15:43:37] [Render thread/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[15:43:37] [Render thread/INFO] (Minecraft) Created: 2048x2048x0 minecraft:textures/atlas/paintings.png-atlas
+[15:43:37] [Render thread/INFO] (Minecraft) Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[15:43:37] [Render thread/INFO] (amblekit) Loaded bedrock model ait-extras:clock BedrockModel{version='1.12.0', geometry=[Geometry{description=Description{identifier='geometry.unknown', textureWidth=256, textureHeight=256, visibleBoundsWidth=3.0, visibleBoundsHeight=5.5, visibleBoundsOffset=[0.0, 2.25, 0.0]}, bones=[Bone{name='bone', parent='null', pivot=[0.0, 0.0, 0.0], rotation=null, cubes=[Cube{origin=[-9.0, 2.0, -7.0], size=[18.0, 2.0, 14.0], pivot=null, rotation=null, uv=[0, 18], inflate=0.0, mirror=false}, Cube{origin=[-8.0, 4.0, -6.0], size=[16.0, 6.0, 12.0], pivot=null, rotation=null, uv=[0, 58], inflate=0.0, mirror=false}, Cube{origin=[-8.0, 11.0, 4.0], size=[16.0, 28.0, 2.0], pivot=null, rotation=null, uv=[56, 64], inflate=0.0, mirror=false}, Cube{origin=[7.0, 11.0, -6.0], size=[1.0, 28.0, 10.0], pivot=null, rotation=null, uv=[22, 76], inflate=0.0, mirror=false}, Cube{origin=[-8.0, 11.0, -6.0], size=[1.0, 28.0, 10.0], pivot=null, rotation=null, uv=[0, 76], inflate=0.0, mirror=false}, Cube{origin=[-8.0, 40.0, -6.0], size=[16.0, 12.0, 12.0], pivot=null, rotation=null, uv=[0, 34], inflate=0.0, mirror=false}, Cube{origin=[-4.7, 39.7, -6.1], size=[10.0, 11.0, 0.0], pivot=null, rotation=null, uv=[120, 32], inflate=0.0, mirror=false}, Cube{origin=[-9.0, 51.0, -6.2], size=[18.0, 7.0, 0.0], pivot=null, rotation=null, uv=[120, 0], inflate=0.0, mirror=false}, Cube{origin=[-9.0, 51.0, 6.2], size=[18.0, 7.0, 0.0], pivot=null, rotation=null, uv=[120, 0], inflate=0.0, mirror=false}, Cube{origin=[-9.0, 10.0, -7.0], size=[18.0, 1.0, 14.0], pivot=null, rotation=null, uv=[56, 34], inflate=0.0, mirror=false}, Cube{origin=[-9.0, 39.0, -7.0], size=[18.0, 1.0, 14.0], pivot=[0.0, 39.5, 0.0], rotation=[0.0, 0.0, -180.0], uv=[56, 34], inflate=0.0, mirror=false}, Cube{origin=[-9.0, 0.0, -7.0], size=[4.0, 2.0, 14.0], pivot=null, rotation=null, uv=[64, 16], inflate=0.0, mirror=false}, Cube{origin=[5.0, 0.0, -7.0], size=[4.0, 2.0, 14.0], pivot=null, rotation=null, uv=[64, 16], inflate=0.0, mirror=true}], locators=null}, Bone{name='door', parent='bone', pivot=[-7.0, 11.0, -6.0], rotation=null, cubes=[Cube{origin=[-7.0, 11.0, -6.1], size=[14.0, 28.0, 0.0], pivot=null, rotation=null, uv=[92, 64], inflate=0.0, mirror=false}, Cube{origin=[5.7, 24.1, -6.6], size=[1.0, 2.0, 1.0], pivot=null, rotation=null, uv=[52, 87], inflate=0.0, mirror=false}, Cube{origin=[-7.0, 11.0, -5.0], size=[14.0, 28.0, 0.0], pivot=null, rotation=null, uv=[92, 92], inflate=0.0, mirror=false}, Cube{origin=[7.0, 11.0, -6.0], size=[0.0, 28.0, 1.0], pivot=null, rotation=null, uv=[105, 91], inflate=0.0, mirror=false}, Cube{origin=[-7.0, 11.0, -6.0], size=[0.0, 28.0, 1.0], pivot=null, rotation=null, uv=[105, 91], inflate=0.0, mirror=false}], locators=null}, Bone{name='pendulum', parent='door', pivot=[0.0, 38.0, -5.5], rotation=null, cubes=[Cube{origin=[-2.0, 21.0, -5.5], size=[4.0, 18.0, 0.0], pivot=null, rotation=null, uv=[44, 76], inflate=0.0, mirror=false}, Cube{origin=[-2.5, 17.0, -5.5], size=[5.0, 5.0, 0.0], pivot=[0.0, 19.5, -5.5], rotation=[0.0, 0.0, 45.0], uv=[120, 43], inflate=0.0, mirror=false}], locators=null}, Bone{name='hands', parent='bone', pivot=[-0.2, 39.6, -0.5], rotation=null, cubes=null, locators=null}, Bone{name='big', parent='hands', pivot=[0.3, 45.2, -6.5], rotation=null, cubes=[Cube{origin=[-0.2, 39.7, -6.5], size=[1.0, 11.0, 0.0], pivot=null, rotation=null, uv=[52, 76], inflate=0.0, mirror=false}], locators=null}, Bone{name='small', parent='hands', pivot=[0.3, 45.2, -6.5], rotation=null, cubes=[Cube{origin=[-0.2, 39.7, -6.5], size=[1.0, 11.0, 0.0], pivot=[0.3, 45.2, -6.5], rotation=[0.0, 0.0, -90.0], uv=[54, 76], inflate=0.0, mirror=false}], locators=null}]}]}
+[15:43:37] [Render thread/INFO] (amblekit) Loaded bedrock model ait-extras:clock_door BedrockModel{version='1.12.0', geometry=[Geometry{description=Description{identifier='geometry.unknown', textureWidth=256, textureHeight=256, visibleBoundsWidth=4.0, visibleBoundsHeight=6.5, visibleBoundsOffset=[0.0, 2.75, 0.0]}, bones=[Bone{name='bone', parent='null', pivot=[0.0, 0.0, -0.5], rotation=[0.0, 180.0, 0.0], cubes=[Cube{origin=[6.97143, 1.0, 5.48571], size=[1.0, 28.0, 1.0], pivot=[7.47143, 15.0, 5.98571], rotation=[0.0, 90.0, 0.0], uv=[31, 85], inflate=0.0, mirror=false}, Cube{origin=[-8.02857, 1.0, 5.48571], size=[1.0, 28.0, 1.0], pivot=[-7.52857, 15.0, 5.98571], rotation=[0.0, 90.0, 0.0], uv=[31, 85], inflate=0.0, mirror=false}, Cube{origin=[-8.02857, 30.0, 5.48571], size=[16.0, 12.0, 1.0], pivot=[-0.02857, 36.0, 5.98571], rotation=[0.0, 180.0, 0.0], uv=[8, 45], inflate=0.0, mirror=false}, Cube{origin=[-4.92857, 29.7, 5.38571], size=[10.0, 11.0, 0.0], pivot=null, rotation=null, uv=[120, 32], inflate=0.0, mirror=false}, Cube{origin=[-9.02857, 41.0, 4.98571], size=[18.0, 7.0, 0.0], pivot=null, rotation=null, uv=[120, 0], inflate=0.0, mirror=false}, Cube{origin=[-9.02857, 0.0, 4.48571], size=[18.0, 1.0, 3.0], pivot=[-0.02857, 15.0, 5.98571], rotation=[0.0, 0.0, 0.0], uv=[67, 45], inflate=0.0, mirror=false}, Cube{origin=[-9.02857, 0.0, 4.48571], size=[18.0, 1.0, 3.0], pivot=[-0.02857, 15.0, 5.98571], rotation=[0.0, 0.0, 180.0], uv=[67, 45], inflate=0.0, mirror=false}], locators=null}, Bone{name='door', parent='bone', pivot=[7.0, 1.0, 6.0], rotation=null, cubes=[Cube{origin=[-7.02857, 1.0, 5.48571], size=[14.0, 28.0, 0.0], pivot=null, rotation=null, uv=[92, 64], inflate=0.0, mirror=false}, Cube{origin=[-7.02857, 14.1, 4.98571], size=[1.0, 2.0, 1.0], pivot=null, rotation=null, uv=[52, 87], inflate=0.0, mirror=false}, Cube{origin=[-7.02857, 1.0, 5.98571], size=[14.0, 28.0, 0.0], pivot=null, rotation=null, uv=[92, 92], inflate=0.0, mirror=false}, Cube{origin=[6.97143, 1.0, 5.48571], size=[0.0, 28.0, 1.0], pivot=null, rotation=null, uv=[105, 91], inflate=0.0, mirror=false}, Cube{origin=[-7.02857, 1.0, 5.48571], size=[0.0, 28.0, 1.0], pivot=null, rotation=null, uv=[81, 65], inflate=0.0, mirror=false}], locators=null}, Bone{name='pendulum', parent='door', pivot=[0.0, 27.0, 5.7], rotation=null, cubes=[Cube{origin=[-2.0, 10.0, 5.7], size=[4.0, 18.0, 0.0], pivot=null, rotation=null, uv=[44, 76], inflate=0.0, mirror=false}, Cube{origin=[-2.5, 6.0, 5.7], size=[5.0, 5.0, 0.0], pivot=[0.0, 8.5, 5.7], rotation=[0.0, 0.0, 45.0], uv=[120, 43], inflate=0.0, mirror=false}], locators=null}, Bone{name='hands', parent='bone', pivot=[0.8, -0.1, 4.0], rotation=[0.0, 180.0, 0.0], cubes=null, locators=null}, Bone{name='big', parent='hands', pivot=[1.57143, 35.1, 2.88571], rotation=[0.0, 180.0, 0.0], cubes=[Cube{origin=[1.07143, 29.6, 2.88571], size=[1.0, 11.0, 0.0], pivot=null, rotation=null, uv=[52, 76], inflate=0.0, mirror=false}], locators=null}, Bone{name='small', parent='hands', pivot=[1.57143, 35.1, 2.88571], rotation=[180.0, 0.0, 0.0], cubes=[Cube{origin=[1.07143, 29.6, 2.88571], size=[1.0, 11.0, 0.0], pivot=[1.57143, 35.1, 2.88571], rotation=[0.0, 0.0, -90.0], uv=[54, 76], inflate=0.0, mirror=false}], locators=null}]}]}
+[15:43:37] [Render thread/INFO] (amblekit) Loaded bedrock model ait-extras:vanilla BedrockModel{version='1.12.0', geometry=[Geometry{description=Description{identifier='geometry.vanilla', textureWidth=128, textureHeight=128, visibleBoundsWidth=5.0, visibleBoundsHeight=6.0, visibleBoundsOffset=[0.0, 2.0, 0.0]}, bones=[Bone{name='root', parent='null', pivot=[0.0, 0.0, 0.0], rotation=null, cubes=null, locators=null}, Bone{name='box', parent='root', pivot=[-6.5, 8.25, -22.7], rotation=null, cubes=[Cube{origin=[-24.0, 16.0, -8.0], size=[16.0, 16.0, 16.0], pivot=null, rotation=null, uv=[0, 0], inflate=0.0, mirror=false}, Cube{origin=[8.0, 0.0, 8.0], size=[16.0, 16.0, 16.0], pivot=null, rotation=null, uv=[0, 0], inflate=0.0, mirror=false}, Cube{origin=[-24.0, 16.0, -24.0], size=[16.0, 16.0, 16.0], pivot=null, rotation=null, uv=[0, 0], inflate=0.0, mirror=false}, Cube{origin=[-24.0, 0.0, -24.0], size=[16.0, 16.0, 16.0], pivot=null, rotation=null, uv=[0, 0], inflate=0.0, mirror=false}, Cube{origin=[-24.0, 0.0, -8.0], size=[16.0, 16.0, 16.0], pivot=null, rotation=null, uv=[0, 0], inflate=0.0, mirror=false}, Cube{origin=[-24.0, 0.0, 8.0], size=[16.0, 16.0, 16.0], pivot=null, rotation=null, uv=[0, 0], inflate=0.0, mirror=false}, Cube{origin=[-8.0, 0.0, 8.0], size=[16.0, 16.0, 16.0], pivot=null, rotation=null, uv=[0, 0], inflate=0.0, mirror=false}, Cube{origin=[-8.0, 16.0, 8.0], size=[16.0, 16.0, 16.0], pivot=null, rotation=null, uv=[0, 0], inflate=0.0, mirror=false}, Cube{origin=[-8.0, 32.0, 8.0], size=[16.0, 16.0, 16.0], pivot=null, rotation=null, uv=[0, 0], inflate=0.0, mirror=false}, Cube{origin=[8.0, 16.0, 8.0], size=[16.0, 16.0, 16.0], pivot=null, rotation=null, uv=[0, 0], inflate=0.0, mirror=false}, Cube{origin=[8.0, 16.0, -8.0], size=[16.0, 16.0, 16.0], pivot=null, rotation=null, uv=[0, 0], inflate=0.0, mirror=false}, Cube{origin=[8.0, 16.0, -24.0], size=[16.0, 16.0, 16.0], pivot=null, rotation=null, uv=[0, 0], inflate=0.0, mirror=false}, Cube{origin=[8.0, 32.0, 8.0], size=[16.0, 16.0, 16.0], pivot=null, rotation=null, uv=[0, 0], inflate=0.0, mirror=false}, Cube{origin=[8.0, 32.0, -8.0], size=[16.0, 16.0, 16.0], pivot=null, rotation=null, uv=[0, 0], inflate=0.0, mirror=false}, Cube{origin=[8.0, 32.0, -24.0], size=[16.0, 16.0, 16.0], pivot=null, rotation=null, uv=[0, 0], inflate=0.0, mirror=false}, Cube{origin=[-24.0, 32.0, 8.0], size=[16.0, 16.0, 16.0], pivot=null, rotation=null, uv=[0, 0], inflate=0.0, mirror=false}, Cube{origin=[-24.0, 32.0, -8.0], size=[16.0, 16.0, 16.0], pivot=null, rotation=null, uv=[0, 0], inflate=0.0, mirror=false}, Cube{origin=[-24.0, 32.0, -24.0], size=[16.0, 16.0, 16.0], pivot=null, rotation=null, uv=[0, 0], inflate=0.0, mirror=false}, Cube{origin=[-24.0, 48.0, -24.0], size=[16.0, 8.0, 16.0], pivot=null, rotation=null, uv=[64, 23], inflate=0.0, mirror=false}, Cube{origin=[-8.0, 48.0, -24.0], size=[16.0, 8.0, 16.0], pivot=null, rotation=null, uv=[64, 23], inflate=0.0, mirror=false}, Cube{origin=[8.0, 48.0, -24.0], size=[16.0, 8.0, 16.0], pivot=null, rotation=null, uv=[64, 23], inflate=0.0, mirror=false}, Cube{origin=[8.0, 48.0, 8.0], size=[16.0, 8.0, 16.0], pivot=null, rotation=null, uv=[64, 23], inflate=0.0, mirror=false}, Cube{origin=[-8.0, 48.0, 8.0], size=[16.0, 8.0, 16.0], pivot=null, rotation=null, uv=[64, 23], inflate=0.0, mirror=false}, Cube{origin=[-24.0, 48.0, 8.0], size=[16.0, 8.0, 16.0], pivot=null, rotation=null, uv=[64, 23], inflate=0.0, mirror=false}, Cube{origin=[8.0, 48.0, -8.0], size=[16.0, 8.0, 16.0], pivot=null, rotation=null, uv=[64, 23], inflate=0.0, mirror=false}, Cube{origin=[-24.0, 48.0, -8.0], size=[16.0, 8.0, 16.0], pivot=null, rotation=null, uv=[64, 23], inflate=0.0, mirror=false}, Cube{origin=[-8.0, 32.0, -24.0], size=[16.0, 16.0, 16.0], pivot=null, rotation=null, uv=[0, 0], inflate=0.0, mirror=false}, Cube{origin=[-24.0, 16.0, 8.0], size=[16.0, 16.0, 16.0], pivot=null, rotation=null, uv=[0, 0], inflate=0.0, mirror=false}, Cube{origin=[8.0, 0.0, -8.0], size=[16.0, 16.0, 16.0], pivot=null, rotation=null, uv=[0, 0], inflate=0.0, mirror=false}, Cube{origin=[8.0, 0.0, -24.0], size=[16.0, 16.0, 16.0], pivot=null, rotation=null, uv=[0, 0], inflate=0.0, mirror=false}], locators=null}, Bone{name='door', parent='box', pivot=[-6.5, 8.25, -22.7], rotation=null, cubes=[Cube{origin=[-8.0, 0.0, -24.0], size=[16.0, 32.0, 3.0], pivot=null, rotation=null, uv=[0, 64], inflate=0.0, mirror=false}], locators=null}, Bone{name='lamp', parent='box', pivot=[0.0, 48.0, 0.0], rotation=null, cubes=[Cube{origin=[-8.0, 48.0, -8.0], size=[16.0, 16.0, 16.0], pivot=null, rotation=null, uv=[0, 32], inflate=0.0, mirror=false}, Cube{origin=[-8.0, 48.0, -8.0], size=[16.0, 16.0, 16.0], pivot=null, rotation=null, uv=[64, 50], inflate=0.0, mirror=false}, Cube{origin=[-6.0, 48.0, -6.0], size=[12.0, 2.9, 12.0], pivot=null, rotation=null, uv=[72, 83], inflate=0.0, mirror=false}, Cube{origin=[-5.0, 51.0, -5.0], size=[10.0, 11.0, 10.0], pivot=null, rotation=null, uv=[87, 107], inflate=0.0, mirror=false}], locators=null}, Bone{name='signs', parent='box', pivot=[16.0, 40.0, -25.0], rotation=null, cubes=[Cube{origin=[-24.0, 36.0, -26.0], size=[16.0, 8.0, 2.0], pivot=null, rotation=null, uv=[64, 0], inflate=0.0, mirror=false}, Cube{origin=[-8.0, 36.0, -26.0], size=[16.0, 8.0, 2.0], pivot=null, rotation=null, uv=[64, 0], inflate=0.0, mirror=false}, Cube{origin=[8.0, 36.0, -26.0], size=[16.0, 8.0, 2.0], pivot=null, rotation=null, uv=[64, 0], inflate=0.0, mirror=false}, Cube{origin=[7.9, 36.0, 24.0], size=[16.0, 8.0, 2.0], pivot=null, rotation=null, uv=[64, 0], inflate=0.0, mirror=false}, Cube{origin=[-8.1, 36.0, 24.0], size=[16.0, 8.0, 2.0], pivot=null, rotation=null, uv=[64, 0], inflate=0.0, mirror=false}, Cube{origin=[-24.1, 36.0, 24.0], size=[16.0, 8.0, 2.0], pivot=null, rotation=null, uv=[64, 0], inflate=0.0, mirror=false}, Cube{origin=[7.9, 36.0, 24.0], size=[16.0, 8.0, 2.0], pivot=[-0.05, 40.0, 0.0], rotation=[0.0, -90.0, 0.0], uv=[64, 0], inflate=0.0, mirror=false}, Cube{origin=[-8.1, 36.0, 24.0], size=[16.0, 8.0, 2.0], pivot=[-0.05, 40.0, 0.0], rotation=[0.0, -90.0, 0.0], uv=[64, 0], inflate=0.0, mirror=false}, Cube{origin=[-24.1, 36.0, 24.0], size=[16.0, 8.0, 2.0], pivot=[-0.05, 40.0, 0.0], rotation=[0.0, -90.0, 0.0], uv=[64, 0], inflate=0.0, mirror=false}, Cube{origin=[-8.0, 36.0, -26.0], size=[16.0, 8.0, 2.0], pivot=[-0.05, 40.0, 0.0], rotation=[0.0, -90.0, 0.0], uv=[64, 0], inflate=0.0, mirror=false}, Cube{origin=[-24.0, 36.0, -26.0], size=[16.0, 8.0, 2.0], pivot=[-0.05, 40.0, 0.0], rotation=[0.0, -90.0, 0.0], uv=[64, 0], inflate=0.0, mirror=false}, Cube{origin=[8.0, 36.0, -26.0], size=[16.0, 8.0, 2.0], pivot=[-0.05, 40.0, 0.0], rotation=[0.0, -90.0, 0.0], uv=[64, 0], inflate=0.0, mirror=false}], locators=null}, Bone{name='glass', parent='root', pivot=[0.0, 0.0, 0.0], rotation=null, cubes=[Cube{origin=[-24.0, 16.0, -8.0], size=[16.0, 16.0, 16.0], pivot=null, rotation=null, uv=[23, 92], inflate=0.0, mirror=false}, Cube{origin=[-24.0, 16.0, -24.0], size=[16.0, 16.0, 16.0], pivot=null, rotation=null, uv=[23, 92], inflate=0.0, mirror=false}, Cube{origin=[-24.0, 0.0, -24.0], size=[16.0, 16.0, 16.0], pivot=null, rotation=null, uv=[23, 92], inflate=0.0, mirror=false}, Cube{origin=[-24.0, 0.0, -8.0], size=[16.0, 16.0, 16.0], pivot=null, rotation=null, uv=[23, 92], inflate=0.0, mirror=false}, Cube{origin=[-24.0, 0.0, 8.0], size=[16.0, 16.0, 16.0], pivot=null, rotation=null, uv=[23, 92], inflate=0.0, mirror=false}, Cube{origin=[-8.0, 0.0, 8.0], size=[16.0, 16.0, 16.0], pivot=null, rotation=null, uv=[23, 92], inflate=0.0, mirror=false}, Cube{origin=[-8.0, 16.0, 8.0], size=[16.0, 16.0, 16.0], pivot=null, rotation=null, uv=[23, 92], inflate=0.0, mirror=false}, Cube{origin=[-8.0, 32.0, 8.0], size=[16.0, 16.0, 16.0], pivot=null, rotation=null, uv=[23, 92], inflate=0.0, mirror=false}, Cube{origin=[8.0, 16.0, 8.0], size=[16.0, 16.0, 16.0], pivot=null, rotation=null, uv=[23, 92], inflate=0.0, mirror=false}, Cube{origin=[8.0, 16.0, -8.0], size=[16.0, 16.0, 16.0], pivot=null, rotation=null, uv=[23, 92], inflate=0.0, mirror=false}, Cube{origin=[8.0, 16.0, -24.0], size=[16.0, 16.0, 16.0], pivot=null, rotation=null, uv=[23, 92], inflate=0.0, mirror=false}, Cube{origin=[8.0, 32.0, 8.0], size=[16.0, 16.0, 16.0], pivot=null, rotation=null, uv=[23, 92], inflate=0.0, mirror=false}, Cube{origin=[8.0, 32.0, -8.0], size=[16.0, 16.0, 16.0], pivot=null, rotation=null, uv=[23, 92], inflate=0.0, mirror=false}, Cube{origin=[8.0, 32.0, -24.0], size=[16.0, 16.0, 16.0], pivot=null, rotation=null, uv=[23, 92], inflate=0.0, mirror=false}, Cube{origin=[-24.0, 32.0, 8.0], size=[16.0, 16.0, 16.0], pivot=null, rotation=null, uv=[23, 92], inflate=0.0, mirror=false}, Cube{origin=[-24.0, 32.0, -8.0], size=[16.0, 16.0, 16.0], pivot=null, rotation=null, uv=[23, 92], inflate=0.0, mirror=false}, Cube{origin=[-24.0, 32.0, -24.0], size=[16.0, 16.0, 16.0], pivot=null, rotation=null, uv=[23, 92], inflate=0.0, mirror=false}, Cube{origin=[-8.0, 32.0, -24.0], size=[16.0, 16.0, 16.0], pivot=null, rotation=null, uv=[23, 92], inflate=0.0, mirror=false}, Cube{origin=[-24.0, 16.0, 8.0], size=[16.0, 16.0, 16.0], pivot=null, rotation=null, uv=[23, 92], inflate=0.0, mirror=false}, Cube{origin=[8.0, 0.0, -8.0], size=[16.0, 16.0, 16.0], pivot=null, rotation=null, uv=[23, 92], inflate=0.0, mirror=false}, Cube{origin=[8.0, 0.0, -24.0], size=[16.0, 16.0, 16.0], pivot=null, rotation=null, uv=[23, 92], inflate=0.0, mirror=false}, Cube{origin=[-8.0, 48.0, -8.0], size=[16.0, 16.0, 16.0], pivot=null, rotation=null, uv=[0, 32], inflate=0.0, mirror=false}, Cube{origin=[8.0, 0.0, 8.0], size=[16.0, 16.0, 16.0], pivot=null, rotation=null, uv=[23, 92], inflate=0.0, mirror=false}], locators=null}, Bone{name='door2', parent='glass', pivot=[-6.5, 8.25, -22.7], rotation=null, cubes=[Cube{origin=[-8.0, 0.0, -24.0], size=[16.0, 32.0, 3.0], pivot=null, rotation=null, uv=[0, 64], inflate=0.0, mirror=false}], locators=null}]}]}
+[15:43:37] [Render thread/INFO] (amblekit) Loaded bedrock model ait-extras:vanilla_door BedrockModel{version='1.12.0', geometry=[Geometry{description=Description{identifier='geometry.vanilla_door', textureWidth=128, textureHeight=128, visibleBoundsWidth=4.0, visibleBoundsHeight=4.5, visibleBoundsOffset=[0.0, 1.75, 0.0]}, bones=[Bone{name='bone', parent='null', pivot=[0.0, 0.0, 0.0], rotation=null, cubes=[Cube{origin=[8.0, 16.0, -8.0], size=[16.0, 16.0, 16.0], pivot=null, rotation=null, uv=[0, 0], inflate=0.0, mirror=false}, Cube{origin=[8.0, 0.0, -8.0], size=[16.0, 16.0, 16.0], pivot=null, rotation=null, uv=[0, 0], inflate=0.0, mirror=false}, Cube{origin=[-24.0, 0.0, -8.0], size=[16.0, 16.0, 16.0], pivot=null, rotation=null, uv=[0, 0], inflate=0.0, mirror=false}, Cube{origin=[-24.0, 16.0, -8.0], size=[16.0, 16.0, 16.0], pivot=null, rotation=null, uv=[0, 0], inflate=0.0, mirror=false}, Cube{origin=[-24.0, 32.0, -8.0], size=[16.0, 16.0, 16.0], pivot=null, rotation=null, uv=[0, 0], inflate=0.0, mirror=false}, Cube{origin=[-8.0, 32.0, -8.0], size=[16.0, 16.0, 16.0], pivot=null, rotation=null, uv=[0, 0], inflate=0.0, mirror=false}, Cube{origin=[8.0, 32.0, -8.0], size=[16.0, 16.0, 16.0], pivot=null, rotation=null, uv=[0, 0], inflate=0.0, mirror=false}, Cube{origin=[8.0, 36.0, -10.0], size=[16.0, 8.0, 2.0], pivot=null, rotation=null, uv=[64, 0], inflate=0.0, mirror=false}, Cube{origin=[-8.0, 36.0, -10.0], size=[16.0, 8.0, 2.0], pivot=null, rotation=null, uv=[64, 0], inflate=0.0, mirror=false}, Cube{origin=[-24.0, 36.0, -10.0], size=[16.0, 8.0, 2.0], pivot=null, rotation=null, uv=[64, 0], inflate=0.0, mirror=false}], locators=null}, Bone{name='door', parent='bone', pivot=[6.5, 8.25, 6.3], rotation=null, cubes=[Cube{origin=[-8.0, 0.0, 5.0], size=[16.0, 32.0, 3.0], pivot=null, rotation=null, uv=[0, 64], inflate=0.0, mirror=true}], locators=null}]}]}
+[15:43:37] [Render thread/INFO] (amblekit) Loaded 6 animations from 2 groups
+[15:43:43] [Render thread/INFO] (amblekit) Initializing SERVER side registries..
+[15:43:44] [Render thread/INFO] (FabricRegistrySync) [fabric-registry-sync] Loaded registry data [file 1/4]
+[15:43:44] [Worker-Main-11/ERROR] (Minecraft) Couldn't load tag ait:insertable_discs as it is missing following references: ait-extras:recall_disc (from fabric)
+[15:43:45] [Render thread/INFO] (Minecraft) Loaded 7 recipes
+[15:43:45] [Render thread/ERROR] (Minecraft) Parsing error loading custom advancement minecraft:ait/first_rift: Invalid criterion trigger: ait:first_rift
+[15:43:45] [Render thread/INFO] (Minecraft) Loaded 1570 advancements
+[15:43:45] [ForkJoinPool.commonPool-worker-1/INFO] (ServerTranslations) Loaded 1 translation keys
+[15:43:45] [Render thread/INFO] (amblekit) Loaded blockbench file ait:fx/animation/keyframes/bnt.animation.json
+[15:43:45] [Render thread/INFO] (amblekit) Loaded blockbench file ait:fx/animation/keyframes/classic.animation.json
+[15:43:45] [Render thread/INFO] (amblekit) Loaded blockbench file ait:fx/animation/keyframes/classic_eighth.animation.json
+[15:43:45] [Render thread/INFO] (amblekit) Loaded blockbench file ait-more:fx/animation/keyframes/crash.animation.json
+[15:43:45] [Render thread/INFO] (amblekit) Loaded blockbench file ait:fx/animation/keyframes/drill.animation.json
+[15:43:45] [Render thread/INFO] (amblekit) Loaded blockbench file ait-extras:fx/animation/keyframes/fast.animation.json
+[15:43:45] [Render thread/INFO] (amblekit) Loaded blockbench file ait:fx/animation/keyframes/ghost.animation.json
+[15:43:45] [Render thread/INFO] (amblekit) Loaded blockbench file ait:fx/animation/keyframes/pulsating.animation.json
+[15:43:45] [Render thread/INFO] (amblekit) Loaded blockbench file ait-extras:fx/animation/keyframes/regen.animation.json
+[15:43:45] [Render thread/INFO] (amblekit) Loaded blockbench file ait:fx/animation/keyframes/self_destruct.animation.json
+[15:43:45] [Render thread/INFO] (amblekit) Loaded blockbench file ait-extras:fx/animation/keyframes/type70.animation.json
+[15:43:45] [Render thread/INFO] (amblekit) Loaded blockbench file ait-extras:fx/animation/keyframes/xmas.animation.json
+[15:43:45] [Render thread/INFO] (amblekit) Loaded blockbench file ait:fx/animation/keyframes/zwip.animation.json
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:console ait-more:crystal_console_corrupted
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:console ait:exile
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:console ait:hartnell_mint_green_console
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:exterior ait-extras:bookshelf_birch
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:exterior ait-extras:bookshelf_cherry
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:exterior ait-extras:bookshelf_dark_oak
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:exterior ait-extras:bookshelf_jungle
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:exterior ait-extras:bookshelf_mangrove
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:exterior ait-extras:bookshelf_oak
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:exterior ait-extras:bookshelf_spruce
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:exterior ait-extras:tinylink
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:exterior ait:bt
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:exterior ait-extras:classic_cricketer
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:exterior ait-extras:classic_cricketer2
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:exterior ait-extras:classic_happiness
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:exterior ait-extras:classic_pilot
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:exterior ait-extras:classic_precedent
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:exterior ait-extras:classic_snowman
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:exterior ait-extras:classic_victorian
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:exterior ait-extras:classic_wanderlust
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:exterior ait-extras:tango
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:exterior ait-extras:clock
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:exterior ait-extras:clock_master
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:exterior frooploof:coral_bad_wolf
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:exterior frooploof:coral_war
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:exterior ait:falloutwho
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:exterior ait:geometric_blue
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:exterior ait:geometric_green
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:exterior ait:exterior/classic/hudolin
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:exterior ait-more:paradox
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:exterior ait-extras:60thmc
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:exterior ait-extras:aperture_science
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:exterior ait-extras:black_mesa
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:exterior ait-extras:copper
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:exterior ait-extras:eleven_toyota
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:exterior ait-extras:eleven_toyota_alternate
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:exterior ait-extras:coral_alternate
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:exterior ait-extras:tokamak
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:exterior ait-extras:tokamak_eotd
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:exterior ait-extras:toyota_alternate
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:exterior ait-extras:yard
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:exterior ait:rotestor
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:exterior ait:stallion_green
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:exterior ait:stallion_pristine
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:exterior frooploof:toyota_memorial
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:exterior ait-extras:vanilla
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:exterior ait-extras:vanilla_beacon
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:exterior ait-extras:vanilla_classic
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:exterior ait-extras:vanilla_classic_wooden
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:exterior ait-extras:vanilla_red
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:exterior ait-extras:vanilla_wooden
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:categories ait-extras:clock
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:categories ait-extras:vanilla
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:fx/flight ait:eight
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:fx/flight ait-extras:minecart
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:fx/flight ait:proton
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:fx/flight ait-extras:shield
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:fx/flight ait:stabilize
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:fx/flight ait:unstable
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:drink/effect ait:chocolate_milk
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:drink/effect ait:coffee
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:drink/effect ait:hot_cocoa
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:drink/effect ait:iced_coffee
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:drink/effect ait:latte
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:drink/effect ait:milk
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:drink/effect ait:tea
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:drink/effect ait:vodka
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:drink/effect ait:water
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:door ait-extras:clock
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:door ait-extras:vanilla
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:door ait-extras:vanilla
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:blueprint ait:artron_fluid_link
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:blueprint ait:artron_mercurial_link
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:blueprint ait:astral_map
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:blueprint ait:backup_circuit
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:blueprint ait:chameleon_circuit
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:blueprint ait:data_fluid_link
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:blueprint ait:data_mercurial_link
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:blueprint ait:dematerialization_circuit
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:blueprint ait:desperation_circuit
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:blueprint ait:engine_block
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:blueprint ait:food_machine
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:blueprint ait:gravitational_circuit
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:blueprint ait:life_support
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:blueprint ait:shields_circuit
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:blueprint ait:sonic_screwdriver
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:blueprint ait:stabilisers
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:blueprint ait:vortex_fluid_link
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:blueprint ait:vortex_mercurial_link
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:desktop ait:accursed
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:desktop ait:alnico
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:desktop ait-extras:axos
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:desktop ait:botanist
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:desktop ait:cave
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:desktop ait:celery
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:desktop ait-extras:cherryblossom
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:desktop ait:copper
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:desktop ait:coral
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:desktop ait:corpoyta
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:desktop ait:crystalline
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:desktop ait:deco
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:desktop ait-extras:definitive
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:desktop ait-extras:exile
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:desktop ait:fountain
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:desktop ait:golden
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:desktop ait:hourglass
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:desktop ait:hybern
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:desktop ait-extras:industrial
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:desktop ait:legacy
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:desktop ait:meridian
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:desktop ait:missy
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:desktop ait:modest
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:desktop ait:mortis
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:desktop ait:newbury
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:desktop ait:observatory
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:desktop ait:office
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:desktop ait-more:paradox
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:desktop ait:planetarium
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:desktop ait:pristine
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:desktop ait:progress
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:desktop ait-extras:rebel
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:desktop ait:regal
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:desktop ait:renaissance
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:desktop ait:renewed
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:desktop ait:shalka
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:desktop ait:timeless
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:desktop ait:toyota
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:desktop ait-extras:tron
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:desktop ait:type_40
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:desktop ait-extras:undercroft
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:desktop ait:victorian
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:desktop ait:vintage
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:desktop ait:war
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:desktop ait-extras:war_games
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:fx/vortex ait:80s
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:fx/vortex ait:accursed
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:fx/vortex ait:capaldi
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:fx/vortex ait:chronos
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:fx/vortex ait:classic
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:fx/vortex ait:classic_white
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:fx/vortex ait:copper
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:fx/vortex ait:crystal
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:fx/vortex ait:dalekmod
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:fx/vortex ait:darkness
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:fx/vortex ait:galactic
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:fx/vortex ait:house
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:fx/vortex ait:lego
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:fx/vortex ait:mccoy
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:fx/vortex ait:movie
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:fx/vortex ait:outergalaxy
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:fx/vortex ait:outerspace
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:fx/vortex ait:peanut
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:fx/vortex ait:pixelator
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:fx/vortex ait:renaissance
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:fx/vortex ait:rulebreaker
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:fx/vortex ait:space
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:fx/vortex ait:stargate
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:fx/vortex ait:starlight
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:fx/vortex ait:synthwave
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:fx/vortex ait:tennantblue
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:fx/vortex ait:tennantred
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:fx/vortex ait:timehole
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:fx/vortex ait:tuat
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:fx/vortex ait:war
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:fx/animation/type ait:bnt_demat
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:fx/animation/type ait:bnt_mat
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:fx/animation/type ait:classic_demat
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:fx/animation/type ait-extras:classic_demat
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:fx/animation/type ait:classic_mat
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:fx/animation/type ait-extras:classic_mat
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:fx/animation/type ait-more:crash_demat
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:fx/animation/type ait-more:crash_mat
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:fx/animation/type ait:crumple
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:fx/animation/type ait:drill_demat
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:fx/animation/type ait:drill_mat
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:fx/animation/type ait-extras:drumless_demat
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:fx/animation/type ait:eighth_demat
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:fx/animation/type ait:eighth_mat
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:fx/animation/type ait-extras:fast_demat
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:fx/animation/type ait-extras:fast_mat
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:fx/animation/type ait:ghost_mat
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:fx/animation/type ait-extras:minecart_demat
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:fx/animation/type ait-extras:minecart_mat
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:fx/animation/type ait:proton_demat
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:fx/animation/type ait:proton_mat
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:fx/animation/type ait:pulsating_demat
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:fx/animation/type ait:pulsating_mat
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:fx/animation/type ait-extras:regen_demat
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:fx/animation/type ait:self_destruct
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:fx/animation/type ait-extras:type70_demat
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:fx/animation/type ait-extras:type70_mat
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:fx/animation/type ait-extras:xmas_demat
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:fx/animation/type ait:zwip_demat
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:fx/animation/type ait:zwip_mat
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:planet minecraft:overworld
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:planet ait:jupiter
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:planet ait:mars
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:planet ait:mercury
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:planet ait:mondas
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:planet ait:moon
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:planet ait:neptune
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:planet ait:saturn
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:planet ait:space
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:planet ait:time_vortex
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:planet ait:uranus
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:planet ait:venus
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:hum ait:beacon
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:hum ait:copper
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:hum ait:eight
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:hum ait:exile
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:hum ait:prime
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:hum ait:renaissance
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:hum ait-extras:shield
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:hum ait:toyota
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:opinion/item ait:likes_amethyst_shard
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:opinion/item ait:likes_book
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:opinion/item ait:likes_chorus_fruit
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:opinion/item ait:likes_clock
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:opinion/item ait:likes_comparator
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:opinion/item ait:likes_compass
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:opinion/item ait:likes_echo_shard
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:opinion/item ait:likes_elytra
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:opinion/item ait:likes_end_crystal
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:opinion/item ait:ender_eye
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:opinion/item ait:likes_ender_pearl
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:opinion/item ait:likes_golden_carrot
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:opinion/item ait:map
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:opinion/item ait:recovery_compass
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:opinion/item ait:likes_redstone_block
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:opinion/item ait:likes_repeater
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:machine_recipe ait:demat_circuit
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:sonic ait-extras:baker
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:sonic ait-extras:cane
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:sonic ait:charon
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:sonic ait:copper
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:sonic ait:coral
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:sonic ait:crystalline
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:sonic ait:fob
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:sonic ait-extras:fob_pink
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:sonic ait-extras:fob_red
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:sonic ait-extras:fob_yellow
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:sonic ait-extras:mcgann
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:sonic ait:mechanical
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:sonic ait-extras:pertwee
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:sonic ait:portal_gun
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:sonic ait:prime
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:sonic ait:renaissance
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:sonic ait-extras:retro
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:sonic ait:singularity
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:sonic ait:song
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:sonic ait-extras:troughton
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:sonic ait:type_100
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:control_sounds ait:console/copper/ait/alarms
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:control_sounds ait:console/copper/ait/protocol_813
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:control_sounds ait:console/copper/ait/telepathic_circuit
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:control_sounds ait:console/coral/ait/dimension
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:control_sounds ait:console/coral/ait/increment
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:control_sounds ait:console/coral/ait/land_type
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:control_sounds ait:console/coral/ait/monitor
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:control_sounds ait:console/coral/ait/shields
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:control_sounds ait:console/coral/ait/telepathic_circuit
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:control_sounds ait:console/coral/ait/throttle
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:control_sounds ait:console/coral/ait/x
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:control_sounds ait:console/coral/ait/y
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:control_sounds ait:console/coral/ait/z
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:control_sounds ait:console/renaissance/ait/antigravs
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:control_sounds ait:console/renaissance/ait/dimension
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:control_sounds ait:console/renaissance/ait/door_control
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:control_sounds ait:console/renaissance/ait/door_lock
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:control_sounds ait:console/renaissance/ait/handbrake
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:control_sounds ait:console/renaissance/ait/land_type
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:control_sounds ait:console/renaissance/ait/power
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:control_sounds ait:console/renaissance/ait/shields
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:control_sounds ait:console/renaissance/ait/protocol_1913
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:fx/travel ait:eight_demat
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:fx/travel ait:eight_mat
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:fx/travel ait:master_demat
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:fx/travel ait:master_mat
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:fx/travel ait:proton_demat
+[15:43:45] [Render thread/INFO] (amblekit) Loaded datapack ait:fx/travel ait:proton_mat
+[15:43:46] [Render thread/INFO] (BiomeModificationImpl) Applied 228 biome modifications to 69 of 69 new biomes in 12.60 ms
+[15:43:46] [Server thread/INFO] (Minecraft) Starting integrated minecraft server version 1.20.1
+[15:43:46] [Server thread/INFO] (Minecraft) Generating keypair
+[15:43:47] [Server thread/INFO] (Minecraft) Preparing start region for dimension minecraft:overworld
+[15:43:50] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[15:43:50] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[15:43:50] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[15:43:50] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[15:43:50] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[15:43:50] [Render thread/INFO] (Minecraft) Preparing spawn area: 6%
+[15:43:50] [Render thread/INFO] (Minecraft) Preparing spawn area: 75%
+[15:43:51] [Render thread/INFO] (Minecraft) Time elapsed: 3101 ms
+[15:43:51] [Server thread/WARN] (ait-more) [ait-more] Could not find a '/vanish' command to alias - skipping..
+[15:43:51] [Server thread/INFO] (Minecraft) Changing view distance to 12, from 10
+[15:43:51] [Server thread/INFO] (Minecraft) Changing simulation distance to 12, from 0
+[15:43:51] [Server thread/INFO] (ait) Deserialized 3e7d7729-bd19-4fd6-b24b-ef1ebbc9b30d in 50ms
+[15:43:52] [Server thread/INFO] (Minecraft) Player577[local:E:72acddea] logged in with entity id 247 at (-10.16271084963473, 66.0, 32.71223393244072)
+[15:43:52] [Server thread/WARN] (ait) Failed to load 26056939-b9dc-466b-9d4b-d412c9255051!
+[15:43:52] [Server thread/WARN] (ait) C:\Users\dalek\Desktop\ait-more\run\saves\New World3\.\.ait\26056939-b9dc-466b-9d4b-d412c9255051.json
+[15:43:52] [Netty Local Client IO #0/INFO] (ait) Received 3 blockbench animation files
+[15:43:52] [Netty Local Client IO #0/INFO] (ait) Read 35 client console variants from server
+[15:43:52] [Netty Local Client IO #0/INFO] (ait) Read 35 console variants from server
+[15:43:52] [Netty Local Client IO #0/INFO] (amblekit) Read 18 ait:categories from server
+[15:43:52] [Netty Local Client IO #0/INFO] (amblekit) Read 7 ait:fx/flight from server
+[15:43:52] [Netty Local Client IO #0/INFO] (amblekit) Read 10 ait:drink/effect from server
+[15:43:52] [Netty Local Client IO #0/INFO] (amblekit) Read 18 ait:blueprint from server
+[15:43:52] [Netty Local Client IO #0/INFO] (amblekit) Read 47 ait:desktop from server
+[15:43:52] [Netty Local Client IO #0/INFO] (amblekit) Read 31 ait:fx/vortex from server
+[15:43:52] [Netty Local Client IO #0/INFO] (amblekit) Read 30 ait:fx/animation/type from server
+[15:43:52] [Netty Local Client IO #0/INFO] (amblekit) Read 14 ait:planet from server
+[15:43:52] [Netty Local Client IO #0/INFO] (amblekit) Read 11 ait:hum from server
+[15:43:52] [Netty Local Client IO #0/INFO] (amblekit) Read 17 ait:opinion/item from server
+[15:43:52] [Netty Local Client IO #0/INFO] (amblekit) Read 22 ait:sonic from server
+[15:43:52] [Netty Local Client IO #0/INFO] (amblekit) Read 22 ait:control_sounds from server
+[15:43:52] [Netty Local Client IO #0/INFO] (amblekit) Read 1 ait:locked_dimension from server
+[15:43:52] [Netty Local Client IO #0/INFO] (amblekit) Read 12 ait:fx/travel from server
+[15:43:52] [Server thread/INFO] (Minecraft) Player577 joined the game
+[15:43:53] [Server thread/INFO] (Minecraft) Player577 has reached the goal [Would you like a Jelly Baby?]
+[15:43:53] [Render thread/INFO] (Minecraft) [System] [CHAT] Player577 has reached the goal [Would you like a Jelly Baby?]
+[15:43:53] [Render thread/INFO] (Minecraft) Loaded 10 advancements
+[15:43:56] [Server thread/INFO] (mc-multidim) Loading world ait-tardis:3e7d7729-bd19-4fd6-b24b-ef1ebbc9b30d
+[15:44:57] [Server thread/WARN] (Minecraft) Rejecting UseItemOnPacket from Player577: Location (-11.765578145651517, 68.0, 31.34775830660405) too far away from hit block Mutable{x=-12, y=66, z=31}.
+[15:44:58] [Server thread/INFO] (Minecraft) Player577 has completed the challenge [How Does It Fit?]
+[15:44:58] [Render thread/INFO] (Minecraft) [System] [CHAT] Player577 has completed the challenge [How Does It Fit?]
+[15:44:59] [Render thread/INFO] (Minecraft) Loaded 11 advancements
+[15:44:59] [Server thread/INFO] (Minecraft) Saving and pausing game...
+[15:44:59] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World3]'/minecraft:overworld
+[15:44:59] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World3]'/ait:tardis_dimension_type
+[15:44:59] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World3]'/ait:moon
+[15:44:59] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World3]'/minecraft:the_nether
+[15:44:59] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World3]'/ait:space
+[15:44:59] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World3]'/minecraft:the_end
+[15:44:59] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World3]'/ait:mars
+[15:44:59] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World3]'/ait:time_vortex
+[15:44:59] [Server thread/INFO] (Minecraft) Saving chunks for level 'TardisServerLevel[New World3]'/ait-tardis:3e7d7729-bd19-4fd6-b24b-ef1ebbc9b30d
+[15:45:08] [Server thread/INFO] (Minecraft) Player577 has completed the challenge [Maiden Voyage]
+[15:45:08] [Render thread/INFO] (Minecraft) [System] [CHAT] Player577 has completed the challenge [Maiden Voyage]
+[15:45:08] [Render thread/INFO] (Minecraft) Loaded 12 advancements
+[15:45:17] [Server thread/INFO] (Minecraft) Saving and pausing game...
+[15:45:17] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World3]'/minecraft:overworld
+[15:45:17] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World3]'/ait:tardis_dimension_type
+[15:45:17] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World3]'/ait:moon
+[15:45:17] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World3]'/minecraft:the_nether
+[15:45:17] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World3]'/ait:space
+[15:45:17] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World3]'/minecraft:the_end
+[15:45:17] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World3]'/ait:mars
+[15:45:17] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World3]'/ait:time_vortex
+[15:45:17] [Server thread/INFO] (Minecraft) Saving chunks for level 'TardisServerLevel[New World3]'/ait-tardis:3e7d7729-bd19-4fd6-b24b-ef1ebbc9b30d
+[15:45:17] [Server thread/INFO] (Minecraft) Player577 lost connection: Disconnected
+[15:45:17] [Server thread/INFO] (Minecraft) Player577 left the game
+[15:45:17] [Server thread/INFO] (Minecraft) Stopping singleplayer server as player logged out
+[15:45:17] [Server thread/INFO] (Minecraft) Stopping server
+[15:45:17] [Server thread/INFO] (Minecraft) Saving players
+[15:45:17] [Server thread/INFO] (Minecraft) Saving worlds
+[15:45:17] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World3]'/minecraft:overworld
+[15:45:18] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World3]'/ait:tardis_dimension_type
+[15:45:18] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World3]'/ait:moon
+[15:45:18] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World3]'/minecraft:the_nether
+[15:45:18] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World3]'/ait:space
+[15:45:18] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World3]'/minecraft:the_end
+[15:45:18] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World3]'/ait:mars
+[15:45:18] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World3]'/ait:time_vortex
+[15:45:18] [Server thread/INFO] (Minecraft) Saving chunks for level 'TardisServerLevel[New World3]'/ait-tardis:3e7d7729-bd19-4fd6-b24b-ef1ebbc9b30d
+[15:45:18] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (New World3): All chunks are saved
+[15:45:18] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (tardis_dimension_type): All chunks are saved
+[15:45:18] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (moon): All chunks are saved
+[15:45:18] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[15:45:18] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (space): All chunks are saved
+[15:45:18] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[15:45:18] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (mars): All chunks are saved
+[15:45:18] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (time_vortex): All chunks are saved
+[15:45:18] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (3e7d7729-bd19-4fd6-b24b-ef1ebbc9b30d): All chunks are saved
+[15:45:18] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage: All dimensions are saved

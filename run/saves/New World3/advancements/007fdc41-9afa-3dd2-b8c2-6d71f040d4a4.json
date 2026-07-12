@@ -1,0 +1,27 @@
+{
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2026-07-11 18:02:25 +0100"
+    },
+    "done": true
+  },
+  "minecraft:ait-extras/root": {
+    "criteria": {
+      "root": "2026-07-11 18:02:25 +0100"
+    },
+    "done": true
+  },
+  "minecraft:ait/root": {
+    "criteria": {
+      "root": "2026-07-11 18:02:25 +0100"
+    },
+    "done": true
+  },
+  "minecraft:ait-extras/obtain_jelly_babies": {
+    "criteria": {
+      "obtain_jelly_babies": "2026-07-11 18:02:25 +0100"
+    },
+    "done": true
+  },
+  "DataVersion": 3465
+}

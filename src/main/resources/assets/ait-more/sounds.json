@@ -9,5 +9,17 @@
 			"ait-more:jellybaby5",
 			"ait-more:jellybaby6"
 		]
+	},
+	"tardis/crash_demat": {
+		"category": "block",
+		"sounds": [
+			"ait-more:tardis/crash_demat"
+		]
+	},
+	"tardis/crash_mat": {
+		"category": "block",
+		"sounds": [
+			"ait-more:tardis/crash_mat"
+		]
 	}
 }

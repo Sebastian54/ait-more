@@ -4,7 +4,73 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="80752c01-93e5-4a74-b602-89ea35e5a0af" name="Changes" comment="" />
+    <list default="true" id="80752c01-93e5-4a74-b602-89ea35e5a0af" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/ait-more/fx/animation/type/crash_mat.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/ait-more.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/ait-more.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/ait-more.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/ait-more.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Server.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Server.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/config/fabric/indigo-renderer.properties" beforeDir="false" afterPath="$PROJECT_DIR$/run/config/fabric/indigo-renderer.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2026-07-11-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2026-07-11-1.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2026-07-11-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2026-07-11-2.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2026-07-11-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2026-07-11-3.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2026-07-11-4.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2026-07-11-4.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2026-07-11-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2026-07-11-5.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2026-07-11-6.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2026-07-11-6.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2026-07-11-7.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/debug-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-1.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/debug-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-2.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/debug-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-3.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/debug-4.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-4.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/debug-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-5.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/latest.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/latest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/options.txt" beforeDir="false" afterPath="$PROJECT_DIR$/run/options.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World3/.ait/26056939-b9dc-466b-9d4b-d412c9255051.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World3/DIM-1/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World3/DIM-1/data/raids.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World3/DIM1/data/raids_end.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World3/DIM1/data/raids_end.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World3/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World3/data/raids.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World3/data/random_sequences.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World3/data/random_sequences.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World3/dimensions/ait-tardis/26056939-b9dc-466b-9d4b-d412c9255051/data/raids.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World3/dimensions/ait-tardis/26056939-b9dc-466b-9d4b-d412c9255051/entities/r.-1.-1.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World3/dimensions/ait-tardis/26056939-b9dc-466b-9d4b-d412c9255051/entities/r.-1.0.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World3/dimensions/ait-tardis/26056939-b9dc-466b-9d4b-d412c9255051/entities/r.0.-1.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World3/dimensions/ait-tardis/26056939-b9dc-466b-9d4b-d412c9255051/entities/r.0.0.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World3/dimensions/ait-tardis/26056939-b9dc-466b-9d4b-d412c9255051/poi/r.-1.-1.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World3/dimensions/ait-tardis/26056939-b9dc-466b-9d4b-d412c9255051/poi/r.-1.0.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World3/dimensions/ait-tardis/26056939-b9dc-466b-9d4b-d412c9255051/poi/r.-1.1.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World3/dimensions/ait-tardis/26056939-b9dc-466b-9d4b-d412c9255051/poi/r.0.-1.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World3/dimensions/ait-tardis/26056939-b9dc-466b-9d4b-d412c9255051/poi/r.0.0.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World3/dimensions/ait-tardis/26056939-b9dc-466b-9d4b-d412c9255051/region/r.-1.-1.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World3/dimensions/ait-tardis/26056939-b9dc-466b-9d4b-d412c9255051/region/r.-1.0.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World3/dimensions/ait-tardis/26056939-b9dc-466b-9d4b-d412c9255051/region/r.-1.1.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World3/dimensions/ait-tardis/26056939-b9dc-466b-9d4b-d412c9255051/region/r.0.-1.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World3/dimensions/ait-tardis/26056939-b9dc-466b-9d4b-d412c9255051/region/r.0.0.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World3/dimensions/ait-tardis/26056939-b9dc-466b-9d4b-d412c9255051/region/r.0.1.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World3/dimensions/ait/mars/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World3/dimensions/ait/mars/data/raids.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World3/dimensions/ait/moon/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World3/dimensions/ait/moon/data/raids.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World3/dimensions/ait/space/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World3/dimensions/ait/space/data/raids.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World3/dimensions/ait/tardis_dimension_type/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World3/dimensions/ait/tardis_dimension_type/data/raids.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World3/dimensions/ait/time_vortex/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World3/dimensions/ait/time_vortex/data/raids.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World3/entities/r.-1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World3/entities/r.-1.-1.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World3/entities/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World3/entities/r.-1.0.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World3/entities/r.0.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World3/entities/r.0.-1.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World3/entities/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World3/entities/r.0.0.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World3/level.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World3/level.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World3/level.dat_old" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World3/level.dat_old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World3/poi/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World3/poi/r.0.0.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World3/region/r.-1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World3/region/r.-1.-1.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World3/region/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World3/region/r.-1.0.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World3/region/r.0.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World3/region/r.0.-1.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World3/region/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World3/region/r.0.0.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/usercache.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/usercache.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/ait-more/blockentities/consoles/crystal_console_corrupted_emissive.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/ait-more/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/ait-more/lang/en_us.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/ait-more/sounds.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/ait-more/sounds.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/ait-more/console/crystal_console_corrupted.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/ait-more/console/crystal_console_corrupted.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,10 +101,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="3GMgsiqzpYb5oBLWRUnw1VgcsD5" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -46,10 +112,12 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Gradle.ait-more [:net.fabricmc.devlaunchinjector.Main.main()].executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/dalek/Desktop/ait-more",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -58,6 +126,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\dalek\Desktop\ait-more\src\main\resources\data\ait-more\fx\animation\type" />
+    </key>
+  </component>
   <component name="RunManager" selected="Application.Minecraft Client" />
   <component name="SharedIndexes">
     <attachedChunks>
@@ -75,7 +148,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1783787061149</updated>
-      <workItem from="1783787062993" duration="951000" />
+      <workItem from="1783787062993" duration="5541000" />
+      <workItem from="1783856140234" duration="3239000" />
+      <workItem from="1783865205600" duration="2819000" />
     </task>
     <servers />
   </component>
