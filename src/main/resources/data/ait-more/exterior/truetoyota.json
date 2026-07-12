@@ -1,0 +1,7 @@
+{
+	"id": "ait-more:truetoyota",
+	"category": "ait:exterior/police_box",
+	"parent": "ait:exterior/police_box/default",
+	"texture": "ait-more:textures/blockentities/exteriors/police_box/truetoyota.png",
+	"emission": "ait-more:textures/blockentities/exteriors/police_box/truetoyota_emission.png"
+}

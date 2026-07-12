@@ -1,0 +1,63 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"tdw_demat": {
+			"animation_length": 22.1667,
+			"bones": {
+				"tardis": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"18.4583": [0, 2845, 0]
+					},
+					"position": {
+						"0.0": [0, 0, 0],
+						"18.4583": [0, 3715, 0]
+					},
+					"scale": {
+						"0.0": [1, 1, 1],
+						"16.4583": [1, 1, 1],
+						"18.4583": [0, 0, 0]
+					}
+				}
+			},
+			"sound_effects": {},
+			"particle_effects": {
+				"0.0": {
+					"effect": "minecraft:explosion_emitter"
+				}
+			},
+			"timeline": {
+				"0.0": "1;",
+				"16.4583": "1;",
+				"18.4583": "0;"
+			}
+		},
+		"tdw_mat": {
+			"animation_length": 6.0417,
+			"bones": {
+				"tardis": {
+					"rotation": {
+						"0.0": [0, 177.5, 0],
+						"0.5833": [0, 177.5, 0],
+						"0.875": [0, 0, 0]
+					},
+					"position": [0, 0, 0],
+					"scale": {
+						"0.0": [0, 0, 0],
+						"0.625": [0, 0, 0],
+						"0.875": [1, 1, 1]
+					}
+				}
+			},
+			"particle_effects": {
+				"6.0417": {
+					"effect": "minecraft:flash"
+				}
+			},
+			"timeline": {
+				"0.0": "1;",
+				"6.0417": "1;"
+			}
+		}
+	}
+}

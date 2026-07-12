@@ -1,8 +1,14 @@
 {
 	"exterior.ait-more.paradox": "PARADOX",
+	"exterior.ait-more.truetoyota": "TRUE TOYOTA",
+
 	"desktop.ait-more.paradox": "PARADOX",
+
 	"console.ait-more.crystal_console_corrupted": "PARADOX",
 
 	"animation.ait-more.crash_demat": "CRASH",
-	"animation.ait-more.crash_mat": "CRASH"
+	"animation.ait-more.crash_mat": "CRASH",
+	"animation.ait-more.tdw_demat": "TDW",
+	"animation.ait-more.tdw_mat": "TDW",
+	"animation.ait-more.notd_mat": "NOTD"
 }
