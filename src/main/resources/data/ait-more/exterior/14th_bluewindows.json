@@ -1,0 +1,7 @@
+{
+	"id": "ait-more:14th_bluewindows",
+	"category": "ait:exterior/police_box",
+	"parent": "ait:exterior/police_box/renaissance",
+	"texture": "ait-more:textures/blockentities/exteriors/police_box/14th_bluewindows.png",
+	"emission": "ait-more:textures/blockentities/exteriors/police_box/14th_bluewindows_emission.png"
+}

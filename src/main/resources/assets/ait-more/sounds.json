@@ -39,5 +39,11 @@
     "sounds": [
       "ait-more:tardis/notd_mat"
     ]
+  },
+  "tardis/flatline_mat": {
+    "category": "block",
+    "sounds": [
+      "ait-more:tardis/flatline_mat"
+    ]
   }
 }

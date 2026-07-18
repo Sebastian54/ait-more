@@ -1,7 +1,7 @@
 {
 	"id": "ait-more:paradox",
 	"category": "ait:exterior/police_box",
-	"parent": "ait:exterior/police_box/default",
+	"parent": "ait:exterior/police_box/renaissance",
 	"texture": "ait-more:textures/blockentities/exteriors/police_box/paradox.png",
 	"emission": "ait-more:textures/blockentities/exteriors/police_box/paradox_emission.png"
 }

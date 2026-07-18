@@ -16,10 +16,6 @@ repositories {
 	// data pack + resource pack files that AIT reads at runtime. So no extra repos needed.
 }
 
-loom {
-	// No client/server split needed - there is no Java code in this mod.
-}
-
 dependencies {
 	// To change the versions see the gradle.properties file
 	minecraft "com.mojang:minecraft:${project.minecraft_version}"
@@ -27,11 +23,6 @@ dependencies {
 	modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
 
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
-
-	// Fabric API is not strictly required for a pure resource/datapack mod, but AIT itself
-	// depends on it, so it will already be present at runtime. Not included here to keep
-	// the build light - add it back with modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
-	// if you ever add real Java code that touches Fabric API.
 
 	// Local copies of AIT and AIT-Extras so they're present in the dev/test run.
 	// modImplementation makes Loom remap them to match your dev mappings and puts

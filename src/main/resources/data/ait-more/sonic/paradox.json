@@ -1,0 +1,13 @@
+{
+  "id": "ait-more:paradox",
+  "models": {
+    "inactive": "ait-more:item/sonic/paradox/inactive",
+    "interaction": "ait-more:item/sonic/paradox/interaction",
+    "overload": "ait-more:item/sonic/paradox/overload",
+    "scanning": "ait-more:item/sonic/paradox/scanning",
+    "tardis": "ait-more:item/sonic/paradox/tardis"
+  },
+  "loyalty": {
+    "type": "NEUTRAL"
+  }
+}

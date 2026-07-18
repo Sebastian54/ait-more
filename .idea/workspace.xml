@@ -5,18 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="80752c01-93e5-4a74-b602-89ea35e5a0af" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/ait-more/exterior/truetoyota.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/ait-more/fx/animation/type/notd_mat.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/ait-more/fx/animation/type/tdw_demat.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/ait-more/fx/animation/type/tdw_mat.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/ait-more/exterior/14th_bluewindows.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/ait-more/exterior/alectra.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/ait-more/exterior/coral_nolight.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/ait-more/fx/animation/type/flatline_mat.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/ait-more/sonic/paradox.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Client.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Client.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Server.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Server.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aitmore.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/config/fabric/indigo-renderer.properties" beforeDir="false" afterPath="$PROJECT_DIR$/run/config/fabric/indigo-renderer.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2026-07-12-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2026-07-12-1.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2026-07-12-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2026-07-12-2.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2026-07-12-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2026-07-12-3.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2026-07-12-4.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2026-07-12-4.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2026-07-12-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2026-07-12-5.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-1.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-2.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-3.log.gz" afterDir="false" />
@@ -25,28 +26,10 @@
       <change beforePath="$PROJECT_DIR$/run/logs/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/latest.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/latest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/options.txt" beforeDir="false" afterPath="$PROJECT_DIR$/run/options.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World3/.ait/3e7d7729-bd19-4fd6-b24b-ef1ebbc9b30d.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/New World3/DIM-1/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World3/DIM-1/data/raids.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/New World3/DIM1/data/raids_end.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World3/DIM1/data/raids_end.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/New World3/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World3/data/raids.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/New World3/data/random_sequences.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World3/data/random_sequences.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World3/dimensions/ait-tardis/3e7d7729-bd19-4fd6-b24b-ef1ebbc9b30d/data/raids.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World3/dimensions/ait-tardis/3e7d7729-bd19-4fd6-b24b-ef1ebbc9b30d/entities/r.-1.-1.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World3/dimensions/ait-tardis/3e7d7729-bd19-4fd6-b24b-ef1ebbc9b30d/entities/r.-1.0.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World3/dimensions/ait-tardis/3e7d7729-bd19-4fd6-b24b-ef1ebbc9b30d/entities/r.0.-1.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World3/dimensions/ait-tardis/3e7d7729-bd19-4fd6-b24b-ef1ebbc9b30d/entities/r.0.0.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World3/dimensions/ait-tardis/3e7d7729-bd19-4fd6-b24b-ef1ebbc9b30d/poi/r.-1.-1.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World3/dimensions/ait-tardis/3e7d7729-bd19-4fd6-b24b-ef1ebbc9b30d/poi/r.-1.0.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World3/dimensions/ait-tardis/3e7d7729-bd19-4fd6-b24b-ef1ebbc9b30d/poi/r.-1.1.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World3/dimensions/ait-tardis/3e7d7729-bd19-4fd6-b24b-ef1ebbc9b30d/poi/r.0.-1.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World3/dimensions/ait-tardis/3e7d7729-bd19-4fd6-b24b-ef1ebbc9b30d/poi/r.0.0.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World3/dimensions/ait-tardis/3e7d7729-bd19-4fd6-b24b-ef1ebbc9b30d/poi/r.0.1.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World3/dimensions/ait-tardis/3e7d7729-bd19-4fd6-b24b-ef1ebbc9b30d/region/r.-1.-1.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World3/dimensions/ait-tardis/3e7d7729-bd19-4fd6-b24b-ef1ebbc9b30d/region/r.-1.0.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World3/dimensions/ait-tardis/3e7d7729-bd19-4fd6-b24b-ef1ebbc9b30d/region/r.-1.1.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World3/dimensions/ait-tardis/3e7d7729-bd19-4fd6-b24b-ef1ebbc9b30d/region/r.0.-1.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World3/dimensions/ait-tardis/3e7d7729-bd19-4fd6-b24b-ef1ebbc9b30d/region/r.0.0.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World3/dimensions/ait-tardis/3e7d7729-bd19-4fd6-b24b-ef1ebbc9b30d/region/r.0.1.mca" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/New World3/dimensions/ait/mars/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World3/dimensions/ait/mars/data/raids.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/New World3/dimensions/ait/moon/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World3/dimensions/ait/moon/data/raids.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/New World3/dimensions/ait/space/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World3/dimensions/ait/space/data/raids.dat" afterDir="false" />
@@ -63,10 +46,16 @@
       <change beforePath="$PROJECT_DIR$/run/saves/New World3/region/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World3/region/r.-1.0.mca" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/New World3/region/r.0.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World3/region/r.0.-1.mca" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/New World3/region/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World3/region/r.0.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World3/session.lock" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World3/session.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/usercache.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/usercache.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/assets/ait-more/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/ait-more/lang/en_us.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/assets/ait-more/sounds.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/ait-more/sounds.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/ait-more/textures/blockentities/exteriors/police_box/alectra.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/ait-more/textures/blockentities/exteriors/police_box/alectra.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/ait-more/textures/blockentities/exteriors/police_box/alectra_emission.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/ait-more/textures/blockentities/exteriors/police_box/alectra_emission.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/ait-more/textures/blockentities/exteriors/police_box/paradox.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/ait-more/textures/blockentities/exteriors/police_box/paradox.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/ait-more/textures/blockentities/exteriors/police_box/paradox_emission.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/ait-more/textures/blockentities/exteriors/police_box/paradox_emission.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/ait-more/textures/blockentities/exteriors/police_box/truetoyota.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/ait-more/textures/blockentities/exteriors/police_box/truetoyota.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/ait-more/textures/blockentities/exteriors/police_box/truetoyota_emission.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/ait-more/textures/blockentities/exteriors/police_box/truetoyota_emission.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/ait-more/exterior/paradox.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/ait-more/exterior/paradox.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,6 +87,77 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Sebastian54&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Sebastian54/ait-more.git&quot;,
+    &quot;accountId&quot;: &quot;6b8a5d15-c272-4f26-a1a2-d4a1ab9bd3ca&quot;
+  }
+}</component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0000000000122367" />
+      <entry key="MS500" value="1.0065695032441697" />
+      <entry key="S2" value="1.284697158689173" />
+      <entry key="S5" value="1.6049970446099904" />
+      <entry key="S10" value="1.7778167171848378" />
+      <entry key="S30" value="1.9460598886358884" />
+      <entry key="S60" value="2.2905848138666887" />
+      <entry key="M2" value="3.331273280793284" />
+      <entry key="M5" value="7.124185536692252" />
+      <entry key="M10" value="13.441279205898619" />
+      <entry key="M15" value="18.80477455239202" />
+      <entry key="M30" value="29.90986542537603" />
+      <entry key="H1" value="40.771631467898416" />
+      <entry key="H2" value="48.9219841213173" />
+      <entry key="H4" value="54.02117286046443" />
+      <entry key="D1" value="58.934761360989675" />
+      <entry key="W1" value="59.84602740394062" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="0.0" />
+      <entry key="S5" value="0.0" />
+      <entry key="S10" value="0.0" />
+      <entry key="S30" value="0.0" />
+      <entry key="S60" value="0.0" />
+      <entry key="M2" value="0.0" />
+      <entry key="M5" value="0.0" />
+      <entry key="M10" value="0.0" />
+      <entry key="M15" value="0.0" />
+      <entry key="M30" value="0.0" />
+      <entry key="H1" value="0.0" />
+      <entry key="H2" value="0.0" />
+      <entry key="H4" value="0.0" />
+      <entry key="D1" value="0.0" />
+      <entry key="W1" value="0.0" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.9395227492255084" />
+      <entry key="MS500" value="0.9940889085085827" />
+      <entry key="S2" value="1.2806962227568919" />
+      <entry key="S5" value="1.6029957947968874" />
+      <entry key="S10" value="1.7767079900700948" />
+      <entry key="S30" value="1.9455549186199836" />
+      <entry key="S60" value="2.2897301325233985" />
+      <entry key="M2" value="3.3300199164050217" />
+      <entry key="M5" value="7.1231110884369695" />
+      <entry key="M10" value="13.440489643360118" />
+      <entry key="M15" value="18.804112917391805" />
+      <entry key="M30" value="29.90937660555234" />
+      <entry key="H1" value="40.77129819272804" />
+      <entry key="H2" value="48.921781188751815" />
+      <entry key="H4" value="54.02105951889277" />
+      <entry key="D1" value="58.93474050898082" />
+      <entry key="W1" value="59.846024372334554" />
+    </decayedShown>
+  </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 3
@@ -107,34 +167,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Gradle.ait-more [:net.fabricmc.devlaunchinjector.Main.main()].executor": "Debug",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/dalek/Desktop/ait-more/src/main/resources/data/ait-more/exterior",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.ait-more [:net.fabricmc.devlaunchinjector.Main.main()].executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/dalek/Desktop/ait-more/src/main/resources/data/ait-more/fx/animation/type&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\dalek\Desktop\ait-more\src\main\resources\data\ait-more\exterior" />
       <recent name="C:\Users\dalek\Desktop\ait-more\src\main\resources\data\ait-more\fx\animation\type" />
+      <recent name="C:\Users\dalek\Desktop\ait-more\src\main\resources\data\ait-more\exterior" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Minecraft Client" />
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23339.11" />
-        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23339.11" />
+        <option value="bundled-jdk-30f59d01ecdd-37e91769500f-intellij.indexing.shared.core-IU-261.26222.65" />
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-IU-261.26222.65" />
       </set>
     </attachedChunks>
   </component>
@@ -149,6 +215,12 @@
       <workItem from="1783787062993" duration="5541000" />
       <workItem from="1783856140234" duration="3239000" />
       <workItem from="1783865205600" duration="11254000" />
+      <workItem from="1783896103627" duration="676000" />
+      <workItem from="1783897149954" duration="4104000" />
+      <workItem from="1783909023137" duration="1802000" />
+      <workItem from="1783956758111" duration="5364000" />
+      <workItem from="1784066402812" duration="1205000" />
+      <workItem from="1784395317144" duration="6168000" />
     </task>
     <servers />
   </component>

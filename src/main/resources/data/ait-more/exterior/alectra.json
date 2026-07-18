@@ -1,0 +1,7 @@
+{
+	"id": "ait-more:alectra",
+	"category": "ait:exterior/police_box",
+	"parent": "ait:exterior/police_box/default",
+	"texture": "ait-more:textures/blockentities/exteriors/police_box/alectra.png",
+	"emission": "ait-more:textures/blockentities/exteriors/police_box/alectra_emission.png"
+}
