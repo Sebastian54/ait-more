@@ -1,0 +1,8 @@
+{
+	"multipart": [
+		{
+			"when": { "alarm": "true" },
+			"apply": { "model": "ait-more:block/exterior_light_alarm" }
+		}
+	]
+}

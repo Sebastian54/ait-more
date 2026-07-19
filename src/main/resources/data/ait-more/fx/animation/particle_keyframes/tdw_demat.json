@@ -1,0 +1,9 @@
+{
+	"animation": "ait-more:tdw_demat",
+	"keyframes": [
+		{ "time": 0, "particle": "minecraft:flash", "offset": [0, 1.2, 0], "count": 1, "spread": [0, 0, 0], "speed": 0.1 },
+		{ "time": 2.75, "vision": 8, "vision_ramp": 1.5, "vision_duration": 17.915 },
+		{ "time": 0.001, "particle": "minecraft:lava", "offset": [0, 1.2, 0], "count": 35, "spread": [0.1, 0.2, 0.1], "speed": 0.1, "shake": 0.8, "knockback": 0.5, "shake_duration": 19.415 },
+		{ "time": 13.974, "particle": "minecraft:lava", "offset": [0, 1.2, 0], "count": 30, "spread": [0.1, 0.2, 0.1], "speed": 0.1 }
+	]
+}

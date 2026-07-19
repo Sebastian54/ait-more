@@ -1,0 +1,6 @@
+{
+	"parent": "ait-more:item/sonic/paradox",
+	"textures": {
+		"2": "ait-more:item/sonic_tools/paradox/overload"
+	}
+}

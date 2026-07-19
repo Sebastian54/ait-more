@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="80752c01-93e5-4a74-b602-89ea35e5a0af" name="Changes" comment="updateeee">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/ait-more/fx/animation/particle_keyframes/notd_mat.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Server.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Server.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/config/fabric/indigo-renderer.properties" beforeDir="false" afterPath="$PROJECT_DIR$/run/config/fabric/indigo-renderer.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-1.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-2.log.gz" afterDir="false" />
@@ -17,14 +15,8 @@
       <change beforePath="$PROJECT_DIR$/run/logs/debug-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-5.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/latest.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/latest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/options.txt" beforeDir="false" afterPath="$PROJECT_DIR$/run/options.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/usercache.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/usercache.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/aitmore/AitMore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/aitmore/AitMore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/aitmore/mixin/ServerPlayerEntityMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/aitmore/mixin/ServerPlayerEntityMixin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/ait-more.mixins.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/ait-more.mixins.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/ait-more/exterior/alectra.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/ait-more/exterior/alectra.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/ait-more/exterior/coral_nolight.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/ait-more/exterior/coral_nolight.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/fabric.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fabric.mod.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,23 +65,23 @@
 }</component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0000000003730432" />
-      <entry key="MS500" value="1.0147505505865173" />
-      <entry key="S2" value="1.541935768911415" />
-      <entry key="S5" value="2.1774734439060905" />
-      <entry key="S10" value="2.5326475128221624" />
-      <entry key="S30" value="2.829694719138538" />
-      <entry key="S60" value="2.9128857926078195" />
-      <entry key="M2" value="2.9559407737015886" />
-      <entry key="M5" value="2.98292385763395" />
-      <entry key="M10" value="3.087259037622521" />
-      <entry key="M15" value="3.5702905274862453" />
-      <entry key="M30" value="7.823204333410326" />
-      <entry key="H1" value="22.635384622773163" />
-      <entry key="H2" value="48.526696346956186" />
-      <entry key="H4" value="75.05110684931381" />
-      <entry key="D1" value="110.72813134898654" />
-      <entry key="W1" value="118.62317787114968" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.000016801309764" />
+      <entry key="S2" value="1.1100777676395315" />
+      <entry key="S5" value="1.7661657442105092" />
+      <entry key="S10" value="2.7513191971316058" />
+      <entry key="S30" value="4.422432220975101" />
+      <entry key="S60" value="5.1670197395192785" />
+      <entry key="M2" value="6.016348460219953" />
+      <entry key="M5" value="7.768099800637331" />
+      <entry key="M10" value="9.04108784332072" />
+      <entry key="M15" value="9.64568785400538" />
+      <entry key="M30" value="10.777050482158847" />
+      <entry key="H1" value="15.034848822012727" />
+      <entry key="H2" value="31.41895135687275" />
+      <entry key="H4" value="60.16077469644051" />
+      <entry key="D1" value="116.96307852895168" />
+      <entry key="W1" value="132.23806208904492" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
@@ -111,24 +103,27 @@
       <entry key="W1" value="0.0" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9201876509777948" />
-      <entry key="MS500" value="0.9980733364826501" />
-      <entry key="S2" value="1.5357916349039378" />
-      <entry key="S5" value="2.173992949212655" />
-      <entry key="S10" value="2.5306135914096815" />
-      <entry key="S30" value="2.828933888680799" />
-      <entry key="S60" value="2.9124937068030383" />
-      <entry key="M2" value="2.955741705408389" />
-      <entry key="M5" value="2.982843475404148" />
-      <entry key="M10" value="3.087217581170969" />
-      <entry key="M15" value="3.5702581027604814" />
-      <entry key="M30" value="7.823149203512188" />
-      <entry key="H1" value="22.635254875524897" />
-      <entry key="H2" value="48.52652732452765" />
-      <entry key="H4" value="75.05096575029027" />
-      <entry key="D1" value="110.72809473849408" />
-      <entry key="W1" value="118.62317222107195" />
+      <entry key="MS100" value="0.9395227492140118" />
+      <entry key="MS500" value="0.9876174559142603" />
+      <entry key="S2" value="1.1066226299690005" />
+      <entry key="S5" value="1.763979701143916" />
+      <entry key="S10" value="2.749620464840774" />
+      <entry key="S30" value="4.421517725195402" />
+      <entry key="S60" value="5.166482000777925" />
+      <entry key="M2" value="6.016024988967094" />
+      <entry key="M5" value="7.767920198757214" />
+      <entry key="M10" value="9.040979326427921" />
+      <entry key="M15" value="9.645609478240413" />
+      <entry key="M30" value="10.777005127228396" />
+      <entry key="H1" value="15.034804867800899" />
+      <entry key="H2" value="31.418872804943334" />
+      <entry key="H4" value="60.16067993752355" />
+      <entry key="D1" value="116.96304338208598" />
+      <entry key="W1" value="132.23805630666075" />
     </decayedShown>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -198,7 +193,7 @@
       <workItem from="1784395317144" duration="8243000" />
       <workItem from="1784416872935" duration="4560000" />
       <workItem from="1784459195634" duration="621000" />
-      <workItem from="1784461422392" duration="6305000" />
+      <workItem from="1784461422392" duration="13341000" />
     </task>
     <task id="LOCAL-00001" summary="updateeee">
       <option name="closed" value="true" />
@@ -208,7 +203,15 @@
       <option name="project" value="LOCAL" />
       <updated>1784412286883</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="updateeee">
+      <option name="closed" value="true" />
+      <created>1784470455003</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1784470455003</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

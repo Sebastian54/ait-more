@@ -1,0 +1,7 @@
+{
+	"id": "ait-more:fallout",
+	"category": "ait:exterior/classic",
+	"parent": "ait:exterior/classic/shalka",
+	"texture": "ait-more:textures/blockentities/exteriors/police_box/fallout.png",
+	"emission": "ait-more:textures/blockentities/exteriors/police_box/fallout_emission.png"
+}

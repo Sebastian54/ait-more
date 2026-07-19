@@ -8,6 +8,9 @@
       "AnimatedTravelHandlerMixin",
       "TravelHandlerMixin"
 	],
+	"client": [
+      "client.BackgroundRendererMixin"
+	],
 	"injectors": {
 		"defaultRequire": 1
 	}
