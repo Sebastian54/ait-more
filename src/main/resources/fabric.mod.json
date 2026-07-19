@@ -13,6 +13,9 @@
 	"entrypoints": {
 		"main": [
 			"dev.aitmore.AitMore"
+		],
+		"client": [
+			"dev.aitmore.client.AitMoreClient"
 		]
 	},
 	"mixins": [

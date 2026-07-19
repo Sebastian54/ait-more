@@ -1,0 +1,6 @@
+{
+	"animation": "ait-more:notd_mat",
+	"keyframes": [
+		{ "time": 2.872, "particle": "minecraft:flash", "offset": [0, 1.2, 0], "count": 1, "spread": [0, 0, 0], "speed": 0.1, "shake": 1, "knockback": 0.4, "shake_duration": 0.2 }
+	]
+}

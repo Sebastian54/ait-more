@@ -4,7 +4,9 @@
 	"package": "dev.aitmore.mixin",
 	"compatibilityLevel": "JAVA_17",
 	"mixins": [
-      "ServerPlayerEntityMixin"
+      "ServerPlayerEntityMixin",
+      "AnimatedTravelHandlerMixin",
+      "TravelHandlerMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

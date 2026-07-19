@@ -1,7 +1,7 @@
 {
 	"id": "ait-more:coral_nolight",
 	"category": "ait:exterior/police_box",
-	"parent": "ait:exterior/police_box/default",
+	"parent": "ait:exterior/police_box/coral",
 	"texture": "ait-more:textures/blockentities/exteriors/police_box/coral_nolight.png",
 	"emission": "ait-more:textures/blockentities/exteriors/police_box/coral_nolight_emission.png"
 }

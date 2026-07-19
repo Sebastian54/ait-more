@@ -1,6 +1,7 @@
 package dev.aitmore.mixin;
 
 import dev.aitmore.AitMore;
+import dev.aitmore.config.AitMoreConfigLoader;
 import net.minecraft.item.ItemStack;
 import net.minecraft.registry.Registries;
 import net.minecraft.server.network.ServerPlayerEntity;
@@ -32,7 +33,7 @@ public abstract class ServerPlayerEntityMixin {
         Identifier itemId = Registries.ITEM.getId(stack.getItem());
         AITMORE_LOGGER.info("[ait-more debug] Player-dropped item id: {}", itemId);
 
-        if (itemId.equals(JELLY_BABIES_ID)) {
+        if (itemId.equals(JELLY_BABIES_ID) && AitMoreConfigLoader.get().jellyBabySoundEnabled) {
             AITMORE_LOGGER.info("[ait-more debug] Match! Playing sound.");
             player.getWorld().playSound(
                     null,

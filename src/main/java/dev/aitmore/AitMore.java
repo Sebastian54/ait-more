@@ -6,6 +6,10 @@ import net.minecraft.registry.Registry;
 import net.minecraft.sound.SoundEvent;
 import net.minecraft.util.Identifier;
 
+import dev.aitmore.config.AitMoreConfigLoader;
+import dev.aitmore.light.AitMoreLightBlocks;
+import dev.aitmore.particlefx.ParticleKeyframeLoader;
+
 public class AitMore implements ModInitializer {
 
     public static final String MOD_ID = "ait-more";
@@ -19,6 +23,9 @@ public class AitMore implements ModInitializer {
 
     @Override
     public void onInitialize() {
+        AitMoreConfigLoader.load();
         AitMoreCommands.register();
+        ParticleKeyframeLoader.register();
+        AitMoreLightBlocks.register();
     }
 }

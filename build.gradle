@@ -11,9 +11,10 @@ base {
 }
 
 repositories {
-	// Ambient/AmbleLabs don't publish AIT to a maven repo that's needed at compile time here,
-	// because this mod has no Java code that references AIT's classes - it only ships
-	// data pack + resource pack files that AIT reads at runtime. So no extra repos needed.
+	// Ambient/AmbleLabs don't publish AIT to a maven repo that's needed at compile time here.
+	// AIT and its dependencies are instead pulled in as local jars below, which also puts
+	// them on the compile classpath for the mixins that reference AIT's classes directly
+	// (see dev.aitmore.mixin.AnimatedTravelHandlerMixin). So no extra repos needed.
 }
 
 dependencies {

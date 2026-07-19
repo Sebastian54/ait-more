@@ -4,18 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="80752c01-93e5-4a74-b602-89ea35e5a0af" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/ait-more/exterior/14th_bluewindows.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/ait-more/exterior/alectra.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/ait-more/exterior/coral_nolight.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/ait-more/fx/animation/type/flatline_mat.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/ait-more/sonic/paradox.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Client.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Client.xml" afterDir="false" />
+    <list default="true" id="80752c01-93e5-4a74-b602-89ea35e5a0af" name="Changes" comment="updateeee">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/ait-more/fx/animation/particle_keyframes/notd_mat.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Server.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Server.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aitmore.zip" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/config/fabric/indigo-renderer.properties" beforeDir="false" afterPath="$PROJECT_DIR$/run/config/fabric/indigo-renderer.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-1.log.gz" afterDir="false" />
@@ -26,36 +18,13 @@
       <change beforePath="$PROJECT_DIR$/run/logs/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/latest.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/latest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/options.txt" beforeDir="false" afterPath="$PROJECT_DIR$/run/options.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World3/DIM-1/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World3/DIM-1/data/raids.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World3/DIM1/data/raids_end.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World3/DIM1/data/raids_end.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World3/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World3/data/raids.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World3/data/random_sequences.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World3/data/random_sequences.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World3/dimensions/ait/mars/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World3/dimensions/ait/mars/data/raids.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World3/dimensions/ait/moon/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World3/dimensions/ait/moon/data/raids.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World3/dimensions/ait/space/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World3/dimensions/ait/space/data/raids.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World3/dimensions/ait/tardis_dimension_type/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World3/dimensions/ait/tardis_dimension_type/data/raids.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World3/dimensions/ait/time_vortex/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World3/dimensions/ait/time_vortex/data/raids.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World3/entities/r.-1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World3/entities/r.-1.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World3/entities/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World3/entities/r.-1.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World3/entities/r.0.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World3/entities/r.0.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World3/entities/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World3/entities/r.0.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World3/level.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World3/level.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World3/level.dat_old" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World3/level.dat_old" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World3/poi/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World3/poi/r.0.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World3/region/r.-1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World3/region/r.-1.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World3/region/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World3/region/r.-1.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World3/region/r.0.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World3/region/r.0.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World3/region/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World3/region/r.0.0.mca" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/usercache.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/usercache.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/ait-more/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/ait-more/lang/en_us.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/ait-more/sounds.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/ait-more/sounds.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/ait-more/textures/blockentities/exteriors/police_box/alectra.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/ait-more/textures/blockentities/exteriors/police_box/alectra.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/ait-more/textures/blockentities/exteriors/police_box/alectra_emission.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/ait-more/textures/blockentities/exteriors/police_box/alectra_emission.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/ait-more/textures/blockentities/exteriors/police_box/paradox.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/ait-more/textures/blockentities/exteriors/police_box/paradox.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/ait-more/textures/blockentities/exteriors/police_box/paradox_emission.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/ait-more/textures/blockentities/exteriors/police_box/paradox_emission.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/ait-more/textures/blockentities/exteriors/police_box/truetoyota.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/ait-more/textures/blockentities/exteriors/police_box/truetoyota.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/ait-more/textures/blockentities/exteriors/police_box/truetoyota_emission.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/ait-more/textures/blockentities/exteriors/police_box/truetoyota_emission.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/ait-more/exterior/paradox.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/ait-more/exterior/paradox.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/aitmore/AitMore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/aitmore/AitMore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/aitmore/mixin/ServerPlayerEntityMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/aitmore/mixin/ServerPlayerEntityMixin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/ait-more.mixins.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/ait-more.mixins.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/ait-more/exterior/alectra.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/ait-more/exterior/alectra.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/ait-more/exterior/coral_nolight.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/ait-more/exterior/coral_nolight.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/fabric.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fabric.mod.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,6 +62,9 @@
     &quot;assignee&quot;: &quot;Sebastian54&quot;
   }
 }</component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="6b8a5d15-c272-4f26-a1a2-d4a1ab9bd3ca" />
+  </component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/Sebastian54/ait-more.git&quot;,
@@ -101,23 +73,23 @@
 }</component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0000000000122367" />
-      <entry key="MS500" value="1.0065695032441697" />
-      <entry key="S2" value="1.284697158689173" />
-      <entry key="S5" value="1.6049970446099904" />
-      <entry key="S10" value="1.7778167171848378" />
-      <entry key="S30" value="1.9460598886358884" />
-      <entry key="S60" value="2.2905848138666887" />
-      <entry key="M2" value="3.331273280793284" />
-      <entry key="M5" value="7.124185536692252" />
-      <entry key="M10" value="13.441279205898619" />
-      <entry key="M15" value="18.80477455239202" />
-      <entry key="M30" value="29.90986542537603" />
-      <entry key="H1" value="40.771631467898416" />
-      <entry key="H2" value="48.9219841213173" />
-      <entry key="H4" value="54.02117286046443" />
-      <entry key="D1" value="58.934761360989675" />
-      <entry key="W1" value="59.84602740394062" />
+      <entry key="MS100" value="1.0000000003730432" />
+      <entry key="MS500" value="1.0147505505865173" />
+      <entry key="S2" value="1.541935768911415" />
+      <entry key="S5" value="2.1774734439060905" />
+      <entry key="S10" value="2.5326475128221624" />
+      <entry key="S30" value="2.829694719138538" />
+      <entry key="S60" value="2.9128857926078195" />
+      <entry key="M2" value="2.9559407737015886" />
+      <entry key="M5" value="2.98292385763395" />
+      <entry key="M10" value="3.087259037622521" />
+      <entry key="M15" value="3.5702905274862453" />
+      <entry key="M30" value="7.823204333410326" />
+      <entry key="H1" value="22.635384622773163" />
+      <entry key="H2" value="48.526696346956186" />
+      <entry key="H4" value="75.05110684931381" />
+      <entry key="D1" value="110.72813134898654" />
+      <entry key="W1" value="118.62317787114968" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
@@ -139,23 +111,23 @@
       <entry key="W1" value="0.0" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9395227492255084" />
-      <entry key="MS500" value="0.9940889085085827" />
-      <entry key="S2" value="1.2806962227568919" />
-      <entry key="S5" value="1.6029957947968874" />
-      <entry key="S10" value="1.7767079900700948" />
-      <entry key="S30" value="1.9455549186199836" />
-      <entry key="S60" value="2.2897301325233985" />
-      <entry key="M2" value="3.3300199164050217" />
-      <entry key="M5" value="7.1231110884369695" />
-      <entry key="M10" value="13.440489643360118" />
-      <entry key="M15" value="18.804112917391805" />
-      <entry key="M30" value="29.90937660555234" />
-      <entry key="H1" value="40.77129819272804" />
-      <entry key="H2" value="48.921781188751815" />
-      <entry key="H4" value="54.02105951889277" />
-      <entry key="D1" value="58.93474050898082" />
-      <entry key="W1" value="59.846024372334554" />
+      <entry key="MS100" value="0.9201876509777948" />
+      <entry key="MS500" value="0.9980733364826501" />
+      <entry key="S2" value="1.5357916349039378" />
+      <entry key="S5" value="2.173992949212655" />
+      <entry key="S10" value="2.5306135914096815" />
+      <entry key="S30" value="2.828933888680799" />
+      <entry key="S60" value="2.9124937068030383" />
+      <entry key="M2" value="2.955741705408389" />
+      <entry key="M5" value="2.982843475404148" />
+      <entry key="M10" value="3.087217581170969" />
+      <entry key="M15" value="3.5702581027604814" />
+      <entry key="M30" value="7.823149203512188" />
+      <entry key="H1" value="22.635254875524897" />
+      <entry key="H2" value="48.52652732452765" />
+      <entry key="H4" value="75.05096575029027" />
+      <entry key="D1" value="110.72809473849408" />
+      <entry key="W1" value="118.62317222107195" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -167,30 +139,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Gradle.ait-more [:net.fabricmc.devlaunchinjector.Main.main()].executor&quot;: &quot;Debug&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/dalek/Desktop/ait-more/src/main/resources/data/ait-more/fx/animation/type&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.Build ait-more.executor": "Run",
+    "Gradle.ait-more [:net.fabricmc.devlaunchinjector.Main.main()].executor": "Debug",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/dalek/Desktop/ait-more/src/main/resources/data/ait-more/fx/animation/particle_keyframes",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\dalek\Desktop\ait-more\src\main\resources\data\ait-more\fx\animation\particle_keyframes" />
       <recent name="C:\Users\dalek\Desktop\ait-more\src\main\resources\data\ait-more\fx\animation\type" />
       <recent name="C:\Users\dalek\Desktop\ait-more\src\main\resources\data\ait-more\exterior" />
     </key>
@@ -220,11 +195,27 @@
       <workItem from="1783909023137" duration="1802000" />
       <workItem from="1783956758111" duration="5364000" />
       <workItem from="1784066402812" duration="1205000" />
-      <workItem from="1784395317144" duration="6168000" />
+      <workItem from="1784395317144" duration="8243000" />
+      <workItem from="1784416872935" duration="4560000" />
+      <workItem from="1784459195634" duration="621000" />
+      <workItem from="1784461422392" duration="6305000" />
     </task>
+    <task id="LOCAL-00001" summary="updateeee">
+      <option name="closed" value="true" />
+      <created>1784412286883</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1784412286883</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="updateeee" />
+    <option name="LAST_COMMIT_MESSAGE" value="updateeee" />
   </component>
 </project>
