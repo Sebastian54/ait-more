@@ -165,6 +165,20 @@ public class AitMoreClient implements ClientModInitializer {
             return visionRampTo;
 
         float progress = Math.min(1F, visionRampTicksElapsed / (float) visionRampTotalTicks);
-        return MathHelper.lerp(progress, visionRampFrom, visionRampTo);
+        return lerpVisionDistance(progress, visionRampFrom, visionRampTo);
+    }
+
+    /**
+     * Linearly interpolating raw fog distance (e.g. 9999 -> 8) spends almost the whole ramp
+     * moving between distances that are both far beyond the player's actual view distance, so
+     * nothing visibly changes until the very last few ticks - it reads as a snap, not a fade.
+     * Fog density scales with 1/distance, so interpolating in that space instead makes the
+     * darkening rate roughly constant across the whole ramp.
+     */
+    private static float lerpVisionDistance(float progress, float from, float to) {
+        float fromDensity = from <= 0F ? 0F : 1F / from;
+        float toDensity = to <= 0F ? 0F : 1F / to;
+        float density = MathHelper.lerp(progress, fromDensity, toDensity);
+        return density <= 0F ? VISION_UNRESTRICTED : 1F / density;
     }
 }
