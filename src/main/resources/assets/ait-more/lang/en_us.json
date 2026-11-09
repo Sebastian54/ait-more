@@ -5,13 +5,20 @@
 	"exterior.ait-more.14th_bluewindows": "14th Blue Windows",
 	"exterior.ait-more.alectra": "Alectra",
 
-	"desktop.ait-more.paradox": "PARADOX",
-
 	"console.ait-more.crystal_console_corrupted": "PARADOX",
 
 	"animation.ait-more.crash_demat": "CRASH",
 	"animation.ait-more.crash_mat": "CRASH",
 	"animation.ait-more.tdw_demat": "TDW",
 	"animation.ait-more.tdw_mat": "TDW",
-	"animation.ait-more.notd_mat": "NOTD"
+	"animation.ait-more.notd_mat": "NOTD",
+	"animation.ait-more.series1_mat": "Series 1",
+
+	"screen.ait-more.advancedmode.button": "> Advanced Mode Settings",
+	"screen.ait-more.advancedmode.title": "Advanced Mode",
+	"screen.ait-more.advancedmode.description": "Every control requires its combo to be pressed first",
+	"screen.ait-more.advancedmode.loading": "Loading...",
+	"screen.ait-more.advancedmode.on": "Advanced Mode: ON",
+	"screen.ait-more.advancedmode.off": "Advanced Mode: OFF",
+	"screen.ait-more.advancedmode.back": "Back"
 }

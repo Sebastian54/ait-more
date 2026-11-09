@@ -1,11 +1,14 @@
 package dev.aitmore.client;
 
+import java.util.UUID;
+
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.client.event.lifecycle.v1.ClientTickEvents;
 import net.fabricmc.fabric.api.client.networking.v1.ClientPlayNetworking;
 import net.minecraft.util.math.MathHelper;
 
 import dev.aitmore.AitMoreNetworking;
+import dev.aitmore.client.screens.AdvancedModeSettingsScreen;
 import dev.aitmore.config.AitMoreConfigLoader;
 import dev.amble.ait.client.util.ClientShakeUtil;
 
@@ -52,6 +55,7 @@ public class AitMoreClient implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
         LampFlashClient.init();
+        registerAdvancedMode();
 
         ClientPlayNetworking.registerGlobalReceiver(AitMoreNetworking.SHAKE_PACKET, (client, handler, buf, responseSender) -> {
             float intensity = buf.readFloat();
@@ -156,6 +160,25 @@ public class AitMoreClient implements ClientModInitializer {
         visionRampTotalTicks = fadeTicks;
         visionRampTicksElapsed = 0;
         visionClearingAfterRamp = true;
+    }
+
+    /**
+     * The "Advanced Mode Settings" button itself is added by dev.aitmore.mixin.client.
+     * InteriorSettingsScreenMixin, not here - see that class for why. This just wires up the
+     * state-sync packet that AdvancedModeSettingsScreen relies on. The puzzle itself needs no
+     * client packet at all: it's AIT's own native in-world sequence markers (set server-side via
+     * ConsoleControlEntity's tracked data in AdvancedModeManager), not a custom screen.
+     */
+    private static void registerAdvancedMode() {
+        ClientPlayNetworking.registerGlobalReceiver(AitMoreNetworking.ADVANCED_MODE_STATE_PACKET, (client, handler, buf, responseSender) -> {
+            UUID tardisId = buf.readUuid();
+            boolean enabled = buf.readBoolean();
+
+            client.execute(() -> {
+                if (client.currentScreen instanceof AdvancedModeSettingsScreen screen)
+                    screen.onStateReceived(tardisId, enabled);
+            });
+        });
     }
 
     /** -1 = no override; read every frame by BackgroundRendererMixin. */

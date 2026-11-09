@@ -9,6 +9,8 @@ import net.minecraft.server.network.ServerPlayerEntity;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.math.BlockPos;
 
+import dev.aitmore.advancedmode.AdvancedModeState;
+
 /**
  * Server -> client packet telling a player's own client to shake its camera, since AIT's
  * ClientShakeUtil#shake(float) only ever perturbs the local client it's called on and has no
@@ -20,6 +22,13 @@ public class AitMoreNetworking {
     public static final Identifier SHAKE_PACKET = Identifier.of(AitMore.MOD_ID, "shake");
     public static final Identifier VISION_PACKET = Identifier.of(AitMore.MOD_ID, "vision");
     public static final Identifier LAMP_FLASH_PACKET = Identifier.of(AitMore.MOD_ID, "lamp_flash");
+
+    /** S2C: reports the current Advanced Mode on/off state for a TARDIS, in response to a request packet. */
+    public static final Identifier ADVANCED_MODE_STATE_PACKET = Identifier.of(AitMore.MOD_ID, "advanced_mode_state");
+    /** C2S: toggles Advanced Mode on/off for a TARDIS, sent from the Advanced Mode Settings screen. */
+    public static final Identifier ADVANCED_MODE_SET_PACKET = Identifier.of(AitMore.MOD_ID, "advanced_mode_set");
+    /** C2S: asks the server for a TARDIS's current Advanced Mode state - see ADVANCED_MODE_STATE_PACKET. */
+    public static final Identifier ADVANCED_MODE_REQUEST_STATE_PACKET = Identifier.of(AitMore.MOD_ID, "advanced_mode_request_state");
 
     public static void sendLampFlash(ServerPlayerEntity player, UUID tardisId, BlockPos exteriorPos, int durationTicks,
             float lampHeight, float haloSize) {
@@ -95,5 +104,12 @@ public class AitMoreNetworking {
         buf.writeVarInt(0);
         buf.writeVarInt(fadeTicks);
         ServerPlayNetworking.send(player, VISION_PACKET, buf);
+    }
+
+    public static void sendAdvancedModeState(ServerPlayerEntity player, UUID tardisId) {
+        PacketByteBuf buf = PacketByteBufs.create();
+        buf.writeUuid(tardisId);
+        buf.writeBoolean(AdvancedModeState.isEnabled(tardisId));
+        ServerPlayNetworking.send(player, ADVANCED_MODE_STATE_PACKET, buf);
     }
 }

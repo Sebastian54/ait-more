@@ -6,11 +6,15 @@
 	"mixins": [
       "ServerPlayerEntityMixin",
       "AnimatedTravelHandlerMixin",
-      "TravelHandlerMixin"
+      "TravelHandlerMixin",
+      "ControlMixin"
 	],
 	"client": [
       "client.BackgroundRendererMixin",
-      "client.ExteriorRendererMixin"
+      "client.ExteriorRendererMixin",
+      "client.InteriorSettingsScreenMixin",
+      "client.ScreenAccessor",
+      "client.ControlEntityRendererMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
