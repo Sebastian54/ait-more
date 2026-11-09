@@ -1,0 +1,12 @@
+{
+	"animation": "ait:pulsating_demat",
+	"keyframes": [
+		{ "time": 0, "lamp_flash": 1.6 },
+		{ "time": 1.6, "lamp_flash": 1.6 },
+		{ "time": 3.2, "lamp_flash": 1.6 },
+		{ "time": 4.8, "lamp_flash": 1.6 },
+		{ "time": 6.4, "lamp_flash": 1.6 },
+		{ "time": 8.0, "lamp_flash": 1.6 },
+		{ "time": 8.0, "lamp_flash": 3.0, "lamp_delay": 1.7 }
+	]
+}

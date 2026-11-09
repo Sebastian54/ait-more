@@ -42,6 +42,9 @@ public class ExteriorLightBlockEntity extends BlockEntity {
 
     private UUID tardisId;
 
+    private int flashTicksRemaining;
+    private int flashTotalTicks;
+
     public ExteriorLightBlockEntity(BlockPos pos, BlockState state) {
         super(AitMoreLightBlocks.EXTERIOR_LIGHT_ENTITY, pos, state);
     }
@@ -49,6 +52,22 @@ public class ExteriorLightBlockEntity extends BlockEntity {
     public void setTardisId(UUID tardisId) {
         this.tardisId = tardisId;
         this.markDirty();
+    }
+
+    public void flash(int ticks) {
+        this.flashTicksRemaining = ticks;
+        this.flashTotalTicks = ticks;
+    }
+
+    /** A linear fade in over the first half, then a linear fade out over the second, with no hold. */
+    private int consumeFlashLevel() {
+        if (this.flashTicksRemaining <= 0)
+            return 0;
+
+        float progress = (this.flashTotalTicks - this.flashTicksRemaining + 1) / (float) this.flashTotalTicks;
+        this.flashTicksRemaining--;
+
+        return Math.round(Math.max(0F, Math.min(progress, 1F - progress) * 2F) * MAX_LEVEL);
     }
 
     public void serverTick(ServerWorld world, BlockPos pos) {
@@ -66,7 +85,7 @@ public class ExteriorLightBlockEntity extends BlockEntity {
         if (tardis == null)
             return;
 
-        int level = resolveLevel(tardis);
+        int level = Math.max(resolveLevel(tardis), this.consumeFlashLevel());
         boolean alarm = tardis.alarm().isEnabled();
 
         BlockState state = this.getCachedState();

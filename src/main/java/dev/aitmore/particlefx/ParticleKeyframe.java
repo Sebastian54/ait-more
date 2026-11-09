@@ -37,8 +37,15 @@ import net.minecraft.util.math.Vec3d;
  *                 gradual feel as AIT's own power-off fog ramping in over its powerDelta rather
  *                 than snapping to full blindness the instant power drops. Ignored if
  *                 visionDistance isn't set.
+ * @param lampFlashTicks 0 = no flash; otherwise the exterior lamp flashes at full brightness
+ *                 (with a glow halo and ground light) and fades out over this many ticks
+ * @param lampHeight blocks above the exterior's base where the halo is drawn
+ * @param haloSize  width of the halo in blocks at full intensity
+ * @param lampDelayTicks ticks to wait after this keyframe fires before the lamp flash starts;
+ *                 lets a flash land after the animation itself has ended
  */
 public record ParticleKeyframe(int tick, @Nullable ParticleEffect particle, Vec3d offset, int count, Vec3d spread,
         double speed, float shake, int shakeDurationTicks, float knockback, float visionDistance,
-        int visionDurationTicks, int visionRampTicks) {
+        int visionDurationTicks, int visionRampTicks, int lampFlashTicks, float lampHeight, float haloSize,
+        int lampDelayTicks) {
 }

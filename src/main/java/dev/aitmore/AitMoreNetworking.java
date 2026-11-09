@@ -1,10 +1,13 @@
 package dev.aitmore;
 
+import java.util.UUID;
+
 import net.fabricmc.fabric.api.networking.v1.PacketByteBufs;
 import net.fabricmc.fabric.api.networking.v1.ServerPlayNetworking;
 import net.minecraft.network.PacketByteBuf;
 import net.minecraft.server.network.ServerPlayerEntity;
 import net.minecraft.util.Identifier;
+import net.minecraft.util.math.BlockPos;
 
 /**
  * Server -> client packet telling a player's own client to shake its camera, since AIT's
@@ -16,6 +19,18 @@ public class AitMoreNetworking {
 
     public static final Identifier SHAKE_PACKET = Identifier.of(AitMore.MOD_ID, "shake");
     public static final Identifier VISION_PACKET = Identifier.of(AitMore.MOD_ID, "vision");
+    public static final Identifier LAMP_FLASH_PACKET = Identifier.of(AitMore.MOD_ID, "lamp_flash");
+
+    public static void sendLampFlash(ServerPlayerEntity player, UUID tardisId, BlockPos exteriorPos, int durationTicks,
+            float lampHeight, float haloSize) {
+        PacketByteBuf buf = PacketByteBufs.create();
+        buf.writeUuid(tardisId);
+        buf.writeBlockPos(exteriorPos);
+        buf.writeVarInt(durationTicks);
+        buf.writeFloat(lampHeight);
+        buf.writeFloat(haloSize);
+        ServerPlayNetworking.send(player, LAMP_FLASH_PACKET, buf);
+    }
 
     /**
      * @param durationTicks 0 = a single instant jolt; otherwise the client keeps re-applying

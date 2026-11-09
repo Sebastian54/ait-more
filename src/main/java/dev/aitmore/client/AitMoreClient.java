@@ -51,6 +51,8 @@ public class AitMoreClient implements ClientModInitializer {
 
     @Override
     public void onInitializeClient() {
+        LampFlashClient.init();
+
         ClientPlayNetworking.registerGlobalReceiver(AitMoreNetworking.SHAKE_PACKET, (client, handler, buf, responseSender) -> {
             float intensity = buf.readFloat();
             int durationTicks = buf.readVarInt();

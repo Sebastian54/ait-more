@@ -9,7 +9,8 @@
       "TravelHandlerMixin"
 	],
 	"client": [
-      "client.BackgroundRendererMixin"
+      "client.BackgroundRendererMixin",
+      "client.ExteriorRendererMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

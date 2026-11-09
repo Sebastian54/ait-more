@@ -29,11 +29,11 @@
     ]
   },
   "tardis/tdw_mat": {
-		"category": "block",
-		"sounds": [
-			"ait-more:tardis/tdw_mat"
-		]
-	},
+    "category": "block",
+    "sounds": [
+      "ait-more:tardis/tdw_mat"
+    ]
+  },
   "tardis/notd_mat": {
     "category": "block",
     "sounds": [
@@ -44,6 +44,18 @@
     "category": "block",
     "sounds": [
       "ait-more:tardis/flatline_mat"
+    ]
+  },
+  "tardis/series1flight": {
+    "category": "block",
+    "sounds": [
+      "ait-more:tardis/series1flight"
+    ]
+  },
+  "tardis/series1mat": {
+    "category": "block",
+    "sounds": [
+      "ait-more:tardis/series1mat"
     ]
   }
 }

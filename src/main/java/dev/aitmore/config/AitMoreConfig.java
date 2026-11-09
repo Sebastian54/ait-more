@@ -33,6 +33,13 @@ public class AitMoreConfig {
 
     public boolean exteriorLightEnabled = true;
 
+    // --- lamp flash: keyframe "lamp_flash" (see dev.aitmore.light.LampFlashFx) ---
+
+    public boolean lampFlashEnabled = true;
+
+    /** Whether a lamp flash also pulses the exterior light block to full brightness, lighting the ground around the TARDIS. Needs exteriorLightEnabled. */
+    public boolean lampFlashGroundLightEnabled = true;
+
     // --- misc ---
 
     public boolean jellyBabySoundEnabled = true;

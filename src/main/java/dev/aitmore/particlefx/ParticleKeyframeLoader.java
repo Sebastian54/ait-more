@@ -60,13 +60,17 @@ import dev.aitmore.AitMore;
  * demand; "vision_duration" (seconds, default 0 = persists until the animation ends) makes it a
  * temporary pulse instead; "vision_ramp" (seconds, default 0 = instant snap) eases into it
  * gradually instead of jumping straight to full blindness - see ParticleKeyframe for the full
- * behaviour.
+ * behaviour. "lamp_flash" (seconds) flashes the exterior lamp and lights the ground, fading out
+ * over that long; "lamp_height" and "halo_size" (blocks) place and size its glow halo;
+ * "lamp_delay" (seconds) waits that long before flashing, even past the animation's end.
  */
 public class ParticleKeyframeLoader implements SimpleSynchronousResourceReloadListener {
 
     private static final Logger LOGGER = LoggerFactory.getLogger("ait-more");
     private static final Identifier ID = Identifier.of(AitMore.MOD_ID, "particle_keyframes");
     private static final String RESOURCE_PATH = "fx/animation/particle_keyframes";
+    private static final float DEFAULT_LAMP_HEIGHT = 2.85F;
+    private static final float DEFAULT_HALO_SIZE = 2.5F;
 
     public static void register() {
         ResourceManagerHelper.get(ResourceType.SERVER_DATA).registerReloadListener(new ParticleKeyframeLoader());
@@ -145,15 +149,21 @@ public class ParticleKeyframeLoader implements SimpleSynchronousResourceReloadLi
                 ? Math.round(json.get("vision_ramp").getAsFloat() * 20F)
                 : 0;
 
-        if (particle == null && shake <= 0F && knockback <= 0F && visionDistance < 0F) {
-            LOGGER.warn("[ait-more] Skipping empty keyframe (no particle/shake/knockback/vision) for {}", animationId);
+        int lampFlashTicks = json.has("lamp_flash") ? Math.max(1, Math.round(json.get("lamp_flash").getAsFloat() * 20F)) : 0;
+        float lampHeight = json.has("lamp_height") ? json.get("lamp_height").getAsFloat() : DEFAULT_LAMP_HEIGHT;
+        int lampDelayTicks = json.has("lamp_delay") ? Math.max(0, Math.round(json.get("lamp_delay").getAsFloat() * 20F)) : 0;
+        float haloSize = json.has("halo_size") ? json.get("halo_size").getAsFloat() : DEFAULT_HALO_SIZE;
+
+        if (particle == null && shake <= 0F && knockback <= 0F && visionDistance < 0F && lampFlashTicks <= 0) {
+            LOGGER.warn("[ait-more] Skipping empty keyframe (no particle/shake/knockback/vision/lamp_flash) for {}", animationId);
             return null;
         }
 
         int tick = Math.round(json.get("time").getAsFloat() * 20F);
 
         return new ParticleKeyframe(tick, particle, offset, count, spread, speed, shake, shakeDurationTicks, knockback,
-                visionDistance, visionDurationTicks, visionRampTicks);
+                visionDistance, visionDurationTicks, visionRampTicks, lampFlashTicks, lampHeight, haloSize,
+                lampDelayTicks);
     }
 
     private static Vec3d readVec3d(JsonObject json, String key, Vec3d fallback) {

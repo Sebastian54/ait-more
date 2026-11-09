@@ -12,6 +12,7 @@ import net.minecraft.util.math.Vec3d;
 import dev.aitmore.AitMoreNetworking;
 import dev.aitmore.config.AitMoreConfig;
 import dev.aitmore.config.AitMoreConfigLoader;
+import dev.aitmore.light.LampFlashFx;
 import dev.amble.ait.core.blocks.types.HorizontalDirectionalBlock;
 import dev.amble.ait.core.tardis.ServerTardis;
 
@@ -31,6 +32,9 @@ public class ParticleKeyframeFx {
         AitMoreConfig config = AitMoreConfigLoader.get();
         ServerWorld world = tardis.world();
         Set<BlockPos> consolePositions = tardis.getDesktop().getConsolePos();
+
+        if (keyframe.lampFlashTicks() > 0)
+            LampFlashFx.fire(tardis, keyframe);
 
         if (config.particlesEnabled && keyframe.particle() != null) {
             for (BlockPos consolePos : consolePositions) {

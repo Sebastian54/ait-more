@@ -27,5 +27,6 @@ public class AitMore implements ModInitializer {
         AitMoreCommands.register();
         ParticleKeyframeLoader.register();
         AitMoreLightBlocks.register();
+        dev.aitmore.light.LampFlashFx.init();
     }
 }
